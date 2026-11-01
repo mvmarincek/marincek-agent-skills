@@ -1,0 +1,36 @@
+{
+  "example_only": true,
+  "synthetic": true,
+  "customer_order_id": "DEMO-ORDER-001",
+  "configuration_revision": 3,
+  "selected_options": {
+    "paint": "blue-metallic",
+    "wheels": "sport-18",
+    "upholstery": "light-fabric",
+    "infotainment": "large-display"
+  },
+  "physical_unit_id": null,
+  "tracking_mode": "DEMO_SYNTHETIC",
+  "current_stage": "scheduled",
+  "milestones": [
+    {
+      "event_id": "demo-001",
+      "sequence": 1,
+      "stage": "configuration_approved",
+      "source_system": "demo_fixture",
+      "evidence_level": "DEMO_SYNTHETIC",
+      "occurred_at": "2026-11-01T12:00:00Z",
+      "scene": "configurator/approved"
+    },
+    {
+      "event_id": "demo-002",
+      "sequence": 2,
+      "stage": "production_scheduled",
+      "source_system": "demo_fixture",
+      "evidence_level": "DEMO_SYNTHETIC",
+      "occurred_at": "2026-11-01T12:10:00Z",
+      "scene": "factory/scheduled"
+    }
+  ],
+  "prohibited_claim": "Esta não é uma rastreabilidade real de veículo físico nem integração com fabricante."
+}

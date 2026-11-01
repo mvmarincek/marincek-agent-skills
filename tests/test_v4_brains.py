@@ -7,7 +7,7 @@ NEW=('company-brain-architecture','second-brain-architecture','code-intelligence
 class BrainSkillTests(unittest.TestCase):
  def test_three_new_skills_and_references(self):
   manifest=json.loads((ROOT/'catalog/skills.json').read_text(encoding='utf-8'))
-  self.assertEqual(manifest['count'],22)
+  self.assertGreaterEqual(manifest['count'],22)  # preserve v4 skills as library evolves
   records={x['id']:x for x in manifest['skills']}
   for name in NEW:
    self.assertIn(name,records)

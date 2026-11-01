@@ -5,3 +5,8 @@
 ## Skills instaláveis
 
 - [gamified-landing-page](skills/gamified-landing-page/SKILL.md): Landing page cinematográfica gamificada, analytics e conversão.
+
+## v5
+`immersive-commerce-3d` coordena cenas 3D jogáveis em landing pages existentes ou novas; `gamified-landing-page` responde pela conversão, UX, SEO e analytics.
+
+- Jornada pós-compra de produtos configuráveis: `immersive-commerce-3d` + `realworld-order-digital-twin` + `made-to-order-manufacturing-twin`, quando há produção por marcos industriais verificados.

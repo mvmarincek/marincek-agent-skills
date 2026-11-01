@@ -1186,6 +1186,30 @@
       "integration": "reference-only",
       "status": "evaluated-reference",
       "notes": "Referência técnica opcional; não clonada ou executada."
+    },
+    {
+      "name": "React Three Fiber documentation",
+      "url": "https://r3f.docs.pmnd.rs/getting-started/introduction",
+      "category": "3d-web-runtime",
+      "integration": "reference-only",
+      "status": "documentation-verified-2026-11-01",
+      "notes": "Referencia tecnica opcional. Nao instalada, nao testada neste ambiente; pode ter custos/provedores/licencas."
+    },
+    {
+      "name": "glTF Transform",
+      "url": "https://gltf-transform.dev/",
+      "category": "3d-asset-optimization",
+      "integration": "reference-only",
+      "status": "documentation-verified-2026-11-01",
+      "notes": "Referencia tecnica opcional. Nao instalada, nao testada neste ambiente; pode ter custos/provedores/licencas."
+    },
+    {
+      "name": "Scenario 3D Skill",
+      "url": "https://github.com/scenario-labs/skills/blob/main/skills/scenario-3d/SKILL.md",
+      "category": "3d-asset-pipeline",
+      "integration": "reference-only",
+      "status": "documentation-verified-2026-11-01",
+      "notes": "Referencia tecnica opcional. Nao instalada, nao testada neste ambiente; pode ter custos/provedores/licencas."
     }
   ]
 }

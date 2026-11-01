@@ -3,7 +3,7 @@ name: smart-skill-router
 description: "Selecionar Skills relevantes por objetivo, domínio, dependências, risco, orçamento, disponibilidade local e características do agente; evitar carregar bibliotecas inteiras."
 license: MIT
 metadata:
-  version: "2.0.0"
+  version: "3.0.0"
   language: "pt-BR"
   area: "ai-agents"
 ---
@@ -38,3 +38,11 @@ Veja `references/router-contract.md` e `assets/selection-template.md`.
 
 ## Entregáveis
 Relatório de seleção, justificativa, limites, MCPs necessários, custo e risco, checklist de permissão, plano de validação e evidência de execução quando houver.
+
+## Roteamento prioritário v5 — web gaming e operações físicas
+Se intenção contiver `landing page`, `site existente`, `criar site`, `experiência de compra` **e** `3D realista`, `game`, `cena jogável`, `montagem de produtos`, `mão pegando ingredientes`, elevar `immersive-commerce-3d` acima de animação CSS/marketing, e usar `gamified-landing-page` como colaboradora de conversão. Para assets PBR/GLB selecionar `photoreal-3d-assets`; para pegar/transportar/depositar `tactile-3d-interactions`; para provas e regressão `immersive-experience-quality`.
+
+Se usuário mencionar **cozinha real, chef físico, andamento confirmado, POS, KDS, despacho real, stream ao vivo**, recomendar **separadamente** `realworld-order-digital-twin` com autenticação, pagamento confirmado e consentimento da câmera. Nunca inferir que o jogo está integrado aos equipamentos/loja. Selecionar até 3 prioritárias por passo, não todas como contexto indiscriminado.
+
+## Roteamento v5.1 — produção de carros, móveis, PCs e indústria sob encomenda
+Se objetivo incluir **configurador automotivo 3D**, `carro montando na fábrica`, `linha de produção em tempo real`, `MES`, `ERP`, `VIN`, `fábrica`, `manufacturing digital twin`, `veículo sob encomenda`: recomendar `made-to-order-manufacturing-twin` como especialista industrial; `immersive-commerce-3d` para a experiência visual e `realworld-order-digital-twin` para o núcleo de eventos verificados. Somar `immersive-experience-quality` como gate; os demais recursos carregam apenas quando exigidos. A mesma arquitetura se aplica a alimentos, móveis e eletrônicos com contratos por setor. Não misturar simulação com filmagem real nem usar timestamp estimado como confirmação de montagem.

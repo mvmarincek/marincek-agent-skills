@@ -1,7 +1,7 @@
-# Games, 3D, UI e animação (planejado)
+# Games / Web 3D / Animação — Skills ativas v5
 
-Área: `games`. Esta área agrupa Skills que podem ser instaladas seletivamente.
+- `photoreal-3d-assets`: GLB, PBR, escala, rig, licença e otimização.
+- `tactile-3d-interactions`: raycasting, pickup, transporte, drop, física, estados persistentes.
+- `immersive-experience-quality`: runtime evidence, regressão visual/funcional e performance.
 
-## Planejada
-Nenhuma Skill implementada ainda. Criar somente a partir de casos reais, com fontes, testes e autoria verificadas.
-
+Para criar **landing page jogável** usar a skill orquestradora `areas/web-marketing/skills/immersive-commerce-3d`. Para **produção física real** integrar `areas/enterprise-systems/skills/realworld-order-digital-twin`. Skills não são engines instaladas ou assets gerados; são procedimentos, contratos e exemplos de validação.

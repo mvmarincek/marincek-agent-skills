@@ -1,11 +1,11 @@
-# MVMarincek — Agent Skills Library v4.0
+# MVMarincek — Agent Skills Library v5.1
 
-**Fonte portátil de conhecimento operacional**: Codex, Claude Code, Verdent e OpenCode; catálogo e Skills por áreas de engenharia, IA, segurança, DevOps, produto e marketing. **Preparado localmente, ainda não publicado no GitHub.**
+**Fonte portátil de conhecimento operacional**: Codex, Claude Code, Verdent e OpenCode; catálogo e Skills por áreas de engenharia, IA, segurança, DevOps, produto, marketing, games 3D imersivos e manufatura.
 
 ## Status verificado
-- 22 Skills completas catalogadas; 3 novas neste pacote, além das 19 anteriores.
+- 28 Skills completas catalogadas: 22 preservadas da v4 + 6 novas Skills para games 3D de compra, operação real e fabricação sob encomenda (incluindo veículos).
 - `gamified-landing-page` atualizada com cinema/3D, psicologia da atenção, instrumentação de cliques, seções, vídeos, gráficos e eventos de conversão.
-- Novas áreas ativas: enterprise-systems, machine-learning, software-engineering, engineering-management. Áreas futuras para mecânica, civil, arquitetura, eletrônica, firmware e games sem afirmar implementações inexistentes.
+- Novas áreas ativas: enterprise-systems, machine-learning, software-engineering, engineering-management. A área `games` passa a ter 3 Skills; outras áreas futuras continuam planejadas.
 - `catalog/external-sources.json` registra fontes; **não copiamos nem publicamos automaticamente repositórios de terceiros**.
 - Inclui ferramentas offline para Scaffold, roteamento, validação e instalação, sem executar infraestrutura cloud.
 
@@ -23,7 +23,7 @@ areas/
   architecture/                 # Planejado
   electronics/                  # Planejado
   firmware/                     # Planejado
-  games/                        # Planejado
+  games/skills/                  # GLB/PBR, interação física e qualidade de gameplay
 catalog/skills.json
 catalog/external-sources.json
 scripts/
@@ -58,7 +58,9 @@ Use `--replace` somente após revisar backups e alterações locais. Sem rede/cr
 - `scripts/sync_upstream.py`: clona fontes externas seletivamente em cache local ignorado, sem incorporá-las/publicá-las automaticamente.
 
 ## Segurança e versionamento
-Repositório GitHub recomendado: **privado**, como `mvmarincek/agent-skills`. O repositório ainda precisa ser criado e publicado manualmente ou por ferramenta GitHub com permissão. Configurar branch protection, CODEOWNERS, PRs e validação Actions. Não incluir credenciais, client data, desenhos confidenciais ou procedimentos perigosos sem revisão.
+Repositório oficial: `https://github.com/mvmarincek/marincek-agent-skills` (público, branch `main`).
+
+Configurar branch protection, CODEOWNERS, PRs e validação Actions conforme a política do projeto. Não incluir credenciais, client data, desenhos confidenciais ou procedimentos perigosos sem revisão.
 
 Nota sobre os diretórios: as Skills canônicas estão separadas fisicamente por área; o instalador lê os caminhos do manifesto e copia cada pasta para o layout esperado pelo agente. NÃO copiar `areas/` diretamente para a raiz do cliente e esperar descoberta automática.
 
@@ -101,3 +103,40 @@ python .\scripts\install.py --scope global --targets codex claude verdent openco
 ```
 
 **Nota**: não inclui servidor/company brain/segundo cérebro implementado nem índice real de código. As Skills descrevem e guiam agentes para criar e validar essas soluções conforme o projeto. A execução de cada integração depende de credenciais, acesso a arquivos e aprovação.
+
+
+## Novidades v5 — landing pages 3D jogáveis + produção real
+
+| Skill | Área | Papel |
+|---|---|---|
+| `immersive-commerce-3d` | web-marketing | Líder para landing existente/nova com game 3D comercial funcional |
+| `photoreal-3d-assets` | games | Assets GLB, iluminação PBR, escala, rig, textura, licença e LOD |
+| `tactile-3d-interactions` | games | Mão/utensílio pega ingrediente, transporta, deposita e persiste no produto |
+| `realworld-order-digital-twin` | enterprise-systems | Pedido pós-checkout, eventos de produção real e transmissão opcional autorizada |
+| `immersive-experience-quality` | games | Gates visual, interação e conversão, e2e, performance e fallback |
+
+Ver `docs/IMMERSIVE_COMMERCE_3D_V5.md` e `docs/CODEX_PROMPT_V5_3D.md`. Os documentos de versões anteriores ainda citam o estado de publicação daquele momento; a `main` remota foi verificada na versão **4.0**. A v5.1 requer publicação.
+
+### Validar e instalar somente v5
+```powershell
+python .\scripts\validate.py
+python .\scripts\skill_quality.py --all
+python -m unittest discover -s tests -v
+python .\scripts\route_skills.py --task "landing page existente game 3D realista com mão pegando morango da bancada inox e colocando no crepe" --top 5
+python .\scripts\install.py --scope global --targets codex --dry-run --skills immersive-commerce-3d photoreal-3d-assets tactile-3d-interactions realworld-order-digital-twin immersive-experience-quality gamified-landing-page smart-skill-router
+python .\scripts\install.py --scope global --targets codex --replace --skills immersive-commerce-3d photoreal-3d-assets tactile-3d-interactions realworld-order-digital-twin immersive-experience-quality gamified-landing-page smart-skill-router
+```
+
+**Atenção:** `--replace` faz backup das instalações existentes antes da cópia. Revisar o diff e os backups. Este pacote **não** instala Blender, Three.js, Scenario MCP, licenças, GLBs, jogos ou integrações em produção; implementações e testes reais são executados no repositório da aplicação pelo agente.
+
+## Evolução v5.1 — experiência 3D do pedido ao produto fabricado
+**Não é um template de creperia**: permite aplicar em sites existentes e novas landings uma jornada 3D de configuração → compra → operação física → entrega, incluindo linhas de montagem automotiva e outras manufaturas sob encomenda. A skill nova `made-to-order-manufacturing-twin` conecta conceitos de catálogo/CPQ, PLM, ERP, MES, WMS e status da unidade física quando houver ID verificado. A interface exibe **animação ilustrativa da etapa** e a fonte/data real, sem alegar transmissão da unidade física sem suporte. Ver `docs/REALTIME_EXPERIENCE_COMMERCE_V51.md`, `docs/CODEX_PROMPT_V51_MANUFACTURING.md`.
+
+Instalar apenas a skill industrial no Codex (PowerShell):
+```powershell
+python .\scripts\validate.py
+python -m unittest discover -s tests -v
+python .\scripts\install.py --scope global --targets codex --dry-run --skills made-to-order-manufacturing-twin
+python .\scripts\install.py --scope global --targets codex --skills made-to-order-manufacturing-twin
+```
+Instalação acima copia instruções SKILL.md, **não conecta** fábrica, integrações, API nem cria modelos 3D. Verificar status remoto separadamente.
