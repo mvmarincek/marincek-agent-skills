@@ -1,0 +1,15 @@
+# Security & Quality Review
+- PR / commit / branch:
+- Escopo e dono dos arquivos:
+- Comandos realmente executados:
+- Baseline antes / após:
+- Vulnerabilidades confirmadas e evidências redigidas:
+- Novos alertas (severidade, status, responsável):
+- Formatação/lint/typecheck:
+- Testes unit/integration/E2E:
+- Segurança de secrets e PII:
+- Dependências/IaC e supply chain:
+- Contratos públicos preservados?:
+- Riscos aceitos/expiração:
+- Plano de rollback:
+- Status: aprovado / bloqueado / pendente:

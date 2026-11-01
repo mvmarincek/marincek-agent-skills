@@ -1,0 +1,15 @@
+# Model Assignment Decision Record
+- Date / author / benchmark dataset:
+- App and agent name:
+- Agent responsibilities and tool list:
+- Quality/safety acceptance thresholds:
+- Candidates, versions, providers and license:
+- Local hardware / cloud region:
+- Context and modalities:
+- Observed task completion, error categories:
+- Observed p50/p95 latency and tokens:
+- Per-task and per-success costs (snapshot):
+- Selected model and fallback:
+- Constraints on data sharing:
+- Revalidation trigger / rollback plan:
+- Evidence and approval:

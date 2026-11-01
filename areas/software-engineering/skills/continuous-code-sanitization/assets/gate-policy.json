@@ -1,0 +1,17 @@
+{
+  "mode": "illustrative-only",
+  "failure_mode": "fail-closed-on-new-critical",
+  "checks": {
+    "unit_tests": "required",
+    "typecheck": "required-when-supported",
+    "secret_scan": "required",
+    "sast": "required-when-supported",
+    "dependency_scan": "required-when-applicable",
+    "license_scan": "optional"
+  },
+  "exceptions": {
+    "must_have_owner": true,
+    "expires_days_max": 30
+  },
+  "note": "This file documents suggested policy; it does not enforce gates until wired to CI."
+}

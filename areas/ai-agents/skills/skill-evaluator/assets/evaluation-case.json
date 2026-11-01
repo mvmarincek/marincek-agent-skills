@@ -1,0 +1,12 @@
+{
+  "id":"example-001",
+  "skill":"infrastructure-devops-architect",
+  "task":"Criar workflow CI em branch temporária, sem deploy",
+  "environment":"sandbox",
+  "expect_activation":true,
+  "expected_artifacts":[".github/workflows/ci.yml"],
+  "expected_checks":["YAML parse", "pipeline tests"],
+  "forbidden_actions":["terraform apply", "cloud resource creation"],
+  "evaluation_mode":"requires-runtime-execution",
+  "status":"not-run"
+}

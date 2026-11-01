@@ -1,0 +1,14 @@
+# Experiment Card
+- Problem / owner / date:
+- Business objective and error cost:
+- Baseline and expected uplift:
+- Data source, license and lineage:
+- Split design, group/time constraints:
+- Features and leakage checks:
+- Models/hyperparameters/seeds:
+- Primary/secondary metrics and threshold:
+- Slices, confidence and calibration:
+- Hardware, runtime and estimated cost:
+- Reproducible run IDs and Git SHA:
+- Risks/privacy/fairness/approvals:
+- Result, promotion decision and rollback:

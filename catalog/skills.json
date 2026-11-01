@@ -1,0 +1,412 @@
+{
+  "library": "mvmarincek-agent-skills",
+  "version": "4.0.0",
+  "date": "2026-11-01",
+  "count": 22,
+  "skills": [
+    {
+      "id": "agent-learning-finetuning",
+      "title": "Arquitetura de aprendizado e fine-tuning",
+      "domain": "agent-architecture",
+      "path": "areas/ai-agents/skills/agent-learning-finetuning/SKILL.md",
+      "status": "original-bundled",
+      "version": "1.0.0",
+      "depends_on": [],
+      "supported_agents": [
+        "codex",
+        "claude-code",
+        "verdent",
+        "opencode"
+      ],
+      "verified": "structure-only",
+      "installed": false,
+      "area": "ai-agents"
+    },
+    {
+      "id": "agent-persistent-memory",
+      "title": "Memória persistente, RAG, contexto e métricas",
+      "domain": "agent-memory",
+      "path": "areas/ai-agents/skills/agent-persistent-memory/SKILL.md",
+      "status": "original-bundled",
+      "version": "1.0.0",
+      "depends_on": [],
+      "supported_agents": [
+        "codex",
+        "claude-code",
+        "verdent",
+        "opencode"
+      ],
+      "verified": "structure-only",
+      "installed": false,
+      "area": "ai-agents"
+    },
+    {
+      "id": "agent-reliability-governance",
+      "title": "Observabilidade, governança e avaliação",
+      "domain": "agent-governance",
+      "path": "areas/ai-agents/skills/agent-reliability-governance/SKILL.md",
+      "status": "original-bundled",
+      "version": "1.0.0",
+      "depends_on": [],
+      "supported_agents": [
+        "codex",
+        "claude-code",
+        "verdent",
+        "opencode"
+      ],
+      "verified": "structure-only",
+      "installed": false,
+      "area": "ai-agents"
+    },
+    {
+      "id": "authorized-security-testing",
+      "title": "Testes controlados de vulnerabilidades",
+      "domain": "security",
+      "path": "areas/cybersecurity/skills/authorized-security-testing/SKILL.md",
+      "status": "original-bundled",
+      "version": "1.0.0",
+      "depends_on": [],
+      "supported_agents": [
+        "codex",
+        "claude-code",
+        "verdent",
+        "opencode"
+      ],
+      "verified": "structure-only",
+      "installed": false,
+      "area": "cybersecurity"
+    },
+    {
+      "id": "code-intelligence-engineering",
+      "title": "Code Intelligence e compreensão de repositórios",
+      "domain": "software-engineering",
+      "path": "areas/software-engineering/skills/code-intelligence-engineering/SKILL.md",
+      "status": "original-bundled",
+      "version": "1.0.0",
+      "depends_on": [
+        "continuous-code-sanitization"
+      ],
+      "supported_agents": [
+        "codex",
+        "claude-code",
+        "verdent",
+        "opencode"
+      ],
+      "verified": "structure-only",
+      "installed": false,
+      "area": "software-engineering"
+    },
+    {
+      "id": "company-brain-architecture",
+      "title": "Company Brain corporativo",
+      "domain": "enterprise-knowledge",
+      "path": "areas/enterprise-knowledge/skills/company-brain-architecture/SKILL.md",
+      "status": "original-bundled",
+      "version": "1.0.0",
+      "depends_on": [
+        "agent-persistent-memory",
+        "agent-reliability-governance"
+      ],
+      "supported_agents": [
+        "codex",
+        "claude-code",
+        "verdent",
+        "opencode"
+      ],
+      "verified": "structure-only",
+      "installed": false,
+      "area": "enterprise-knowledge"
+    },
+    {
+      "id": "continuous-code-sanitization",
+      "title": "Continuous Code Sanitization & Quality Gates",
+      "domain": "software-engineering",
+      "path": "areas/software-engineering/skills/continuous-code-sanitization/SKILL.md",
+      "status": "original-bundled",
+      "version": "1.0.0",
+      "depends_on": [],
+      "supported_agents": [
+        "codex",
+        "claude-code",
+        "verdent",
+        "opencode"
+      ],
+      "verified": "structure-only",
+      "installed": false,
+      "area": "software-engineering"
+    },
+    {
+      "id": "defensive-cybersecurity",
+      "title": "Cibersegurança defensiva no desenvolvimento",
+      "domain": "security",
+      "path": "areas/cybersecurity/skills/defensive-cybersecurity/SKILL.md",
+      "status": "original-bundled",
+      "version": "1.0.0",
+      "depends_on": [],
+      "supported_agents": [
+        "codex",
+        "claude-code",
+        "verdent",
+        "opencode"
+      ],
+      "verified": "structure-only",
+      "installed": false,
+      "area": "cybersecurity"
+    },
+    {
+      "id": "enterprise-crm-erp-integrations",
+      "title": "Enterprise CRM & ERP: Salesforce, SAP e TOTVS",
+      "domain": "enterprise-systems",
+      "path": "areas/enterprise-systems/skills/enterprise-crm-erp-integrations/SKILL.md",
+      "status": "original-bundled",
+      "version": "1.0.0",
+      "depends_on": [],
+      "supported_agents": [
+        "codex",
+        "claude-code",
+        "verdent",
+        "opencode"
+      ],
+      "verified": "structure-only",
+      "installed": false,
+      "area": "enterprise-systems"
+    },
+    {
+      "id": "gamified-landing-page",
+      "title": "Landing page cinematográfica gamificada, analytics e conversão",
+      "domain": "visual-marketing",
+      "path": "areas/web-marketing/skills/gamified-landing-page/SKILL.md",
+      "status": "original-bundled",
+      "version": "2.0.0",
+      "depends_on": [],
+      "supported_agents": [
+        "codex",
+        "claude-code",
+        "verdent",
+        "opencode"
+      ],
+      "verified": "structure-only",
+      "installed": false,
+      "area": "web-marketing"
+    },
+    {
+      "id": "hybrid-it-squad-management",
+      "title": "IT Leadership & Human-AI Squad Operating System",
+      "domain": "engineering-management",
+      "path": "areas/engineering-management/skills/hybrid-it-squad-management/SKILL.md",
+      "status": "original-bundled",
+      "version": "1.0.0",
+      "depends_on": [],
+      "supported_agents": [
+        "codex",
+        "claude-code",
+        "verdent",
+        "opencode"
+      ],
+      "verified": "structure-only",
+      "installed": false,
+      "area": "engineering-management"
+    },
+    {
+      "id": "infrastructure-devops-architect",
+      "title": "Infraestrutura, IaC e plataforma cloud",
+      "domain": "devops-infrastructure",
+      "area": "devops-infrastructure",
+      "path": "areas/devops-infrastructure/skills/infrastructure-devops-architect/SKILL.md",
+      "status": "original-bundled",
+      "version": "2.0.0",
+      "depends_on": [],
+      "supported_agents": [
+        "codex",
+        "claude-code",
+        "verdent",
+        "opencode"
+      ],
+      "verified": "structure-only",
+      "installed": false
+    },
+    {
+      "id": "linear-tasks-prd",
+      "title": "Tasks Linear, PRDs e relatórios técnicos MD/PDF",
+      "domain": "product-management",
+      "area": "product-management",
+      "path": "areas/product-management/skills/linear-tasks-prd/SKILL.md",
+      "status": "original-bundled",
+      "version": "2.0.0",
+      "depends_on": [],
+      "supported_agents": [
+        "codex",
+        "claude-code",
+        "verdent",
+        "opencode"
+      ],
+      "verified": "structure-only",
+      "installed": false
+    },
+    {
+      "id": "llm-model-selection-benchmark",
+      "title": "LLM Selection & Agent Benchmark Architect",
+      "domain": "ai-agents",
+      "path": "areas/ai-agents/skills/llm-model-selection-benchmark/SKILL.md",
+      "status": "original-bundled",
+      "version": "1.0.0",
+      "depends_on": [],
+      "supported_agents": [
+        "codex",
+        "claude-code",
+        "verdent",
+        "opencode"
+      ],
+      "verified": "structure-only",
+      "installed": false,
+      "area": "ai-agents"
+    },
+    {
+      "id": "ml-lifecycle-validation",
+      "title": "ML Engineering & Validation — ciclo completo",
+      "domain": "machine-learning",
+      "path": "areas/machine-learning/skills/ml-lifecycle-validation/SKILL.md",
+      "status": "original-bundled",
+      "version": "1.0.0",
+      "depends_on": [],
+      "supported_agents": [
+        "codex",
+        "claude-code",
+        "verdent",
+        "opencode"
+      ],
+      "verified": "structure-only",
+      "installed": false,
+      "area": "machine-learning"
+    },
+    {
+      "id": "paint-draw-shapes",
+      "title": "VOKI — desenho no Paint (Skill original/legado)",
+      "domain": "voki-visual",
+      "path": "areas/automation-hid/skills/paint-draw-shapes/SKILL.md",
+      "status": "original-bundled",
+      "version": "1.0.0",
+      "depends_on": [],
+      "supported_agents": [
+        "codex",
+        "claude-code",
+        "verdent",
+        "opencode"
+      ],
+      "verified": "structure-only",
+      "installed": false,
+      "area": "automation-hid"
+    },
+    {
+      "id": "second-brain-architecture",
+      "title": "Second Brain pessoal e para agentes",
+      "domain": "personal-knowledge",
+      "path": "areas/personal-knowledge/skills/second-brain-architecture/SKILL.md",
+      "status": "original-bundled",
+      "version": "1.0.0",
+      "depends_on": [
+        "agent-persistent-memory",
+        "agent-reliability-governance"
+      ],
+      "supported_agents": [
+        "codex",
+        "claude-code",
+        "verdent",
+        "opencode"
+      ],
+      "verified": "structure-only",
+      "installed": false,
+      "area": "personal-knowledge"
+    },
+    {
+      "id": "skill-evaluator",
+      "title": "Avaliação e benchmark de Skills",
+      "domain": "ai-agents",
+      "area": "ai-agents",
+      "path": "areas/ai-agents/skills/skill-evaluator/SKILL.md",
+      "status": "original-bundled",
+      "version": "2.0.0",
+      "depends_on": [],
+      "supported_agents": [
+        "codex",
+        "claude-code",
+        "verdent",
+        "opencode"
+      ],
+      "verified": "structure-only",
+      "installed": false
+    },
+    {
+      "id": "skill-factory",
+      "title": "Fábrica de Skills com curadoria e PR",
+      "domain": "ai-agents",
+      "area": "ai-agents",
+      "path": "areas/ai-agents/skills/skill-factory/SKILL.md",
+      "status": "original-bundled",
+      "version": "2.0.0",
+      "depends_on": [],
+      "supported_agents": [
+        "codex",
+        "claude-code",
+        "verdent",
+        "opencode"
+      ],
+      "verified": "structure-only",
+      "installed": false
+    },
+    {
+      "id": "smart-skill-router",
+      "title": "Roteamento contextual de Skills",
+      "domain": "ai-agents",
+      "area": "ai-agents",
+      "path": "areas/ai-agents/skills/smart-skill-router/SKILL.md",
+      "status": "original-bundled",
+      "version": "2.0.0",
+      "depends_on": [],
+      "supported_agents": [
+        "codex",
+        "claude-code",
+        "verdent",
+        "opencode"
+      ],
+      "verified": "structure-only",
+      "installed": false
+    },
+    {
+      "id": "structured-agent-prompts",
+      "title": "Prompts de agentes, multiagentes e subagentes",
+      "domain": "agent-design",
+      "path": "areas/ai-agents/skills/structured-agent-prompts/SKILL.md",
+      "status": "original-bundled",
+      "version": "1.0.0",
+      "depends_on": [],
+      "supported_agents": [
+        "codex",
+        "claude-code",
+        "verdent",
+        "opencode"
+      ],
+      "verified": "structure-only",
+      "installed": false,
+      "area": "ai-agents"
+    },
+    {
+      "id": "voki-visual-geometry-cad",
+      "title": "VOKI — geometria 2D e CAD 3D visual com HID",
+      "domain": "voki-visual",
+      "path": "areas/automation-hid/skills/voki-visual-geometry-cad/SKILL.md",
+      "status": "original-bundled",
+      "version": "1.0.0",
+      "depends_on": [],
+      "supported_agents": [
+        "codex",
+        "claude-code",
+        "verdent",
+        "opencode"
+      ],
+      "verified": "structure-only",
+      "installed": false,
+      "area": "automation-hid"
+    }
+  ]
+}

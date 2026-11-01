@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0.0",
+  "privacy_policy": "no-pii; consent-before-analytics",
+  "events": [
+    {
+      "name": "cta_click",
+      "parameters": [
+        "cta_id",
+        "section_id",
+        "variant"
+      ]
+    },
+    {
+      "name": "section_view",
+      "parameters": [
+        "section_id",
+        "visible_ratio",
+        "variant"
+      ]
+    },
+    {
+      "name": "video_start",
+      "parameters": [
+        "video_id",
+        "variant"
+      ]
+    },
+    {
+      "name": "video_progress",
+      "parameters": [
+        "video_id",
+        "milestone",
+        "variant"
+      ]
+    },
+    {
+      "name": "video_complete",
+      "parameters": [
+        "video_id",
+        "variant"
+      ]
+    },
+    {
+      "name": "graphic_interaction",
+      "parameters": [
+        "graphic_id",
+        "action",
+        "variant"
+      ]
+    },
+    {
+      "name": "form_start",
+      "parameters": [
+        "form_id",
+        "variant"
+      ]
+    },
+    {
+      "name": "form_error",
+      "parameters": [
+        "form_id",
+        "error_category"
+      ]
+    },
+    {
+      "name": "generate_lead",
+      "parameters": [
+        "form_id",
+        "variant"
+      ]
+    },
+    {
+      "name": "conversion_verified",
+      "parameters": [
+        "conversion_id",
+        "variant"
+      ]
+    },
+    {
+      "name": "experiment_exposure",
+      "parameters": [
+        "experiment_id",
+        "variant"
+      ]
+    }
+  ]
+}

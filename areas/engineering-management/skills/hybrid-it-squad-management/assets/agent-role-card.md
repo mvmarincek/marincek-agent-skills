@@ -1,0 +1,13 @@
+# Agent Role Card
+- Agent name, version, owner and team:
+- User-facing function and business rationale:
+- Model and runtime:
+- Skill versions and tool/MCP access:
+- Data access class and retention:
+- Autonomy level and required approvals:
+- Human reviewer and escalation:
+- Budget, rpm/tpm, spend limits:
+- Evals and thresholds:
+- Logging/tracing and sensitive-data redaction:
+- Deployment/rollback/killswitch:
+- Incident register and review date:

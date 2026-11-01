@@ -1,0 +1,13 @@
+# Blueprint
+- Nome e slug:
+- Propósito:
+- Gatilhos de ativação:
+- Quando NÃO ativar:
+- Entradas mínimas:
+- Outputs verificáveis:
+- Ferramentas e permissões:
+- Procedimento com checks e fallback:
+- Testes positivos e negativos:
+- Riscos / privacidade / origem:
+- Dependências e variações por cloud:
+- Critérios para promover a produção:

@@ -1,0 +1,11 @@
+# Seleção de Skills
+- Tarefa:
+- Agente/runtime:
+- Área:
+- Skills candidatas:
+- Skills escolhidas e motivo:
+- Skills excluídas e motivo:
+- MCP/Tools necessários (permissões):
+- Custos e limites:
+- Validações:
+- Aprovação necessária:

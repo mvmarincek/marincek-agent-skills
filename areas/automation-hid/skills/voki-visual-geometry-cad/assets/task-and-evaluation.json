@@ -1,0 +1,40 @@
+{
+  "task_id": "example-circle-blue",
+  "application": "paint-or-cad",
+  "geometry": {
+    "dimension": "2d",
+    "shape": "circle",
+    "diameter": {
+      "value": 100,
+      "unit": "px",
+      "tolerance": 8
+    },
+    "stroke": {
+      "color": "#0000FF",
+      "width": 3,
+      "unit": "px",
+      "style": "solid"
+    },
+    "fill": {
+      "mode": "none"
+    }
+  },
+  "execution": {
+    "input_channel": "physical-usb-hid-only",
+    "max_retries": 3,
+    "screenshots_required": [
+      "before",
+      "after"
+    ],
+    "risky_actions_require_approval": true
+  },
+  "validation": {
+    "result": "not-run",
+    "evidence_level": "L0",
+    "observed_values": {},
+    "unknowns": [
+      "application_version",
+      "screen_scale"
+    ]
+  }
+}

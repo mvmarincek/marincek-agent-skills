@@ -1,0 +1,14 @@
+# Squad Charter
+- Product / value stream / stakeholders:
+- Mission and user outcomes:
+- Human accountable owner:
+- Human roles and part-time allocations:
+- Agent roles and authorized tools:
+- Backlog/PRD/Linear project:
+- Service levels and SLO:
+- Definition of Ready / Done:
+- Quality/security gates:
+- Costs, budgets and constraints:
+- Baseline and objectives:
+- Rituals, dependencies and escalation:
+- Quarterly review:

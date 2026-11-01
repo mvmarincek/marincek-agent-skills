@@ -1,0 +1,19 @@
+# Contrato de Integração — TEMPLATE
+- Responsável/solicitante:
+- Ambiente / autorização:
+- Sistemas e versões:
+- Origem e destino:
+- Evento de negócio:
+- Operação (leitura/escrita):
+- API/versão e documentação de origem:
+- Modelo de identidade/permissão:
+- Tipos e esquema de dados:
+- Filial/tenant/moeda/timezone:
+- Chave externa/idempotência:
+- Volumes e SLO:
+- Erros/transientes e retries:
+- Reconciliação:
+- LGPD e política de retenção:
+- Evidência sandbox:
+- Plano de rollout e rollback:
+- Critério objetivo de sucesso:

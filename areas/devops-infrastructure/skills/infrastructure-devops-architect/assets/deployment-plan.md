@@ -1,0 +1,14 @@
+# Plano de implantação (antes de qualquer deploy)
+- Repositório, branch, SHA do commit:
+- Ambiente / owner / change ticket:
+- Recursos e custos que serão criados:
+- `terraform plan` e resumo do diff (sem segredos):
+- Ações e permissões solicitadas:
+- Testes de pré-implantação:
+- Gate de aprovação explícita:
+- Janela de implantação:
+- Canary/blue-green/rolling:
+- Health checks e métricas de abort:
+- Rollback testado:
+- Links para logs e evidências:
+- Estado final: PREPARADO / IMPLANTADO / BLOQUEADO

@@ -1,0 +1,11 @@
+# ADR-XXXX — Decisão de infraestrutura
+- Status: proposta / aprovada / substituída
+- Problema e contexto:
+- Restrições (custo, RTO/RPO, região, escala, LGPD):
+- Alternativa A:
+- Alternativa B:
+- Alternativa C:
+- Matriz (complexidade, custo, risco, reversão):
+- Decisão / aprovação:
+- Consequências e plano de migração:
+- Evidências:

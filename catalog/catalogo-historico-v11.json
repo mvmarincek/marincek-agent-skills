@@ -1,0 +1,2624 @@
+{
+  "nome": "Biblioteca Curada de Skills, Ferramentas e Processos de IA",
+  "versao": "11.0",
+  "atualizado": "2026-11-01",
+  "observacao": "v11.0 inclui 5 skills originais detalhadas de confiabilidade, memoria, prompts, landing gamificada e fine-tuning; instalaveis Codex Verdent Claude e OpenCode, com scripts de instalacao. Preserva historia v10.1.",
+  "skills": [
+    {
+      "nome": "Hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "categoria": "UI/UX Premium",
+      "projetos": [
+        "GITFY",
+        "ISYMU",
+        "SaaS"
+      ],
+      "descricao": "Entrada do catálogo inicial; fonte listada anteriormente, sem teste nesta sessão.",
+      "prioridade": "alta",
+      "agentes": "a confirmar",
+      "tipo": "skill",
+      "status": "fonte-verificada-anteriormente",
+      "instalada": "nao-confirmado",
+      "testada": false,
+      "curadoria_v7": {
+        "classe": "NÚCLEO",
+        "justificativa": "Direção visual premium e auditoria de interfaces.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "frontend-design",
+      "url": "https://www.skills.sh/anthropics/skills/frontend-design",
+      "categoria": "UI/UX Premium",
+      "projetos": [
+        "GITFY",
+        "ISYMU",
+        "SaaS"
+      ],
+      "descricao": "Entrada do catálogo inicial; fonte listada anteriormente, sem teste nesta sessão.",
+      "prioridade": "alta",
+      "agentes": "a confirmar",
+      "tipo": "skill",
+      "status": "fonte-verificada-anteriormente",
+      "instalada": "nao-confirmado",
+      "testada": false,
+      "curadoria_v7": {
+        "classe": "NÚCLEO",
+        "justificativa": "Criação de frontend de alta qualidade e identidade visual.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "game-ui-ux",
+      "url": "https://www.skills.sh/gamedev-skills/awesome-gamedev-agent-skills/game-ui-ux",
+      "categoria": "Games & 3D",
+      "projetos": [
+        "GITFY"
+      ],
+      "descricao": "Entrada do catálogo inicial; fonte listada anteriormente, sem teste nesta sessão.",
+      "prioridade": "alta",
+      "agentes": "a confirmar",
+      "tipo": "skill",
+      "status": "fonte-verificada-anteriormente",
+      "instalada": "nao-confirmado",
+      "testada": false,
+      "curadoria_v7": {
+        "classe": "REMOVER_DO_CATALOGO_ATIVO",
+        "justificativa": "Está incluída no pacote GameDev Agent Skills; manter apenas como subskill referenciada.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "awwwards-motion",
+      "url": "https://www.skills.sh/adamperlis/awwwards-motion/awwwards-motion",
+      "categoria": "Games & 3D",
+      "projetos": [
+        "GITFY",
+        "ISYMU"
+      ],
+      "descricao": "Entrada do catálogo inicial; fonte listada anteriormente, sem teste nesta sessão.",
+      "prioridade": "alta",
+      "agentes": "a confirmar",
+      "tipo": "skill",
+      "status": "fonte-verificada-anteriormente",
+      "instalada": "nao-confirmado",
+      "testada": false,
+      "curadoria_v7": {
+        "classe": "POR_PROJETO",
+        "justificativa": "Promissora para shaders e efeitos mas maturidade baixa; testar antes de padronizar.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "vercel-react-best-practices",
+      "url": "https://www.skills.sh/vercel-labs/agent-skills/vercel-react-best-practices",
+      "categoria": "Software Engineering",
+      "projetos": [
+        "GITFY",
+        "ISYMU",
+        "SaaS"
+      ],
+      "descricao": "Entrada do catálogo inicial; fonte listada anteriormente, sem teste nesta sessão.",
+      "prioridade": "alta",
+      "agentes": "a confirmar",
+      "tipo": "skill",
+      "status": "fonte-verificada-anteriormente",
+      "instalada": "nao-confirmado",
+      "testada": false,
+      "curadoria_v7": {
+        "classe": "NÚCLEO",
+        "justificativa": "Performance e padrões React/Next.js reutilizáveis em SaaS.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "find-skills",
+      "url": "https://www.skills.sh/vercel-labs/skills/find-skills",
+      "categoria": "Pesquisa & Curadoria",
+      "projetos": [
+        "Todos"
+      ],
+      "descricao": "Entrada do catálogo inicial; fonte listada anteriormente, sem teste nesta sessão.",
+      "prioridade": "alta",
+      "agentes": "a confirmar",
+      "tipo": "skill",
+      "status": "fonte-verificada-anteriormente",
+      "instalada": "nao-confirmado",
+      "testada": false,
+      "curadoria_v7": {
+        "classe": "POR_PROJETO",
+        "justificativa": "Skill de descoberta, útil ocasionalmente; não é necessário em cada repositório.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "Matt Pocock Skills",
+      "url": "https://github.com/mattpocock/skills",
+      "categoria": "Engenharia de software",
+      "projetos": [
+        "GITFY",
+        "ISYMU",
+        "VOKI",
+        "ZYNVU"
+      ],
+      "descricao": "Conjunto de skills para especificação, tickets, implementação, depuração, revisão e arquitetura. O autor documenta instalação no Codex.",
+      "prioridade": "alta",
+      "agentes": "Codex, Claude Code, Copilot, outros",
+      "tipo": "skill",
+      "status": "fonte-verificada",
+      "instalada": "nao-confirmado",
+      "testada": false,
+      "curadoria_v7": {
+        "classe": "NÚCLEO",
+        "justificativa": "Engenharia disciplinada: especificação, TDD, arquitetura e code review.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "GoLive",
+      "url": "https://github.com/mikehasa/golive-skill",
+      "categoria": "Deploy e operações",
+      "projetos": [
+        "Metadia",
+        "GITFY",
+        "ISYMU",
+        "SaaS"
+      ],
+      "descricao": "Fluxo de lançamento de app: detect → plan → approve → apply → verify; inclui hospedagem, BD, domínio, email e pagamentos. Avaliar compatibilidade com stack existente.",
+      "prioridade": "alta",
+      "agentes": "Codex e outros Agent Skills",
+      "tipo": "skill",
+      "status": "fonte-verificada",
+      "instalada": "nao-confirmado",
+      "testada": false,
+      "curadoria_v7": {
+        "classe": "POR_PROJETO",
+        "justificativa": "Alpha: testar apenas em projeto de prova; stack de provedores ainda não cobre todas as integrações usadas.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "LinkedIn Agent Skills",
+      "url": "https://github.com/Jakeschincariol/linkedin-agent-skill",
+      "categoria": "Marketing e conteúdo",
+      "projetos": [
+        "Marca pessoal",
+        "Consultoria"
+      ],
+      "descricao": "Coleção de skills de preparação de posts, perfil, planejamento e revisão para LinkedIn; confirmar integrações e ações antes de ativar.",
+      "prioridade": "média",
+      "agentes": "Claude Code; adaptação para outros a avaliar",
+      "tipo": "skill",
+      "status": "fonte-verificada",
+      "instalada": "nao-confirmado",
+      "testada": false,
+      "curadoria_v7": {
+        "classe": "REMOVER_DO_CATALOGO_ATIVO",
+        "justificativa": "Redundante no domínio LinkedIn; preferir avaliar o pacote Serge Bulaev.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "Tutor Skills",
+      "url": "https://github.com/bevibing/tutor-skills",
+      "categoria": "Educação e conhecimento",
+      "projetos": [
+        "Mentoria",
+        "ZYNVU"
+      ],
+      "descricao": "Duas skills tutor-setup e tutor: convertem arquivos e repositórios em vault de estudo Obsidian e quizzes.",
+      "prioridade": "alta",
+      "agentes": "Claude Code (formato Agent Skills; Codex requer teste)",
+      "tipo": "skill",
+      "status": "fonte-verificada",
+      "instalada": "nao-confirmado",
+      "testada": false,
+      "curadoria_v7": {
+        "classe": "POR_PROJETO",
+        "justificativa": "Material de tutoria útil em produto educacional/mentoria.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "YouTube Skills",
+      "url": "https://github.com/ZeroPointRepo/youtube-skills",
+      "categoria": "YouTube e pesquisa",
+      "projetos": [
+        "You8"
+      ],
+      "descricao": "12 skills: youtube-full, busca, transcrições, canais, playlists e dados; exige TranscriptAPI, com créditos limitados.",
+      "prioridade": "alta",
+      "agentes": "Codex, Claude Code, Cursor, outros",
+      "tipo": "skill",
+      "status": "fonte-verificada",
+      "instalada": "nao-confirmado",
+      "testada": false,
+      "curadoria_v7": {
+        "classe": "POR_PROJETO",
+        "justificativa": "You8: pesquisa, transcrição e dados de canais; depende de TranscriptAPI externa.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "Platform Design Skills",
+      "url": "https://github.com/ehmo/platform-design-skills",
+      "categoria": "Design multiplataforma",
+      "projetos": [
+        "Metadia",
+        "GITFY",
+        "ISYMU",
+        "SaaS"
+      ],
+      "descricao": "Skills específicas por plataforma (web, iOS, Android e outros), regras de UI e acessibilidade; link corrigido do print.",
+      "prioridade": "alta",
+      "agentes": "Codex, Claude Code e Agent Skills",
+      "tipo": "skill",
+      "status": "fonte-verificada",
+      "instalada": "nao-confirmado",
+      "testada": false,
+      "curadoria_v7": {
+        "classe": "NÚCLEO",
+        "justificativa": "Padrões de design específicos Web/Android/iOS e acessibilidade.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "openscreen-demo",
+      "url": "https://github.com/getopenscreen/openscreen",
+      "url_skill": "https://www.skills.sh/getopenscreen/openscreen/openscreen-demo",
+      "categoria": "Demos de software / Filmagem por agentes",
+      "projetos": [
+        "GITFY",
+        "ISYMU",
+        "Metadia",
+        "VOKI",
+        "You8",
+        "SaaS"
+      ],
+      "descricao": "Skill do OpenScreen que usa ferramentas MCP para roteirizar, gravar, editar, exportar e revisar demonstrações de funcionalidades e PRs.",
+      "prioridade": "alta",
+      "agentes": "Codex, Claude Code, Cursor e agentes compatíveis com Agent Skills + MCP",
+      "tipo": "skill",
+      "status": "fonte-oficial-verificada",
+      "instalada": "nao-confirmado",
+      "testada": false,
+      "comando_documentado": "npx skills add getopenscreen/openscreen --skill openscreen-demo -y",
+      "nota_segurança": "Ao dar acesso de captura de tela, revisar segredos/janelas, prompts, permissão do agente, e exigir aprovação antes de postar externamente.",
+      "origem": "Screenshot enviado em 2026-11-01 + repositório oficial",
+      "curadoria_v7": {
+        "classe": "NÚCLEO",
+        "justificativa": "Geração de demonstrações de apps integradas a processos de desenvolvimento.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "GameDev Agent Skills (77 skills + router)",
+      "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills",
+      "categoria": "Games & 3D",
+      "tipo": "pacote-de-skills",
+      "descricao": "77 skills SKILL.md e roteador que seleciona habilidades por engine e tarefa; inclui Three.js, Phaser, PixiJS, Godot, Unity, Unreal, shaders e game UI.",
+      "projetos": [
+        "GITFY",
+        "ISYMU",
+        "You8"
+      ],
+      "prioridade": "muito alta",
+      "agentes": [
+        "Codex",
+        "Claude Code",
+        "Cursor",
+        "Gemini CLI",
+        "Copilot"
+      ],
+      "status": "repositorio-e-readme-verificados-2026-11-01",
+      "instalada": "nao-confirmado",
+      "testada": false,
+      "relacao": {
+        "inclui_skill_ja_catalogada": "game-ui-ux",
+        "contagem_skills_no_pacote": 77
+      },
+      "instalacao_documentada": "npx skills add gamedev-skills/awesome-gamedev-agent-skills",
+      "licenca": "Apache-2.0",
+      "avisos": [
+        "Pacote contém código e instruções externas: revisar antes de executar.",
+        "77 são skills internas; não somar 77 como entradas de pacotes distintos."
+      ],
+      "curadoria_v7": {
+        "classe": "NÚCLEO",
+        "justificativa": "77 skills com roteador para games, Three.js, shaders, game UI e performance.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "LinkedIn Skills (Serge Bulaev)",
+      "url": "https://github.com/sergebulaev/linkedin-skills",
+      "categoria": "Marketing e conteúdo",
+      "tipo": "pacote-de-skills",
+      "descricao": "12 skills para posts, comentários, respostas, revisão de perfil, auditoria, humanização, planejamento e engajamento no LinkedIn; aprovação antes de publicar.",
+      "projetos": [
+        "Marca pessoal",
+        "Consultoria",
+        "A8 Mentor"
+      ],
+      "prioridade": "alta",
+      "agentes": [
+        "Codex",
+        "Claude Code"
+      ],
+      "status": "repositorio-e-readme-verificados-2026-11-01",
+      "instalada": "nao-confirmado",
+      "testada": false,
+      "relacao": {
+        "alternativa_a": "LinkedIn Agent Skills (Jakeschincariol)",
+        "contagem_skills_no_pacote": 12
+      },
+      "instalacao_documentada": "npx skills add sergebulaev/linkedin-skills",
+      "licenca": "MIT",
+      "avisos": [
+        "Integrações opcionais Apify/Publora podem gerar cobranças.",
+        "Não automatizar publicação sem revisão e aprovação humana."
+      ],
+      "curadoria_v7": {
+        "classe": "POR_PROJETO",
+        "justificativa": "Marketing e presença profissional; instalar apenas no fluxo de conteúdo.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "Firecrawl Skills",
+      "url": "https://github.com/firecrawl/skills",
+      "tipo": "pacote-de-skills",
+      "categoria": "Scraping / Research / Web Automation",
+      "descricao": "Catálogo oficial com skills de pesquisa e coleta na web, CLI/MCP, integrações de SDK e workflows de inteligência comercial, SEO e pesquisa profunda.",
+      "prioridade": "muito alta",
+      "projetos": [
+        "Pesquisa IA",
+        "ISYMU",
+        "SaaS",
+        "Consultoria"
+      ],
+      "agentes": [
+        "Codex",
+        "Claude Code",
+        "Cursor"
+      ],
+      "status": "repositorio-e-documentacao-verificados-2026-11-01;nao-testada",
+      "instalada": "nao-confirmado",
+      "testada": false,
+      "licenca": "ISC",
+      "instalacao_documentada": "npx skills add firecrawl/skills",
+      "avisos": [
+        "Conta/API key ou implantação autohospedada para usar o serviço; avaliar preços e limites.",
+        "Respeitar robots.txt, termos de sites, regras de uso, privacidade e boas práticas de coleta."
+      ],
+      "curadoria_v7": {
+        "classe": "NÚCLEO",
+        "justificativa": "Pesquisa web, extração e fluxo de crawling em agentes; considerar custos cloud/self-host.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "Google Maps Scraper — AI Agent Skill",
+      "url": "https://github.com/gosom/google-maps-scraper",
+      "tipo": "skill-associada-a-ferramenta",
+      "categoria": "Scraping / Prospecção",
+      "descricao": "Skill de agente para planejar, validar e conduzir extração de informações de negócios locais com CLI/UI/API e exportação CSV/JSON.",
+      "prioridade": "alta",
+      "projetos": [
+        "Prospecção B2B",
+        "Consultoria",
+        "Pesquisa de mercado"
+      ],
+      "agentes": [
+        "Codex",
+        "Claude Code",
+        "Cursor"
+      ],
+      "status": "repositorio-e-instalacao-verificados-2026-11-01;nao-testada",
+      "instalada": "nao-confirmado",
+      "testada": false,
+      "licenca": "MIT",
+      "instalacao_documentada": "npx skills add gosom/google-maps-scraper",
+      "avisos": [
+        "Requer Docker e Node.js; no Windows o projeto indica WSL.",
+        "Avaliar termos de uso do Google Maps, LGPD e limites de coleta antes de usar."
+      ],
+      "curadoria_v7": {
+        "classe": "ARQUIVAR",
+        "justificativa": "Prospecção comercial pontual, sujeita a regras de coleta e privacidade.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "Reanimate",
+      "url": "https://github.com/NiazMorshed2007/reanimate",
+      "tipo": "skill",
+      "categoria": "UI/UX / Motion / Animação",
+      "descricao": "Skill que grava uma animação de referência, recria com CSS/GSAP/Motion/Three.js e compara as capturas para verificar semelhança.",
+      "prioridade": "muito alta",
+      "projetos": [
+        "GITFY",
+        "ISYMU",
+        "SaaS Gamificado"
+      ],
+      "agentes": [
+        "Claude Code",
+        "Codex (compatibilidade declarada por padrão SKILL.md; não testada)"
+      ],
+      "status": "fonte-documentada;testes-oficiais-Claude-Code;Codex-nao-testado",
+      "instalada": "nao-confirmado",
+      "testada": false,
+      "licenca": "MIT",
+      "instalacao_documentada": "npx skills add NiazMorshed2007/reanimate -g",
+      "avisos": [
+        "Requer Bun 1.1+; macOS/Linux; Windows não testado na fonte.",
+        "Primeira execução instala FFmpeg e Playwright Chromium; revisar permissões e dependências.",
+        "Usar referências de modo a respeitar direitos de terceiros."
+      ],
+      "curadoria_v7": {
+        "classe": "POR_PROJETO",
+        "justificativa": "Recriação de motion a partir de referência; validar limites de Claude Code/Codex.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "Day Trader Skill — Jakeschincariol (11 skills)",
+      "url": "https://github.com/Jakeschincariol/day-trader-skill",
+      "tipo": "pacote-de-skills",
+      "categoria": "Finanças / Backtesting / Pesquisa de mercado",
+      "descricao": "11 skills para triagem de ativos, notícias, sinais, planejamento de entrada/saída, risco, simulação e operações com confirmação humana; modo paper como padrão, conforme o README.",
+      "prioridade": "média",
+      "projetos": [
+        "ISYMU (apenas referência metodológica; stack voltada a ações norte-americanas)"
+      ],
+      "agentes": [
+        "Claude Code",
+        "Outros agentes via leitura de SKILL.md; verificar adaptação"
+      ],
+      "status": "repositorio-e-readme-verificados-2026-11-01;nao-testado",
+      "instalada": "nao-confirmado",
+      "testada": false,
+      "quantidade_de_skills": 11,
+      "avisos": [
+        "É um toolkit para mercado de ações dos EUA, não um módulo nativo da Solana.",
+        "Simulações não preveem retorno, fontes gratuitas podem ter atrasos e execução exige autorização do usuário."
+      ],
+      "curadoria_v7": {
+        "classe": "ARQUIVAR",
+        "justificativa": "Focado em day trade de ações nos EUA; não serve diretamente ao ISYMU/Solana.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "REA / reverse-engineer-anything",
+      "url": "https://github.com/illumi-ai/REA",
+      "tipo": "skill+cli+mcp",
+      "categoria": "Engenharia reversa / Auditoria de software",
+      "descricao": "Toolkit REA com servidor MCP, CLI e SKILL.md para análise e comparação de aplicações, binários, pacotes e evidências observáveis.",
+      "prioridade": "alta",
+      "projetos": [
+        "VOKI (pesquisa de interfaces por análise de artefatos; sem automação de interface por software)",
+        "Engenharia de software",
+        "Auditoria autorizada"
+      ],
+      "agentes": [
+        "Codex (verificar instalação)",
+        "Claude Code (verificar instalação)"
+      ],
+      "status": "repositorio-e-SKILL.md-verificados-2026-11-01;nao-testado",
+      "instalada": "nao-confirmado",
+      "testada": false,
+      "skill_file": "https://github.com/illumi-ai/REA/blob/main/skills/reverse-engineer-anything/SKILL.md",
+      "avisos": [
+        "Usar apenas sobre software e artefatos próprios ou autorizados.",
+        "Recursos de análise de execução e decompilação dependem de SO e provedores adicionais.",
+        "Não confundir essa skill com REA já instalada."
+      ],
+      "curadoria_v7": {
+        "classe": "POR_PROJETO",
+        "justificativa": "Engenharia reversa autorizada para artefatos específicos; não é ferramenta de desenvolvimento cotidiano.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "HyperFrames (HeyGen) — framework + skills de vídeo",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "categoria": "Vídeo / motion / code-to-video",
+      "projetos": [
+        "You8 (vinhetas, cartelas, motion e legendas)",
+        "SaaS (demos de produtos)",
+        "GITFY (vídeos de apresentação)"
+      ],
+      "descricao": "Framework Apache-2.0 para renderizar composições HTML/CSS/JS em vídeo; skills oficiais para agentes de programação e CLI local. Não é gerador nativo de cenas fotorrealistas por IA.",
+      "prioridade": "alta",
+      "agentes": "Codex, Claude Code e similares",
+      "tipo": "framework-com-skills",
+      "status": "fonte-oficial-verificada-2026-11-01",
+      "instalada": "nao-confirmado",
+      "testada": false,
+      "instalacao_referencia": "npx skills add heygen-com/hyperframes (somente após revisão da origem e permissões)",
+      "dependencias": "Node.js 22+ e FFmpeg para render local",
+      "licenca": "Apache-2.0 para framework; mídia e assets de terceiros exigem licença própria",
+      "curadoria_v8": {
+        "classe": "NÚCLEO",
+        "justificativa": "Capacidade reutilizável e comprovada para vídeos gerados por agentes, especialmente demos/marketing. Ativar somente no perfil audiovisual.",
+        "estado_instalacao": "não instalado/não testado nesta atualização",
+        "decisao": "curadoria sem instalar/executar"
+      }
+    },
+    {
+      "nome": "Scenario 3D OS / Scenario Agent Skills",
+      "url": "https://github.com/scenario-labs/skills",
+      "tipo": "pacote-agent-skills-com-familias-expert",
+      "categoria": "3D / GameDev / Animação / Geração de assets",
+      "descricao": "Biblioteca open source de skills para agentes de código com workflow multidisciplinar de produção 3D, anunciada como 3D OS (6 departamentos, 80 skills). Inclui skills Scenario MCP para geração de imagens/vídeos/3D e famílias Expert Tools para operação local de Blender, Maya, ZBrush, Unreal, Unity, Godot e Roblox. Os 80 citados são unidades internas de marketing, não 80 novas entradas independentes no catálogo.",
+      "prioridade": "alta-por-projeto",
+      "projetos": [
+        "You8 (personagens consistentes, rigging, animação e storyboards)",
+        "GITFY (assets 3D otimizados para Three.js e mundos interativos)",
+        "VOKI (estudos de agente em software criativo; preservar execução UI exclusivamente por USB HID)",
+        "Desenvolvimento de games e demos 3D"
+      ],
+      "agentes": [
+        "Codex",
+        "Claude Code",
+        "Cursor",
+        "agentes compatíveis com Agent Skills"
+      ],
+      "status": "repositório-documentação-e-instruções-para-Blender-verificados-2026-11-01;nao-testado-localmente",
+      "instalada": "nao-confirmado",
+      "testada": false,
+      "licenca": "MIT para o repositório; ferramentas/provedores externos e assets podem ter termos/custos próprios",
+      "departamentos_anunciados": [
+        "Animation",
+        "Art",
+        "Modeling",
+        "Look Dev & Lighting",
+        "Worlds",
+        "Pipeline"
+      ],
+      "quantidade_anunciada_de_skills": 80,
+      "contagem_catalogo": "1 pacote; não contabilizar 80 skills como 80 pacotes distintos",
+      "blender_expert_skills": 15,
+      "blender_requisitos": "Blender 5.2 LTS; testes documentados em Blender 5.2.1; instalar lead+specialists lado a lado",
+      "instalacao_referencia": "npx skills add scenario-labs/skills (selecionar apenas a família ou skill desejada no menu; revisar scripts antes)",
+      "arquivos_oficiais": [
+        "https://github.com/scenario-labs/skills/blob/main/INSTALL.md",
+        "https://github.com/scenario-labs/skills/blob/main/skills/dcc/blender/README.md"
+      ],
+      "distincoes": [
+        "Scenario MCP hospedado requer conta/autenticação; gerar mídia por serviços externos pode consumir créditos. Licença open source das skills não significa geração de imagens ou vídeos grátis.",
+        "Expert Tools do Blender operam instalações locais e não requerem Scenario MCP conforme README; outras famílias requerem seus aplicativos.",
+        "O README diz que 12 suítes headless de Blender passaram nos testes dos autores; não significa que todas as 80 skills foram validadas independentemente ou funcionem na GTX 1650.",
+        "Export para Three.js está contemplado; validar topologia, LODs, formatos GLB, taxa de quadros e footprint em dispositivos de destino.",
+        "Não executar instalador nem dar acesso amplo ao filesystem em projetos sem inspeção das skills e permissões."
+      ],
+      "curadoria_v10": {
+        "classe": "NÚCLEO_POR_PROJETO",
+        "decisao": "incorporado-como-um-pacote;nenhuma-instalacao-feita",
+        "evidencia": "README oficial GitHub e README expert tools Blender consultados em 2026-11-01"
+      }
+    },
+    {
+      "nome": "agent-reliability-governance",
+      "url": "",
+      "categoria": "Arquitetura Agêntica",
+      "projetos": [
+        "Todos"
+      ],
+      "descricao": "observabilidade, governanca, evals",
+      "prioridade": "alta",
+      "agentes": "Codex, Verdent, Claude Code, OpenCode",
+      "tipo": "skill",
+      "status": "criada-e-validada-estruturalmente",
+      "instalada": "nao-confirmado",
+      "testada": false,
+      "caminho": "PACOTE_5_SKILLS/skills/agent-reliability-governance/SKILL.md",
+      "infraestrutura": [
+        "local",
+        "generic",
+        "AWS",
+        "GCP",
+        "Azure"
+      ]
+    },
+    {
+      "nome": "agent-persistent-memory",
+      "url": "",
+      "categoria": "Arquitetura Agêntica",
+      "projetos": [
+        "Todos"
+      ],
+      "descricao": "memory, RAG, sql, metricas",
+      "prioridade": "alta",
+      "agentes": "Codex, Verdent, Claude Code, OpenCode",
+      "tipo": "skill",
+      "status": "criada-e-validada-estruturalmente",
+      "instalada": "nao-confirmado",
+      "testada": false,
+      "caminho": "PACOTE_5_SKILLS/skills/agent-persistent-memory/SKILL.md",
+      "infraestrutura": [
+        "local",
+        "generic",
+        "AWS",
+        "GCP",
+        "Azure"
+      ]
+    },
+    {
+      "nome": "structured-agent-prompts",
+      "url": "",
+      "categoria": "Arquitetura Agêntica",
+      "projetos": [
+        "Todos"
+      ],
+      "descricao": "prompts, multiagent, subagents",
+      "prioridade": "alta",
+      "agentes": "Codex, Verdent, Claude Code, OpenCode",
+      "tipo": "skill",
+      "status": "criada-e-validada-estruturalmente",
+      "instalada": "nao-confirmado",
+      "testada": false,
+      "caminho": "PACOTE_5_SKILLS/skills/structured-agent-prompts/SKILL.md",
+      "infraestrutura": [
+        "local",
+        "generic",
+        "AWS",
+        "GCP",
+        "Azure"
+      ]
+    },
+    {
+      "nome": "gamified-landing-page",
+      "url": "",
+      "categoria": "UI/UX Premium e Marketing",
+      "projetos": [
+        "Todos"
+      ],
+      "descricao": "UI, UX, game, marketing, analytics",
+      "prioridade": "alta",
+      "agentes": "Codex, Verdent, Claude Code, OpenCode",
+      "tipo": "skill",
+      "status": "criada-e-validada-estruturalmente",
+      "instalada": "nao-confirmado",
+      "testada": false,
+      "caminho": "PACOTE_5_SKILLS/skills/gamified-landing-page/SKILL.md",
+      "infraestrutura": [
+        "local",
+        "generic",
+        "AWS",
+        "GCP",
+        "Azure"
+      ]
+    },
+    {
+      "nome": "agent-learning-finetuning",
+      "url": "",
+      "categoria": "Arquitetura Agêntica",
+      "projetos": [
+        "Todos"
+      ],
+      "descricao": "learning, SFT, LoRA, DPO, RFT",
+      "prioridade": "alta",
+      "agentes": "Codex, Verdent, Claude Code, OpenCode",
+      "tipo": "skill",
+      "status": "criada-e-validada-estruturalmente",
+      "instalada": "nao-confirmado",
+      "testada": false,
+      "caminho": "PACOTE_5_SKILLS/skills/agent-learning-finetuning/SKILL.md",
+      "infraestrutura": [
+        "local",
+        "generic",
+        "AWS",
+        "GCP",
+        "Azure"
+      ]
+    }
+  ],
+  "referencias": [
+    {
+      "nome": "NVIDIA Cosmos",
+      "url": "https://github.com/NVIDIA/cosmos",
+      "tipo": "ferramenta-ou-repositorio",
+      "descricao": "Framework de modelos de mundo/IA física",
+      "categoria": "AI & Simulation",
+      "prioridade": "média",
+      "projetos": [
+        "VOKI",
+        "Pesquisa IA"
+      ],
+      "status": "link-verificado-no-catalogo-ou-revisao-atual;sem-teste",
+      "instalada": "nao-confirmado",
+      "curadoria_v7": {
+        "classe": "ARQUIVAR",
+        "justificativa": "Infraestrutura de world models além da necessidade/hardware atual.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "llmfit",
+      "url": "https://github.com/AlexsJones/llmfit",
+      "tipo": "ferramenta-ou-repositorio",
+      "descricao": "Seleção de modelos de IA por capacidade de hardware",
+      "categoria": "LLM local",
+      "prioridade": "alta",
+      "projetos": [
+        "ZYNVU",
+        "VOKI"
+      ],
+      "status": "link-verificado-no-catalogo-ou-revisao-atual;sem-teste",
+      "instalada": "nao-confirmado",
+      "curadoria_v7": {
+        "classe": "NÚCLEO",
+        "justificativa": "Base prática para recomendação de LLM local no ZYNVU.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "Documenso",
+      "url": "https://github.com/documenso/documenso",
+      "tipo": "ferramenta-ou-repositorio",
+      "descricao": "Aplicação open source de assinatura eletrônica",
+      "categoria": "SaaS de referência",
+      "prioridade": "média",
+      "projetos": [
+        "Apps B2B"
+      ],
+      "status": "link-verificado-no-catalogo-ou-revisao-atual;sem-teste",
+      "instalada": "nao-confirmado",
+      "curadoria_v7": {
+        "classe": "POR_PROJETO",
+        "justificativa": "Aplicações B2B com assinatura eletrônica, caso surja demanda.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "Scrapling",
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "tipo": "ferramenta-ou-repositorio",
+      "descricao": "Framework de web scraping adaptativo; respeitar permissões e regras das fontes",
+      "categoria": "Aquisição de dados",
+      "prioridade": "alta",
+      "projetos": [
+        "ISYMU",
+        "You8"
+      ],
+      "status": "link-verificado-no-catalogo-ou-revisao-atual;sem-teste",
+      "instalada": "nao-confirmado",
+      "curadoria_v7": {
+        "classe": "NÚCLEO",
+        "justificativa": "Scraping adaptativo como alternativa técnica ao Firecrawl; usar apenas em sites autorizados.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "Wan2GP",
+      "url": "https://github.com/deepbeepmeep/Wan2GP",
+      "tipo": "ferramenta-ou-repositorio",
+      "descricao": "Interface de geração de vídeo local por IA; medir requisitos de VRAM e velocidade",
+      "categoria": "Vídeo local",
+      "prioridade": "alta",
+      "projetos": [
+        "You8"
+      ],
+      "status": "link-verificado-no-catalogo-ou-revisao-atual;sem-teste",
+      "instalada": "nao-confirmado",
+      "curadoria_v7": {
+        "classe": "POR_PROJETO",
+        "justificativa": "Experimentos You8; exige verificação de requisitos de GPU e qualidade.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "Conway Automaton",
+      "url": "https://github.com/Conway-Research/automaton",
+      "tipo": "ferramenta-ou-repositorio",
+      "descricao": "Plataforma experimental de agentes persistentes e replicação; alegações de receita não demonstradas",
+      "categoria": "Agentes autônomos",
+      "prioridade": "média",
+      "projetos": [
+        "VOKI",
+        "Pesquisa IA"
+      ],
+      "status": "link-verificado-no-catalogo-ou-revisao-atual;sem-teste",
+      "instalada": "nao-confirmado",
+      "curadoria_v7": {
+        "classe": "ARQUIVAR",
+        "justificativa": "Autonomia financeira/automodificação/replicação implicam risco; somente estudo isolado.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "Unsloth",
+      "url": "https://github.com/unslothai/unsloth",
+      "tipo": "ferramenta-ou-repositorio",
+      "descricao": "Otimização e fine-tuning de modelos; compatibilidade depende de modelo e memória",
+      "categoria": "LLM local / Fine-tuning",
+      "prioridade": "alta",
+      "projetos": [
+        "ZYNVU",
+        "VOKI"
+      ],
+      "status": "link-verificado-no-catalogo-ou-revisao-atual;sem-teste",
+      "instalada": "nao-confirmado",
+      "curadoria_v7": {
+        "classe": "POR_PROJETO",
+        "justificativa": "Fine-tuning local e em GPU alugada; 4GB VRAM limitam casos práticos.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "Atlas",
+      "url": "https://github.com/pacifio/atlas",
+      "tipo": "ferramenta-ou-repositorio",
+      "descricao": "Controle de versões e coordenação de mudanças entre agentes de código",
+      "categoria": "Multiagentes",
+      "prioridade": "alta",
+      "projetos": [
+        "GITFY",
+        "Desenvolvimento geral"
+      ],
+      "status": "link-verificado-no-catalogo-ou-revisao-atual;sem-teste",
+      "instalada": "nao-confirmado",
+      "curadoria_v7": {
+        "classe": "NÚCLEO",
+        "justificativa": "Orquestração e governança de alterações feitas por vários agentes no Git.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "Invisible Dots",
+      "url": "https://github.com/feder-cr/invisible_dots",
+      "tipo": "ferramenta-ou-repositorio",
+      "descricao": "Agente persistente com navegador; avaliar segurança, privacidade e permissões",
+      "categoria": "Agentes autônomos",
+      "prioridade": "média",
+      "projetos": [
+        "VOKI",
+        "Pesquisa IA"
+      ],
+      "status": "link-verificado-no-catalogo-ou-revisao-atual;sem-teste",
+      "instalada": "nao-confirmado",
+      "curadoria_v7": {
+        "classe": "ARQUIVAR",
+        "justificativa": "Experimento multiagente parcialmente redundante com OpenMausBot e Atlas.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "fast-jev-compaction",
+      "url": "https://github.com/tamaratran/fast-jev-compaction",
+      "tipo": "ferramenta-ou-repositorio",
+      "descricao": "Plugin Claude Code para compaction orientada por decisões Jev",
+      "categoria": "Contexto e memória",
+      "prioridade": "média",
+      "projetos": [
+        "Desenvolvimento geral",
+        "ZYNVU"
+      ],
+      "status": "link-verificado-no-catalogo-ou-revisao-atual;sem-teste",
+      "instalada": "nao-confirmado",
+      "curadoria_v7": {
+        "classe": "POR_PROJETO",
+        "justificativa": "Compaction de contexto específico de Claude Code; útil para estudo de memória.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "Colibri",
+      "url": "https://github.com/JustVugg/colibri",
+      "tipo": "ferramenta-ou-repositorio",
+      "descricao": "Runtime em C para inferência local MoE com streaming de pesos do disco; não implica bom desempenho em hardware modesto",
+      "categoria": "LLM local / Runtime",
+      "prioridade": "alta",
+      "projetos": [
+        "ZYNVU",
+        "VOKI"
+      ],
+      "status": "link-verificado-no-catalogo-ou-revisao-atual;sem-teste",
+      "instalada": "nao-confirmado",
+      "curadoria_v7": {
+        "classe": "ARQUIVAR",
+        "justificativa": "Inferência MoE de grandes modelos em hardware comum exige benchmark de throughput/SSD.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "tipo": "aplicativo-open-source/multiagentes",
+      "categoria": "Orquestração de agentes e MCP",
+      "prioridade": "alta",
+      "projetos": [
+        "VOKI",
+        "ZYNVU",
+        "GITFY"
+      ],
+      "descricao": "Aplicativo local-first de equipes de bots via chat, com execução de CLIs como Codex e Claude, workspace, aprovações e servidor MCP para coordenar bots. Não é uma skill instalável.",
+      "riscos": "Controle do computador, credenciais, autorização, exposição remota e permissões; comparar com o requisito HID-only de VOKI, que não deve usar execução de interface por software.",
+      "status": "fonte-oficial-verificada",
+      "instalada": "nao-confirmado",
+      "testada": false,
+      "origem": "Screenshot enviado em 2026-11-01 + fonte oficial",
+      "curadoria_v7": {
+        "classe": "POR_PROJETO",
+        "justificativa": "Multiagente com controle por chat; referência de orquestração para GITFY e VOKI.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "JetBrains ThinkRail",
+      "url": "https://github.com/JetBrains/thinkrail",
+      "tipo": "IDE/ambiente-de-agentes",
+      "categoria": "Engenharia de software / IDE",
+      "prioridade": "alta",
+      "projetos": [
+        "GITFY",
+        "ISYMU",
+        "VOKI",
+        "ZYNVU"
+      ],
+      "descricao": "IDE agentic baseada no agente pi, com workspaces isolados por git worktree, living specs, skills reutilizáveis e servidores de modelos compatíveis com OpenAI. Não é uma skill.",
+      "riscos": "Verificar dependências, licenciamento e integração com workflows Codex já existentes; o IDE é baseado em pi.",
+      "status": "fonte-oficial-verificada",
+      "instalada": "nao-confirmado",
+      "testada": false,
+      "origem": "Screenshot enviado em 2026-11-01 + fonte oficial",
+      "curadoria_v7": {
+        "classe": "POR_PROJETO",
+        "justificativa": "IDE alternativo; não substituir Codex sem medir benefícios.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "Audove",
+      "url": "https://www.audove.com/",
+      "tipo": "servico-saas",
+      "categoria": "Media & Video / Video musical",
+      "prioridade": "média",
+      "projetos": [
+        "You8",
+        "Marketing"
+      ],
+      "descricao": "Serviço para transformar músicas próprias em clipes; storyboard, consistência de personagens, sincronia labial e cenas musicais. Possui plano/créditos pagos para gerar vídeos. Não é skill nem repositório open source confirmado.",
+      "riscos": "Verificar custo por minuto e direitos/licenças de música, imagem e uso comercial; não presumir API pública.",
+      "status": "site-oficial-verificado",
+      "instalada": "nao-confirmado",
+      "testada": false,
+      "origem": "Screenshot enviado em 2026-11-01 + fonte oficial",
+      "curadoria_v7": {
+        "classe": "ARQUIVAR",
+        "justificativa": "Serviço comercial de videoclipes, opcional ao You8.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "allclip",
+      "url": "https://www.allclip.co/pt/",
+      "tipo": "servico-video-esportivo",
+      "categoria": "Computer Vision / Esportes",
+      "prioridade": "baixa",
+      "projetos": [
+        "Pesquisa de visão computacional",
+        "Apps esportivos"
+      ],
+      "descricao": "Gravação de partidas com câmera 360, rastreamento de jogadores/bola e destaques. Site indica suporte atual à DJI Osmo 360. Não é skill.",
+      "riscos": "Requer hardware compatível; verificar jurisdição, consentimento, privacidade de atletas e modelo de preços.",
+      "status": "site-oficial-verificado",
+      "instalada": "nao-confirmado",
+      "testada": false,
+      "origem": "Screenshot enviado em 2026-11-01 + fonte oficial",
+      "curadoria_v7": {
+        "classe": "REMOVER_DO_CATALOGO_ATIVO",
+        "justificativa": "Gravação esportiva fora do escopo dos projetos atuais.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "FloorGen",
+      "url": "https://floorgen.app/",
+      "url_mcp": "https://floorgen.app/for/ai",
+      "tipo": "aplicativo-web-com-mcp",
+      "categoria": "Design 3D / Arquitetura / Agentes",
+      "prioridade": "alta",
+      "projetos": [
+        "GITFY",
+        "Pesquisa 3D",
+        "Aplicativos de arquitetura"
+      ],
+      "descricao": "Editor 2D/3D de plantas com walkthrough, exportações e servidor MCP para agentes alterarem a geometria editável; pode servir como referência de UX de ambientes 3D. Não é skill de Codex.",
+      "riscos": "Validar limitações do plano, dimensões e compatibilidade de normas técnicas; não usar como substituto de profissional responsável.",
+      "status": "site-oficial-verificado",
+      "instalada": "nao-confirmado",
+      "testada": false,
+      "origem": "Screenshot enviado em 2026-11-01 + fonte oficial",
+      "curadoria_v7": {
+        "classe": "REMOVER_DO_CATALOGO_ATIVO",
+        "justificativa": "Gerador de planta baixa fora do escopo dos sistemas ativos.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "OpenScreen",
+      "url": "https://github.com/getopenscreen/openscreen",
+      "tipo": "aplicativo-open-source-com-skill",
+      "categoria": "Captura de tela / Demo / Automação via MCP",
+      "prioridade": "alta",
+      "projetos": [
+        "GITFY",
+        "ISYMU",
+        "Metadia",
+        "VOKI",
+        "You8",
+        "SaaS"
+      ],
+      "descricao": "Gravador/editor gratuito com zoom, cursor, legendas locais, edição por transcrição, ferramenta de IA opcional, MCP e skill openscreen-demo, registrada também no grupo skills.",
+      "riscos": "Capturas podem conter dados sensíveis; integração com provedor LLM exige chave; revisar publicação de vídeos.",
+      "status": "fonte-oficial-verificada",
+      "skill_associada": "openscreen-demo",
+      "instalada": "nao-confirmado",
+      "testada": false,
+      "origem": "Screenshot enviado em 2026-11-01 + fonte oficial",
+      "curadoria_v7": {
+        "classe": "NÚCLEO",
+        "justificativa": "Gravação/edição de demos e complemento da skill openscreen-demo.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "Vidi",
+      "url": "https://vidiofficial.com/",
+      "tipo": "servico-saas",
+      "categoria": "Media & Video / Vídeos educativos",
+      "prioridade": "alta",
+      "projetos": [
+        "You8",
+        "A8 Mentor",
+        "Conteúdo educacional"
+      ],
+      "descricao": "Gera vídeos curtos explicativos, animados e faceless a partir de scripts/notas/papers, com locução e legendas; múltiplos idiomas, inclusive português e espanhol. Não é skill confirmada.",
+      "riscos": "Revisar fatos de conteúdo educacional, custos de créditos, limite de duração, consistência visual e automação/API antes de integrar.",
+      "status": "site-oficial-verificado",
+      "instalada": "nao-confirmado",
+      "testada": false,
+      "origem": "Screenshot enviado em 2026-11-01 + fonte oficial",
+      "curadoria_v7": {
+        "classe": "ARQUIVAR",
+        "justificativa": "Serviço de geração de vídeos explicativos, redundante com pipeline próprio.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "afk.ai",
+      "url": "https://afk.ai/",
+      "tipo": "ferramenta-web/rigging-e-animacao",
+      "categoria": "Games & 3D / Auto-rigging",
+      "prioridade": "alta",
+      "projetos": [
+        "You8",
+        "GITFY",
+        "VOKI"
+      ],
+      "descricao": "Auto-rig e animação de modelos 3D de humanos, dinossauros, dragões e outros; exportações para Blender, Unity, Unreal, Godot e Three.js. Não é skill.",
+      "riscos": "Verificar envio do modelo ao serviço/cloud, limite do plano, propriedade dos assets e compatibilidade com malhas; site apresenta texto de processamento em navegador e também servidor.",
+      "status": "site-oficial-verificado",
+      "instalada": "nao-confirmado",
+      "testada": false,
+      "origem": "Screenshot enviado em 2026-11-01 + fonte oficial",
+      "curadoria_v7": {
+        "classe": "POR_PROJETO",
+        "justificativa": "Rigging e animação 3D promissores para personagens You8.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "Recursive Flint",
+      "url": "https://huggingface.co/RecursiveSI/flint",
+      "tipo": "modelo-llm-coding-moe",
+      "descricao": "Modelo MoE orientado a agentes de programação: 39,8B parâmetros totais e cerca de 2,5B ativos/token; 262144 tokens de contexto configurado; checkpoints BF16 de ~80 GB.",
+      "categoria": "LLM local / Coding Agents",
+      "prioridade": "alta-para-pesquisa",
+      "projetos": [
+        "ZYNVU",
+        "VOKI",
+        "Engenharia de software"
+      ],
+      "status": "model-card-verificado-2026-11-01;sem-teste",
+      "instalada": "nao-confirmado",
+      "hardware": "Serviço de referência SGLang usa GPU NVIDIA H200/B300; não cabe integralmente em GTX 1650 4GB.",
+      "licenca": "Apache-2.0",
+      "fonte_tecnica": "https://huggingface.co/RecursiveSI/flint",
+      "curadoria_v7": {
+        "classe": "ARQUIVAR",
+        "justificativa": "Checkpoint BF16 ~80GB, não viável na GPU GTX 1650 4GB.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      },
+      "perfil_agentes_codigo_2026_11_01": {
+        "status": "candidato-de-modelo-hibrido;integracao-nao-implementada",
+        "papel": "modelo textual de programacao com raciocinio, testes, refatoracao e tool calling",
+        "hardware_validado": "SGLang oficial requer GPU unica de pelo menos 141 GB de VRAM (H200/B300); aproximadamente 80 GB pesos BF16; README do kit descreve ~50 GB extra para imagem Docker",
+        "limite_pc_usuario": "GTX 1650 4GB - nao suporta a configuracao BF16 oficial e nem a GPU exigida; quantizacoes nao validadas no setup oficial",
+        "runtime_oficial": "SGLang serving kit, API OpenAI-compatible /v1/chat/completions",
+        "integracao_proposta": "Orca gerencia um CLI agent, como OpenCode, cujo provider OpenAI-compatible aponta para servidor Flint remoto; Atlas pode operar alternativamente como ponto de coordenacao e historico. Testes de compatibilidade pendentes.",
+        "rag_imagens": "Modelo apenas texto. Recuperacao e entendimento de imagens dependem de componente RAG visual e VLM distintos; repositório exato RAG visual da conversa ainda nao confirmado.",
+        "roteamento": "modelo local pequeno para tarefas comuns; Flint remoto sob demanda somente com aprovacao/controle de custo e privacidade",
+        "custos": "Pesos Apache 2.0; hospedagem de GPU remota pode ser cara. Nao prometer custo zero.",
+        "revisao_origem": "https://huggingface.co/RecursiveSI/flint/blob/main/sglang/README.md",
+        "nao_instalado": true,
+        "nao_testado": true
+      }
+    },
+    {
+      "nome": "Huginn",
+      "url": "https://github.com/huginn/huginn",
+      "tipo": "plataforma-de-automacao",
+      "categoria": "Automation & Monitoring",
+      "descricao": "Agentes em servidor próprio que monitoram sites, eventos, feeds, e-mails e webhooks, gerando ações e alertas.",
+      "prioridade": "alta",
+      "projetos": [
+        "Prospecção B2B",
+        "Monitoramento",
+        "Pesquisa de mercado",
+        "SaaS"
+      ],
+      "status": "repositorio-verificado-2026-11-01;sem-implantacao",
+      "instalada": "nao-confirmado",
+      "licenca": "MIT",
+      "avisos": [
+        "Instalação contínua requer worker e DB; considerar custo mensal de infraestrutura."
+      ],
+      "curadoria_v7": {
+        "classe": "POR_PROJETO",
+        "justificativa": "Agentes de monitoramento; avaliar custo de operação e manutenção vs automações leves.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "API Vault",
+      "url": "https://apivault.dev/",
+      "tipo": "diretorio-de-apis",
+      "categoria": "APIs / Integração",
+      "descricao": "Diretório gratuito de APIs públicas em múltiplas categorias; cada API deve ser verificada quanto a plano, disponibilidade e limites.",
+      "prioridade": "média",
+      "projetos": [
+        "GITFY",
+        "ISYMU",
+        "ZYNVU",
+        "SaaS"
+      ],
+      "status": "site-e-repositorio-confirmados-2026-11-01;sem-teste",
+      "instalada": "nao-aplicavel",
+      "repositorio": "https://github.com/exa-studio/ApiVault",
+      "avisos": [
+        "Diretório gratuito não significa que todas as APIs listadas sejam gratuitas."
+      ],
+      "curadoria_v7": {
+        "classe": "REMOVER_DO_CATALOGO_ATIVO",
+        "justificativa": "Diretório de APIs; não é skill nem dependência essencial, manter bookmark se desejado.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "Remote In Tech — Remote Jobs",
+      "url": "https://github.com/remoteintech/remote-jobs",
+      "tipo": "diretorio-de-empresas",
+      "categoria": "Carreira / Prospecção B2B",
+      "descricao": "Base comunitária de empresas com política de trabalho remoto; não é listagem de vagas necessariamente abertas.",
+      "prioridade": "média",
+      "projetos": [
+        "Carreira",
+        "Consultoria B2B"
+      ],
+      "status": "repositorio-verificado-2026-11-01;sem-teste",
+      "instalada": "nao-aplicavel",
+      "licenca": "ISC",
+      "avisos": [
+        "Verificar se existem vagas atuais, localidades elegíveis e restrições de contratação."
+      ],
+      "curadoria_v7": {
+        "classe": "REMOVER_DO_CATALOGO_ATIVO",
+        "justificativa": "Diretório de vagas; mover para coleção separada de carreira.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "World Labs / Marble",
+      "url": "https://marble.worldlabs.ai/",
+      "tipo": "servico-geracao-mundos-3d",
+      "categoria": "Games / 3D / World Models",
+      "prioridade": "muito alta",
+      "projetos": [
+        "GITFY",
+        "You8",
+        "Experiências 3D"
+      ],
+      "descricao": "Geração, exploração e edição de mundos 3D a partir de texto, imagens, vídeos e estruturas 3D; produto online.",
+      "status": "fonte-oficial-ou-repositorio-verificados-2026-11-01;sem-teste",
+      "instalada": "nao-aplicavel",
+      "avisos": [
+        "Não é, por si só, uma skill instalável no Codex."
+      ],
+      "curadoria_v7": {
+        "classe": "POR_PROJETO",
+        "justificativa": "Geração 3D via serviço, pesquisar custo/licença e integração ao projeto antes de adotar.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "Tinkered",
+      "url": "https://tinkered.ai/",
+      "tipo": "plataforma-simulacao-eletronica",
+      "categoria": "Hardware / Firmware / Simulação",
+      "prioridade": "muito alta",
+      "projetos": [
+        "VOKI",
+        "Hardware IoT"
+      ],
+      "descricao": "Ferramenta AI-assisted para criar circuitos, firmware, simular comportamento 3D e preparar implantação em Arduino, ESP32 e outras placas.",
+      "status": "fonte-oficial-ou-repositorio-verificados-2026-11-01;sem-teste",
+      "instalada": "nao-aplicavel",
+      "avisos": [
+        "Não é, por si só, uma skill instalável no Codex."
+      ],
+      "curadoria_v7": {
+        "classe": "POR_PROJETO",
+        "justificativa": "Simulação eletrônica para hardware VOKI, validar suporte real a ESP32/shields.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "Interactive Series",
+      "url": "https://interactiveseries.live/",
+      "tipo": "servico-video-gerativo",
+      "categoria": "Vídeo / Narrativa sequencial",
+      "prioridade": "alta",
+      "projetos": [
+        "You8"
+      ],
+      "descricao": "Gera clipes de vídeo curtos sequencialmente usando contexto e quadro final da cena anterior; continuidade visual não é garantida.",
+      "status": "fonte-oficial-ou-repositorio-verificados-2026-11-01;sem-teste",
+      "instalada": "nao-aplicavel",
+      "avisos": [
+        "Não é, por si só, uma skill instalável no Codex."
+      ],
+      "curadoria_v7": {
+        "classe": "ARQUIVAR",
+        "justificativa": "Serviço gerador de narrativas, sobreposto ao pipeline de vídeo You8.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "KlipKap Pro",
+      "url": "https://www.klipkap.pro/",
+      "tipo": "aplicativo-gravacao-demonstracoes",
+      "categoria": "Vídeo / Demo de software",
+      "prioridade": "média",
+      "projetos": [
+        "GITFY",
+        "ISYMU",
+        "Conteúdo educacional"
+      ],
+      "descricao": "Captura de tela, zoom automatizado, legendas e edição local; alternativa ao OpenScreen, não duplicata. Recursos avançados sujeitos a licença.",
+      "status": "fonte-oficial-ou-repositorio-verificados-2026-11-01;sem-teste",
+      "instalada": "nao-aplicavel",
+      "avisos": [
+        "Não é, por si só, uma skill instalável no Codex."
+      ],
+      "curadoria_v7": {
+        "classe": "ARQUIVAR",
+        "justificativa": "Demonstrações de software; manter alternativa arquivada ao OpenScreen.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "SwiftXR",
+      "url": "https://home.swiftxr.io/",
+      "tipo": "servico-3d-ar-vr",
+      "categoria": "3D / AR / VR / Commerce",
+      "prioridade": "média",
+      "projetos": [
+        "GITFY (benchmark 3D)",
+        "SaaS de produtos 3D"
+      ],
+      "descricao": "Criador sem código de experiências 3D interativas, AR e Web VR, com publicação, compartilhamento e incorporação em sites.",
+      "status": "fonte-oficial-ou-repositorio-verificados-2026-11-01;sem-teste",
+      "instalada": "nao-aplicavel",
+      "avisos": [
+        "Não é, por si só, uma skill instalável no Codex."
+      ],
+      "curadoria_v7": {
+        "classe": "REMOVER_DO_CATALOGO_ATIVO",
+        "justificativa": "Criação AR comercial fora da linha de produto atual.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "Zoo Design Studio / Zookeeper",
+      "url": "https://zoo.dev/docs/zoo-design-studio/zookeeper",
+      "tipo": "cad-parametrico-com-agente-e-api",
+      "categoria": "CAD / Engenharia / MCP",
+      "prioridade": "muito alta",
+      "projetos": [
+        "VOKI (uso por interface HID apenas)",
+        "Projetos de hardware"
+      ],
+      "descricao": "Modelagem paramétrica com agente conversacional, KCL e APIs/MCP; ferramenta distinta de SolidCraft.",
+      "status": "fonte-oficial-ou-repositorio-verificados-2026-11-01;sem-teste",
+      "instalada": "nao-aplicavel",
+      "avisos": [
+        "Não é, por si só, uma skill instalável no Codex."
+      ],
+      "curadoria_v7": {
+        "classe": "POR_PROJETO",
+        "justificativa": "CAD com IA e APIs para protótipos; escolher entre Zoo e SolidCraft.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "Home Assistant Core",
+      "url": "https://github.com/home-assistant/core",
+      "tipo": "software-completo",
+      "categoria": "Automação / IoT / Casa inteligente",
+      "prioridade": "média",
+      "projetos": [
+        "Automação IoT",
+        "VOKI (integrações indiretas)"
+      ],
+      "descricao": "Plataforma open source de automação residencial com controle local, integrações e privacidade.",
+      "status": "fonte-oficial-ou-repositorio-verificados-2026-11-01;sem-teste",
+      "instalada": "nao-aplicavel",
+      "avisos": [
+        "Não é, por si só, uma skill instalável no Codex."
+      ],
+      "curadoria_v7": {
+        "classe": "REMOVER_DO_CATALOGO_ATIVO",
+        "justificativa": "Domótica não demandada pelo roadmap atual; mover para referência IoT se necessário.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "Paperless-ngx",
+      "url": "https://github.com/paperless-ngx/paperless-ngx",
+      "tipo": "software-completo",
+      "categoria": "Documentos / OCR / Arquivamento",
+      "prioridade": "alta",
+      "projetos": [
+        "SaaS B2B",
+        "Workflow de documentos"
+      ],
+      "descricao": "Sistema open source de gerenciamento, ingestão, pesquisa e organização de documentos digitalizados; não substitui requisitos legais/tributários.",
+      "status": "fonte-oficial-ou-repositorio-verificados-2026-11-01;sem-teste",
+      "instalada": "nao-aplicavel",
+      "avisos": [
+        "Não é, por si só, uma skill instalável no Codex."
+      ],
+      "curadoria_v7": {
+        "classe": "POR_PROJETO",
+        "justificativa": "Gestão de documentos para B2B, útil só em caso de necessidade.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "SolidCraft (tangency-labs)",
+      "url": "https://github.com/tangency-labs/solidcraft",
+      "tipo": "cad-parametrico-rust-mcp",
+      "categoria": "CAD / Engenharia / MCP",
+      "prioridade": "muito alta",
+      "projetos": [
+        "VOKI (exercícios de interface HID)",
+        "Hardware / CAD"
+      ],
+      "descricao": "CAD paramétrico open source Rust para desktop/web com interface de automação MCP; repo antigo bherbruck/solidcraft redireciona aqui.",
+      "status": "fonte-oficial-ou-repositorio-verificados-2026-11-01;sem-teste",
+      "instalada": "nao-aplicavel",
+      "avisos": [
+        "Não é, por si só, uma skill instalável no Codex."
+      ],
+      "curadoria_v7": {
+        "classe": "POR_PROJETO",
+        "justificativa": "CAD paramétrico com MCP; referência concreta para VOKI / projetos de hardware.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "GTFOBins",
+      "url": "https://github.com/GTFOBins/GTFOBins.github.io",
+      "tipo": "base-de-conhecimento-seguranca",
+      "categoria": "Segurança / Hardening / Linux",
+      "prioridade": "média",
+      "projetos": [
+        "Auditorias autorizadas",
+        "Segurança DevOps"
+      ],
+      "descricao": "Catálogo técnico de utilitários Unix e riscos de abuso de permissões; usar para compreender e prevenir configurações perigosas.",
+      "status": "fonte-oficial-ou-repositorio-verificados-2026-11-01;sem-teste",
+      "instalada": "nao-aplicavel",
+      "avisos": [
+        "Não é, por si só, uma skill instalável no Codex."
+      ],
+      "curadoria_v7": {
+        "classe": "ARQUIVAR",
+        "justificativa": "Conhecimento de segurança ofensiva para pesquisa autorizada, fora do catálogo de skills.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "Nuclei (ProjectDiscovery)",
+      "url": "https://github.com/projectdiscovery/nuclei",
+      "tipo": "scanner-de-seguranca",
+      "categoria": "Segurança / Varredura de vulnerabilidades",
+      "prioridade": "alta",
+      "projetos": [
+        "Auditorias autorizadas",
+        "CI Security"
+      ],
+      "descricao": "Scanner de vulnerabilidades com templates YAML para aplicações, APIs e superfícies de infraestrutura, somente em ativos autorizados.",
+      "status": "fonte-oficial-ou-repositorio-verificados-2026-11-01;sem-teste",
+      "instalada": "nao-aplicavel",
+      "avisos": [
+        "Não é, por si só, uma skill instalável no Codex."
+      ],
+      "curadoria_v7": {
+        "classe": "POR_PROJETO",
+        "justificativa": "Scanner de vulnerabilidades para ativos e testes próprios autorizados.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "HackTricks",
+      "url": "https://github.com/HackTricks-wiki/hacktricks",
+      "tipo": "base-de-conhecimento-seguranca",
+      "categoria": "Segurança / Documentação / Treinamento",
+      "prioridade": "média",
+      "projetos": [
+        "Hardening",
+        "Formação de engenharia"
+      ],
+      "descricao": "Base comunitária de técnicas, conceitos e exemplos para pesquisa de segurança, CTFs e testes autorizados.",
+      "status": "fonte-oficial-ou-repositorio-verificados-2026-11-01;sem-teste",
+      "instalada": "nao-aplicavel",
+      "avisos": [
+        "Não é, por si só, uma skill instalável no Codex."
+      ],
+      "curadoria_v7": {
+        "classe": "ARQUIVAR",
+        "justificativa": "Base extensa de segurança; melhor como bookmark de referência do que skill instalada.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "Shodan",
+      "url": "https://www.shodan.io/",
+      "tipo": "ferramenta-servico-ou-referencia",
+      "categoria": "Segurança / exposição de serviços",
+      "descricao": "Motor de busca de dispositivos e serviços expostos publicamente, usando metadados e banners; auditoria passiva da superfície exposta de domínios/IPs próprios ou autorizados.",
+      "prioridade": "media",
+      "projetos": [
+        "VOKI (dispositivos próprios)",
+        "SaaS",
+        "Infraestrutura"
+      ],
+      "status": "fonte-oficial-verificada-2026-11-01",
+      "instalada": "nao-confirmado",
+      "curadoria_v8": {
+        "classe": "POR_PROJETO",
+        "justificativa": "Fonte oficial valida indexação de serviços públicos; buscar não dá autorização para acessar serviços alheios.",
+        "estado_instalacao": "não instalado/não testado nesta atualização",
+        "decisao": "curadoria sem instalar/executar"
+      }
+    },
+    {
+      "nome": "Zabbix",
+      "url": "https://www.zabbix.com/",
+      "tipo": "ferramenta-servico-ou-referencia",
+      "categoria": "Observabilidade / infraestrutura",
+      "descricao": "Monitoramento open source de redes, servidores, serviços, aplicações e IoT; adequado quando houver ativos suficientes para justificar operação centralizada.",
+      "prioridade": "media",
+      "projetos": [
+        "VOKI/IoT",
+        "Infraestrutura",
+        "SaaS"
+      ],
+      "status": "fonte-oficial-verificada-2026-11-01",
+      "instalada": "nao-confirmado",
+      "curadoria_v8": {
+        "classe": "POR_PROJETO",
+        "justificativa": "Não instalar por padrão em micro-SaaS hospedado; tem custo operacional de manutenção e não substitui APM/tracing de LLM.",
+        "estado_instalacao": "não instalado/não testado nesta atualização",
+        "decisao": "curadoria sem instalar/executar"
+      }
+    },
+    {
+      "nome": "BuiltWith",
+      "url": "https://builtwith.com/",
+      "tipo": "ferramenta-servico-ou-referencia",
+      "categoria": "Pesquisa competitiva / martech",
+      "descricao": "Identificação de tecnologias web visíveis, inteligência comercial e tendências; resultados são inferências e podem omitir tecnologias de backend.",
+      "prioridade": "media",
+      "projetos": [
+        "Prospecção B2B",
+        "SaaS"
+      ],
+      "status": "fonte-oficial-verificada-2026-11-01",
+      "instalada": "nao-confirmado",
+      "curadoria_v8": {
+        "classe": "POR_PROJETO",
+        "justificativa": "Serviço externo com limites comerciais; potencial sobreposição com wappalyzer e crawler de pesquisas.",
+        "estado_instalacao": "não instalado/não testado nesta atualização",
+        "decisao": "curadoria sem instalar/executar"
+      }
+    },
+    {
+      "nome": "CloudSEK XVigil",
+      "url": "https://www.cloudsek.com/platform/xvigil",
+      "tipo": "ferramenta-servico-ou-referencia",
+      "categoria": "Segurança / proteção de marca",
+      "descricao": "Plataforma comercial para monitoramento de credenciais expostas, domínios fraudulentos, falsificação de marca e risco digital.",
+      "prioridade": "media",
+      "projetos": [
+        "SaaS empresarial",
+        "Security"
+      ],
+      "status": "fonte-oficial-verificada-2026-11-01",
+      "instalada": "nao-confirmado",
+      "curadoria_v8": {
+        "classe": "POR_PROJETO",
+        "justificativa": "Adicionar como referência de solução enterprise, não skill instalável e sem presumir acesso/custo.",
+        "estado_instalacao": "não instalado/não testado nesta atualização",
+        "decisao": "curadoria sem instalar/executar"
+      }
+    },
+    {
+      "nome": "SpyCloud",
+      "url": "https://spycloud.com/",
+      "tipo": "ferramenta-servico-ou-referencia",
+      "categoria": "Segurança / vazamentos de identidade",
+      "descricao": "Fornecedor comercial de inteligência de credenciais e identidades expostas e resposta a infostealers.",
+      "prioridade": "baixa",
+      "projetos": [
+        "SaaS empresarial",
+        "Security"
+      ],
+      "status": "fonte-oficial-verificada-2026-11-01",
+      "instalada": "nao-confirmado",
+      "curadoria_v8": {
+        "classe": "ARQUIVAR",
+        "justificativa": "Útil somente em programas de proteção de identidade; card exagera ao sugerir recuperação direta de dados de servidores criminosos.",
+        "estado_instalacao": "não instalado/não testado nesta atualização",
+        "decisao": "curadoria sem instalar/executar"
+      }
+    },
+    {
+      "nome": "Nagios Core",
+      "url": "https://www.nagios.org/projects/nagios-core/",
+      "tipo": "ferramenta-servico-ou-referencia",
+      "categoria": "Monitoramento / infraestrutura",
+      "descricao": "Monitoramento gratuito/open source de serviços, hosts e redes, com ecossistema de plugins.",
+      "prioridade": "baixa",
+      "projetos": [
+        "Infraestrutura"
+      ],
+      "status": "fonte-oficial-verificada-2026-11-01",
+      "instalada": "nao-confirmado",
+      "curadoria_v8": {
+        "classe": "ARQUIVAR",
+        "justificativa": "Alternativa madura; para novos projetos preferir avaliar Zabbix e capacidades nativas da nuvem antes de duplicar stacks.",
+        "estado_instalacao": "não instalado/não testado nesta atualização",
+        "decisao": "curadoria sem instalar/executar"
+      }
+    },
+    {
+      "nome": "SolarWinds NPM",
+      "url": "https://www.solarwinds.com/network-performance-monitor",
+      "tipo": "ferramenta-servico-ou-referencia",
+      "categoria": "Monitoramento / redes enterprise",
+      "descricao": "Suite comercial de monitoramento de desempenho de rede e ambientes híbridos.",
+      "prioridade": "baixa",
+      "projetos": [
+        "Infraestrutura enterprise"
+      ],
+      "status": "fonte-oficial-verificada-2026-11-01",
+      "instalada": "nao-confirmado",
+      "curadoria_v8": {
+        "classe": "ARQUIVAR",
+        "justificativa": "Não é prioridade em serviços pequenos no Render/Vercel; custo e sobreposição com Zabbix.",
+        "estado_instalacao": "não instalado/não testado nesta atualização",
+        "decisao": "curadoria sem instalar/executar"
+      }
+    },
+    {
+      "nome": "TorBot",
+      "url": "https://github.com/DedSecInside/TorBot",
+      "tipo": "ferramenta-servico-ou-referencia",
+      "categoria": "OSINT / pesquisa Tor",
+      "descricao": "Ferramenta de coleta e análise de links/conteúdo acessível na rede Tor; uso somente para pesquisa autorizada e passiva.",
+      "prioridade": "baixa",
+      "projetos": [
+        "Pesquisa de ameaças"
+      ],
+      "status": "fonte-oficial-verificada-2026-11-01",
+      "instalada": "nao-confirmado",
+      "curadoria_v8": {
+        "classe": "ARQUIVAR",
+        "justificativa": "Não é agente que encontra automaticamente portas dos fundos; ambiente de pesquisa separado, cuidado com riscos e dados ilícitos.",
+        "estado_instalacao": "não instalado/não testado nesta atualização",
+        "decisao": "curadoria sem instalar/executar"
+      }
+    },
+    {
+      "nome": "Russian Market (referência a marketplace criminoso)",
+      "url": null,
+      "tipo": "ferramenta-servico-ou-referencia",
+      "categoria": "Segurança / referência de ameaça",
+      "descricao": "Menção a um mercado associado a venda de credenciais roubadas; referência de ameaça, não ferramenta de desenvolvimento.",
+      "prioridade": "nenhuma",
+      "projetos": [
+        "Threat intelligence — apenas conceito"
+      ],
+      "status": "referencia-nao-operacional",
+      "instalada": "nao-confirmado",
+      "curadoria_v8": {
+        "classe": "REMOVER_DO_CATALOGO_ATIVO",
+        "justificativa": "Não recomendar acesso, compra de credenciais ou integração; manter somente anotação explicativa sem endereço operacional.",
+        "estado_instalacao": "não instalado/não testado nesta atualização",
+        "decisao": "curadoria sem instalar/executar"
+      }
+    },
+    {
+      "nome": "Google Research Harness²",
+      "url": "https://github.com/google-research/harness2",
+      "tipo": "framework-pesquisa",
+      "categoria": "Engenharia de agentes / Autoaperfeiçoamento",
+      "descricao": "Framework de harnessing recursivo: propõe, testa e compõe alterações no entorno do LLM (prompts, memória, skills, subagentes, scripts, políticas, plugins). Documenta executores para Codex e OpenCode; não é um LLM, nem uma skill SKILL.md.",
+      "prioridade": "muito alta",
+      "projetos": [
+        "Agentes de código",
+        "VOKI",
+        "ZYNVU",
+        "GITFY"
+      ],
+      "status": "verificado-repositorio-Google-2026-11-01",
+      "instalada": "não-confirmado",
+      "testada": false,
+      "cautelas": [
+        "Requer Linux, Python 3.12/uv para demonstração; benchmarks adicionais precisam dependências/modelos; testar isolamento de tarefas, segurança e custo antes de uso."
+      ],
+      "curadoria_v9": {
+        "classe": "NÚCLEO",
+        "decisao": "catalogado sem instalação ou testes",
+        "evidencia": "site ou documentação oficial consultado em 2026-11-01"
+      }
+    },
+    {
+      "nome": "Get Design AI",
+      "url": "https://getdesign.ai/",
+      "tipo": "servico-extensao",
+      "categoria": "UI/UX / Design para agentes",
+      "descricao": "Extensão de navegador para copiar elementos selecionados de páginas para HTML/CSS/Tailwind/JSX e transferir a ferramentas de IA. Não confirmado que gere automaticamente DESIGN.md; página oferece acesso pago.",
+      "prioridade": "alta",
+      "projetos": [
+        "GITFY",
+        "Metadia",
+        "Landing pages",
+        "Produtos SaaS"
+      ],
+      "status": "verificado-site-2026-11-01",
+      "instalada": "não-confirmado",
+      "testada": false,
+      "cautelas": [
+        "Respeitar licenças e direito autoral; evitar reprodução literal de sites; extensão com acesso a DOM; revisar privacidade e preço."
+      ],
+      "curadoria_v9": {
+        "classe": "POR_PROJETO",
+        "decisao": "catalogado sem instalação ou testes",
+        "evidencia": "site ou documentação oficial consultado em 2026-11-01"
+      }
+    },
+    {
+      "nome": "posts.design",
+      "url": "https://posts.design/",
+      "tipo": "galeria-referencia",
+      "categoria": "Marketing / Design social",
+      "descricao": "Galeria de publicações reais de marcas: posts, capas, thumbnails e OG images, com categorias e referências.",
+      "prioridade": "média",
+      "projetos": [
+        "You8",
+        "Mentoria",
+        "Marketing AI8"
+      ],
+      "status": "verificado-site-2026-11-01",
+      "instalada": "não-confirmado",
+      "testada": false,
+      "cautelas": [
+        "Não são templates licenciados para copiar; inspiração visual apenas."
+      ],
+      "curadoria_v9": {
+        "classe": "ARQUIVAR",
+        "decisao": "catalogado sem instalação ou testes",
+        "evidencia": "site ou documentação oficial consultado em 2026-11-01"
+      }
+    },
+    {
+      "nome": "loadmo.re",
+      "url": "https://loadmo.re/",
+      "tipo": "galeria-referencia",
+      "categoria": "UI/UX / Mobile / Imersivo",
+      "descricao": "Acervo de sites mobile criativos com filtros para 3D, interações, jogos, animações e experiências imersivas.",
+      "prioridade": "alta",
+      "projetos": [
+        "GITFY",
+        "Metadia",
+        "Frontends mobile"
+      ],
+      "status": "verificado-site-2026-11-01",
+      "instalada": "não-confirmado",
+      "testada": false,
+      "cautelas": [
+        "Referência visual; validar acessibilidade, performance e responsividade antes de implementar."
+      ],
+      "curadoria_v9": {
+        "classe": "POR_PROJETO",
+        "decisao": "catalogado sem instalação ou testes",
+        "evidencia": "site ou documentação oficial consultado em 2026-11-01"
+      }
+    },
+    {
+      "nome": "recent.design",
+      "url": "https://recent.design/",
+      "tipo": "galeria-referencia",
+      "categoria": "UI/UX / Tendências",
+      "descricao": "Galeria de design e screenshots de interfaces, web, branding, motion e outros tipos.",
+      "prioridade": "alta",
+      "projetos": [
+        "GITFY",
+        "ISYMU",
+        "Produtos SaaS"
+      ],
+      "status": "verificado-site-2026-11-01",
+      "instalada": "não-confirmado",
+      "testada": false,
+      "cautelas": [
+        "Referência conceitual, não uma skill automaticamente instalável."
+      ],
+      "curadoria_v9": {
+        "classe": "POR_PROJETO",
+        "decisao": "catalogado sem instalação ou testes",
+        "evidencia": "site ou documentação oficial consultado em 2026-11-01"
+      }
+    },
+    {
+      "nome": "60fps.design",
+      "url": "https://60fps.design/",
+      "tipo": "galeria-referencia-mcp",
+      "categoria": "UI/UX / Motion / Microinterações",
+      "descricao": "Acervo de microinterações e motion design mobile/web; site apresenta seção MCP. Uso ideal como benchmark visual de interações.",
+      "prioridade": "muito alta",
+      "projetos": [
+        "GITFY",
+        "ISYMU",
+        "Metadia"
+      ],
+      "status": "verificado-site-2026-11-01",
+      "instalada": "não-confirmado",
+      "testada": false,
+      "cautelas": [
+        "Validar integração MCP e licença por plano antes de conectar; evitar animações pesadas em produção."
+      ],
+      "curadoria_v9": {
+        "classe": "NÚCLEO",
+        "decisao": "catalogado sem instalação ou testes",
+        "evidencia": "site ou documentação oficial consultado em 2026-11-01"
+      }
+    },
+    {
+      "nome": "Supahero",
+      "url": "https://supahero.io/",
+      "tipo": "galeria-referencia",
+      "categoria": "UI/UX / Hero Sections",
+      "descricao": "Biblioteca de hero sections; o site indica que passou a integrar screensdesign.",
+      "prioridade": "média",
+      "projetos": [
+        "Landing pages",
+        "GITFY",
+        "A8 Mentor"
+      ],
+      "status": "verificado-site-2026-11-01",
+      "instalada": "não-confirmado",
+      "testada": false,
+      "cautelas": [
+        "Acervo especializado em primeiras dobras; baixa prioridade para apps internos."
+      ],
+      "curadoria_v9": {
+        "classe": "ARQUIVAR",
+        "decisao": "catalogado sem instalação ou testes",
+        "evidencia": "site ou documentação oficial consultado em 2026-11-01"
+      }
+    },
+    {
+      "nome": "Navbar Gallery",
+      "url": "https://www.navbar.gallery/",
+      "tipo": "galeria-referencia",
+      "categoria": "UI/UX / Navegação",
+      "descricao": "Galeria de padrões de navegação: navbar fixa, dropdown, mega-menu, sidebar e outras variações.",
+      "prioridade": "média",
+      "projetos": [
+        "GITFY",
+        "ISYMU",
+        "Metadia"
+      ],
+      "status": "verificado-site-2026-11-01",
+      "instalada": "não-confirmado",
+      "testada": false,
+      "cautelas": [
+        "Aplicar princípios de acessibilidade e navegação por teclado."
+      ],
+      "curadoria_v9": {
+        "classe": "ARQUIVAR",
+        "decisao": "catalogado sem instalação ou testes",
+        "evidencia": "site ou documentação oficial consultado em 2026-11-01"
+      }
+    },
+    {
+      "nome": "CTA Gallery",
+      "url": "https://www.cta.gallery/",
+      "tipo": "galeria-referencia",
+      "categoria": "UI/UX / Conversão",
+      "descricao": "Galeria de botões, ofertas, modais, formulários e CTAs para referência de UX e conversão.",
+      "prioridade": "média",
+      "projetos": [
+        "A8 Mentor",
+        "Metadia",
+        "Landing pages"
+      ],
+      "status": "verificado-site-2026-11-01",
+      "instalada": "não-confirmado",
+      "testada": false,
+      "cautelas": [
+        "Design de conversão não implica eficácia comprovada em um público específico."
+      ],
+      "curadoria_v9": {
+        "classe": "ARQUIVAR",
+        "decisao": "catalogado sem instalação ou testes",
+        "evidencia": "site ou documentação oficial consultado em 2026-11-01"
+      }
+    },
+    {
+      "nome": "Agent Client Protocol (ACP)",
+      "url": "https://agentclientprotocol.com/",
+      "tipo": "protocolo",
+      "categoria": "Agentes de código / IDE / Interoperabilidade",
+      "descricao": "Protocolo para conectar clientes/editores a agentes de programação. É diferente do ACP histórico da IBM e distinto de A2A e MCP.",
+      "prioridade": "alta",
+      "projetos": [
+        "Agentes de código",
+        "Codex/Claude/Verdent",
+        "Orquestração"
+      ],
+      "status": "verificado-projeto-oficial-2026-11-01",
+      "instalada": "não-confirmado",
+      "testada": false,
+      "cautelas": [
+        "Implementação por adaptadores de cliente/agente; diagrama conceitual não implica suporte nativo universal."
+      ],
+      "curadoria_v9": {
+        "classe": "POR_PROJETO",
+        "decisao": "catalogado sem instalação ou testes",
+        "evidencia": "site ou documentação oficial consultado em 2026-11-01"
+      }
+    },
+    {
+      "nome": "llm-legislativo (BaruqueRodrigues)",
+      "url": "https://github.com/BaruqueRodrigues/llm-legislativo",
+      "tipo": "framework-pesquisa-dataset-modelo",
+      "categoria": "LegalTech / Dados / LLMs",
+      "descricao": "Projeto de pesquisa brasileiro que declara corpus legislativo de Câmara/Senado, engenharia de dados, validação e Transformer causal treinado do zero em PyTorch; publica datasets e pesos no Hugging Face.",
+      "prioridade": "média",
+      "projetos": [
+        "Pesquisa em LLM",
+        "LegalTech/RAG jurídico",
+        "ZYNVU (pesquisa)"
+      ],
+      "status": "verificado-repositorio-2026-11-01",
+      "instalada": "não-confirmado",
+      "testada": false,
+      "cautelas": [
+        "Modelo experimental com contexto de 512 tokens segundo README. Não usar como fonte de direito vigente nem consultor jurídico; corpus histórico não substitui normas consolidadas."
+      ],
+      "curadoria_v9": {
+        "classe": "ARQUIVAR",
+        "decisao": "catalogado sem instalação ou testes",
+        "evidencia": "site ou documentação oficial consultado em 2026-11-01"
+      }
+    },
+    {
+      "nome": "ctresb/leis",
+      "url": "https://github.com/ctresb/leis",
+      "tipo": "corpus-documental",
+      "categoria": "LegalTech / RAG / Conhecimento legislativo",
+      "descricao": "Acervo de legislação brasileira convertido para Markdown de fontes oficiais, com metadados, link da fonte e histórico Git; cobertura e atualizações monitoradas via PROGRESSO.md.",
+      "prioridade": "alta-por-projeto",
+      "projetos": [
+        "LegalTech/RAG jurídico",
+        "Consultoria documental",
+        "Agentes de pesquisa"
+      ],
+      "status": "verificado-repositorio-2026-11-01",
+      "instalada": "não-confirmado",
+      "testada": false,
+      "cautelas": [
+        "Parte do conteúdo deriva de conversão OCR; repositório grande e cobertura incompleta. Conferir texto vigente e Diário Oficial; não clone automaticamente todo o histórico."
+      ],
+      "curadoria_v9": {
+        "classe": "POR_PROJETO",
+        "decisao": "catalogado sem instalação ou testes",
+        "evidencia": "site ou documentação oficial consultado em 2026-11-01"
+      }
+    }
+  ],
+  "alternativas_verificadas": [
+    {
+      "nome": "Founder Skills — alternativa verificada",
+      "url": "https://github.com/gvkhosla/founder-skills",
+      "descricao": "Alternativa real ao repositório placeholder presente no print; não é a mesma origem",
+      "status": "alternativa-verificada"
+    },
+    {
+      "nome": "Aegis middleware — alternativa verificada",
+      "url": "https://github.com/alexcsl/aegis",
+      "descricao": "Projeto homônimo para controlar chamadas de ferramentas por agentes; não confundir com aegis-ai/aegis",
+      "status": "alternativa-verificada"
+    }
+  ],
+  "pendencias": [
+    {
+      "nome": "your-repo-owner/founder-skills",
+      "motivo": "Link mostrado na imagem retorna 404; your-repo-owner é placeholder; não atribuir a um autor real"
+    },
+    {
+      "nome": "aegis-ai/aegis",
+      "motivo": "Endereço exato do print retorna 404; existem projetos chamados Aegis de outros autores"
+    },
+    {
+      "nome": "react-three-fiber-game",
+      "motivo": "Nome citado em conversa anterior, fonte de skill ainda não encontrada"
+    },
+    {
+      "nome": "game-ui-frontend",
+      "motivo": "Nome citado anteriormente, não confundir com game-ui-ux"
+    },
+    {
+      "nome": "threejs-data-visualization",
+      "motivo": "Nome citado anteriormente sem fonte confirmada"
+    },
+    {
+      "nome": "game-playtest",
+      "motivo": "Nome citado anteriormente sem fonte confirmada"
+    },
+    {
+      "nome": "web-3d-asset-pipeline",
+      "motivo": "Nome citado anteriormente sem fonte confirmada"
+    },
+    {
+      "nome": "gitfy-world-builder",
+      "motivo": "Skill proposta para desenvolver, não um repositório público confirmado; classificá-la como personalizada proposta"
+    },
+    {
+      "nome": "inspora.design",
+      "url": "https://inspora.design/",
+      "motivo": "Não foi possível abrir a URL ou confirmar site e condições de uso na verificação de 2026-11-01. Não tratar como recurso pronto para os agentes.",
+      "status": "pendente-verificacao-v9"
+    }
+  ],
+  "processos": [
+    {
+      "nome": "LLM FinOps / Observabilidade",
+      "status": "processo de referência (não se afirmou implementação em produção)",
+      "objetivo": "Visibilidade de gastos, uso de tokens e saúde de chamadas por modelo/provider.",
+      "ferramentas": [
+        "LiteLLM Proxy",
+        "Grafana",
+        "Langfuse (referência de UX/observabilidade)"
+      ],
+      "indicadores": [
+        "custo e burn-rate de orçamento",
+        "custo por modelo e provedor",
+        "roteamento e distribuição por provedores",
+        "cache hit-rate e retry/error-rate",
+        "headroom de limites por API key",
+        "fluxo aplicação→modelo→provedor→custo"
+      ],
+      "passos": [
+        "Instrumentar gateway LiteLLM com métricas de solicitações/tokens/custo",
+        "Configurar exportação para observabilidade e Grafana",
+        "Criar dashboards e alertas por orçamento, erros e limites",
+        "Validar métricas com dados reais antes de aplicar automações"
+      ],
+      "projetos": [
+        "ISYMU",
+        "ZYNVU",
+        "SaaS IA"
+      ],
+      "curadoria_v7": {
+        "classe": "NÚCLEO",
+        "justificativa": "Visibilidade de custo, tokens e limites de LLM em SaaS.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "Demonstração de recurso de software usando agente + OpenScreen",
+      "status": "workflow documentado pela skill openscreen-demo; não executado nos projetos do usuário",
+      "objetivo": "Entregar um vídeo curto que mostre uma funcionalidade de um aplicativo, como evidência de uma PR ou material de lançamento.",
+      "ferramentas": [
+        "OpenScreen",
+        "openscreen-demo Agent Skill",
+        "OpenScreen MCP",
+        "Codex/Claude Code"
+      ],
+      "passos": [
+        "Verificar se o aplicativo abre em ambiente controlado e se dados secretos estão ocultos",
+        "Instalar a skill com aprovação, configurar OpenScreen e MCP",
+        "Definir mensagem, público-alvo e storyboard de 10–60 segundos",
+        "Gravar os passos reais na aplicação e ajustar cortes, zoom e cursor",
+        "Exportar MP4 e revisar quadros/áudio/legendas antes de compartilhar",
+        "Anexar ao PR ou preparar peça de divulgação; publicar somente com aprovação humana"
+      ],
+      "indicadores": [
+        "tempo de produção",
+        "qualidade de foco no recurso",
+        "ausência de dados sensíveis",
+        "resolução de exportação",
+        "taxa de retrabalho"
+      ],
+      "projetos": [
+        "GITFY",
+        "ISYMU",
+        "Metadia",
+        "VOKI",
+        "SaaS"
+      ],
+      "curadoria_v7": {
+        "classe": "NÚCLEO",
+        "justificativa": "Produção de demos a partir de features para PRs e marketing.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "Pesquisa de empresas e prospecção B2B (proposto)",
+      "tipo": "processo-reutilizavel",
+      "status": "proposto-nao-implementado",
+      "objetivo": "Pesquisar empresas, identificar necessidade potencial e preparar abordagens comerciais personalizadas, usando fontes públicas e dados permitidos.",
+      "ferramentas": [
+        "Firecrawl Skills",
+        "Google Maps Scraper (onde permitido)",
+        "API Vault",
+        "Huginn (alertas/monitoramento opcionais)"
+      ],
+      "passos": [
+        "Definir ICP, região, segmento e base legal para tratamento de dados",
+        "Consultar fontes oficiais e públicas permitidas; extrair dados de empresas e páginas autorizadas",
+        "Enriquecer e validar informações relevantes; eliminar duplicatas e registrar origem, data e restrições",
+        "Classificar aderência às soluções oferecidas e elaborar briefing para a abordagem",
+        "Produzir rascunhos de mensagens; revisão e aprovação humana antes de qualquer contato",
+        "Monitorar apenas fontes autorizadas e eventos relevantes, respeitando pedidos de exclusão"
+      ],
+      "projetos": [
+        "Consultoria B2B",
+        "Pesquisa de mercado"
+      ],
+      "cautelas": [
+        "LGPD, termos de serviços, proibição de spam e proteção contra extração de dados pessoais indevidos"
+      ],
+      "curadoria_v7": {
+        "classe": "POR_PROJETO",
+        "justificativa": "Fluxo comercial opcional, depende de objetivo de prospecção.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "RAG com reranking e gating Jev (proposto)",
+      "tipo": "processo-arquitetural",
+      "status": "conceitual;imagem-de-referencia;sem-benchmark-executado",
+      "objetivo": "Aplicar reranking e decisão de relevância/abstenção sobre os candidatos recuperados para reduzir contexto irrelevante.",
+      "ferramentas": [
+        "Vector DB",
+        "Embeddings",
+        "Mecanismo Jev de decisão/rerank",
+        "LLM"
+      ],
+      "passos": [
+        "Indexar documentos com embeddings e metadados",
+        "Recuperar top-k candidatos com filtro de permissões",
+        "Reordenar/filtrar por relevância e qualidade de evidência",
+        "Responder com citações se houver suporte documental ou abster-se se não houver evidência",
+        "Avaliar recall, precisão, taxa de abstenção, latência e custo versus RAG comum"
+      ],
+      "projetos": [
+        "ZYNVU",
+        "VOKI (memória local)",
+        "SaaS RAG"
+      ],
+      "cautelas": [
+        "É padrão de referência, não prova de melhora de desempenho sem avaliações e dados reais."
+      ],
+      "curadoria_v7": {
+        "classe": "POR_PROJETO",
+        "justificativa": "Experimento de reranking/gating; validar contra RAG padrão antes de adotar.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "Arquitetura MCP + A2A (ACP da IBM histórico; ACP Agent Client separado)",
+      "tipo": "processo-referencia-tecnica",
+      "status": "documentado;nao-implementado",
+      "objetivo": "Separar chamada de ferramentas/recursos (MCP) da coordenação entre agentes independentes (A2A).",
+      "ferramentas": [
+        "MCP",
+        "A2A",
+        "ACP (referência histórica, incorporado ao A2A)",
+        "Agent Client Protocol (IDE/cliente-agente de código)"
+      ],
+      "passos": [
+        "Definir descoberta e escopos de cada agente",
+        "Disponibilizar ferramentas e recursos via MCP com autenticação e registros de auditoria",
+        "Orquestrar delegação de tarefas e status entre agentes via A2A",
+        "Transportar resultados com evidências e limites de acesso",
+        "Aplicar autorização por recurso, observabilidade, idempotência e gestão de falhas"
+      ],
+      "projetos": [
+        "ZYNVU",
+        "ISYMU",
+        "VOKI (ações UI exclusivamente HID)"
+      ],
+      "cautelas": [
+        "ACP da IBM teve desenvolvimento incorporado ao A2A; evitar tratar como um padrão novo concorrente.",
+        "ACP da IBM (Agent Communication Protocol) não é o mesmo que ACP da comunidade Agent Client Protocol (cliente de IDE -> agente de código).",
+        "O desenho de orquestrador e subagentes é conceitual; compatibilidade não é automática."
+      ],
+      "curadoria_v7": {
+        "classe": "NÚCLEO",
+        "justificativa": "MCP para ferramentas, A2A para agentes; preservar exigência HID do VOKI.",
+        "estado_instalacao": "não verificado",
+        "decisao": "proposta, sem alteração em originais"
+      }
+    },
+    {
+      "nome": "Pesquisa jurídica com RAG de normas brasileiras, fontes e vigência",
+      "tipo": "processo-especificacao",
+      "status": "proposto-documentado-nao-implementado",
+      "objetivo": "Perguntas sobre legislação com trecho verificável, fonte primária, data de vigência e abstenção quando não houver evidência suficiente.",
+      "ferramentas": [
+        "ctresb/leis (corpus inicial)",
+        "Busca híbrida BM25 + vetor",
+        "Metadados de norma e vigência",
+        "Reranking/checagem de citação",
+        "Validadores humanos"
+      ],
+      "passos": [
+        "Selecionar esfera, assunto e período e consultar cobertura",
+        "Adquirir de modo incremental Markdown e metadados, sem baixar integralmente o histórico",
+        "Indexar cabeçalho YAML, versões, artigo, origem, data, situação e hashes",
+        "Recuperar evidências por busca lexical + semântica; distinguir texto atual de histórico",
+        "Validar artigo e link na fonte oficial; explicitar conflitos e ausência de norma",
+        "Responder com citações, data de consulta e aviso de que não substitui análise jurídica"
+      ],
+      "projetos": [
+        "LegalTech / pesquisa jurídica"
+      ],
+      "cautelas": [
+        "Não tratar corpus como atual automaticamente",
+        "Não considerar o modelo llm-legislativo fonte jurídica autoritativa",
+        "Avaliar juridicamente e evitar afirmações sem fonte primária"
+      ],
+      "arquivo": "PROCESSO_RAG_JURIDICO.md"
+    },
+    {
+      "nome": "Melhoria de harness dos agentes de código com Harness² e evals",
+      "tipo": "processo-especificacao",
+      "status": "proposto-documentado-nao-implementado",
+      "objetivo": "Melhorar prompts, ferramentas, skills e memória dos agentes via experimentos isolados e métricas, sem modificar projetos reais sem revisão.",
+      "ferramentas": [
+        "Harness²",
+        "Codex / OpenCode (executores documentados)",
+        "Casos de teste com critérios de aceitação",
+        "Observabilidade de custo/latência"
+      ],
+      "passos": [
+        "Estabelecer baseline com tarefas repetíveis e métricas",
+        "Isolar worktrees e permissões de filesystem",
+        "Propor pequenas alterações no harness",
+        "Executar probes comparáveis e coletar diffs, testes, falhas e custo",
+        "Adotar apenas modificações com ganho comprovado sem regressões",
+        "Registrar versões e permitir rollback"
+      ],
+      "projetos": [
+        "Agentes de código",
+        "GITFY",
+        "VOKI"
+      ],
+      "cautelas": [
+        "Resultados de benchmark do artigo não garantem resultado no hardware do usuário",
+        "No VOKI, ações de UI usam HID físico exclusivamente"
+      ],
+      "arquivo": "ARQUITETURA_HARNESS2_ACP.md"
+    },
+    {
+      "nome": "Design Context Pack para Codex, Claude Code e Verdent",
+      "tipo": "processo-especificacao",
+      "status": "proposto-documentado-nao-implementado",
+      "objetivo": "Traduzir referências de galerias visuais em briefing e decisões de UI reproduzíveis e aprovadas sem copiar a implementação de terceiros.",
+      "ferramentas": [
+        "60fps.design",
+        "loadmo.re",
+        "recent.design",
+        "getdesign.ai (opcional)",
+        "Design System interno",
+        "Skills existentes de frontend"
+      ],
+      "passos": [
+        "Escolher 3-5 referências por tipo de tela",
+        "Descrever tipografia, cor, espaçamento, motion, efeitos, navegação e acessibilidade",
+        "Criar DESIGN_BRIEF.md com links e critérios mensuráveis",
+        "Implementar em componente isolado; inspecionar performance e mobile",
+        "Comparar resultado visual, validar fluxo e aprovar antes de integrar"
+      ],
+      "projetos": [
+        "GITFY",
+        "ISYMU",
+        "Metadia"
+      ],
+      "cautelas": [
+        "Respeitar licenças, evitar clonagem literal, tratar sites como inspiração",
+        "Teste visual não significa medição de conversão"
+      ],
+      "arquivo": "REFERENCIAS_DESIGN_IA.md"
+    },
+    {
+      "nome": "VOKI — aprendizado por observação, memória local e Skill Builder",
+      "tipo": "arquitetura documentada / proposta (nao implementada)",
+      "status": "especificacao, sem validacao no hardware",
+      "objetivo": "Converter episodios visuais e execucoes USB HID verificadas em Skills versionadas, reutilizaveis e submetidas a testes.",
+      "ferramentas": [
+        "VOKI USB HID MCP",
+        "captura de tela para observacao",
+        "SQLite local",
+        "SKILL.md",
+        "AGENTS.md",
+        "MEMORY.md (opcional)"
+      ],
+      "passos": [
+        "Capturar contexto visual e recuperar memoria relevante",
+        "Planejar e executar acoes de UI exclusivamente via USB HID fisico",
+        "Verificar resultado visual e registrar episodios estruturados",
+        "Generalizar operacao, criar Skill candidate e testes",
+        "Promover para trusted apenas apos evidencias e revisao suficiente"
+      ],
+      "projetos": [
+        "VOKI"
+      ],
+      "documentacao": "VOKI/ARQUITETURA_DE_APRENDIZADO.md",
+      "restricoes": [
+        "Nenhuma acao UI por software",
+        "Respeitar privacidade, aprovacao humana e isolamento de usuarios",
+        "Memoria nao e politica de autorizacao",
+        "ZYNVU nao e dependencia da fase atual"
+      ]
+    }
+  ],
+  "tecnologias_nao_skills": [
+    "React",
+    "React Three Fiber",
+    "Three.js",
+    "Drei",
+    "React Three Postprocessing",
+    "React Native Skia",
+    "React Native Reanimated",
+    "Motion/Framer Motion",
+    "Zustand",
+    "TanStack Query",
+    "Fastify",
+    "Vite"
+  ],
+  "projeto_personalizado": "gitfy-world-builder",
+  "duplicatas_registradas": [
+    {
+      "nome": "Matt Pocock Skills",
+      "fonte": "Print recebido novamente em 2026-11-01",
+      "acao": "Preservado como uma entrada única; referência original https://github.com/mattpocock/skills"
+    },
+    {
+      "nome": "Matt Pocock Skills",
+      "fonte": "Imagem reenviada em 2026-11-01",
+      "acao": "Mantida entrada única."
+    },
+    {
+      "nome": "OpenMausBot",
+      "fonte": "Imagem reenviada em 2026-11-01",
+      "acao": "Mantida entrada única."
+    },
+    {
+      "nome": "JetBrains ThinkRail",
+      "fonte": "Imagem reenviada em 2026-11-01",
+      "acao": "Mantida entrada única."
+    },
+    {
+      "nome": "Audove",
+      "fonte": "Imagem reenviada em 2026-11-01",
+      "acao": "Mantida entrada única."
+    },
+    {
+      "nome": "allclip",
+      "fonte": "Imagem reenviada em 2026-11-01",
+      "acao": "Mantida entrada única."
+    },
+    {
+      "nome": "FloorGen",
+      "fonte": "Imagem reenviada em 2026-11-01",
+      "acao": "Mantida entrada única."
+    },
+    {
+      "nome": "OpenScreen",
+      "fonte": "Imagem reenviada em 2026-11-01",
+      "acao": "Mantida entrada única."
+    },
+    {
+      "nome": "Vidi",
+      "fonte": "Imagem reenviada em 2026-11-01",
+      "acao": "Mantida entrada única."
+    },
+    {
+      "nome": "afk.ai",
+      "fonte": "Imagem reenviada em 2026-11-01",
+      "acao": "Mantida entrada única."
+    },
+    {
+      "nome": "Recursive Flint",
+      "fonte": "Reenviado em imagem no lote 2026-11-01 (v5)",
+      "acao": "Desconsiderado: consta em referências na v4."
+    },
+    {
+      "nome": "SolidCraft (bherbruck/solidcraft)",
+      "acao": "URL antigo redireciona para tangency-labs/solidcraft, cadastro único; Solvecraft é outro projeto."
+    },
+    {
+      "nome": "REA toolkit e REA skill",
+      "acao": "Entrada única catalogada como skill+CLI+MCP, sem cópia da mesma fonte."
+    },
+    {
+      "nome": "KlipKap Pro / OpenScreen",
+      "acao": "São alternativas, NÃO duplicatas; mantidas separadas."
+    },
+    {
+      "nome": "Zoo / SolidCraft",
+      "acao": "São soluções distintas de CAD; mantidas separadas."
+    },
+    {
+      "nome": "Firecrawl (novo card 2026-11-01)",
+      "ja_incluido_em": "Firecrawl Skills — https://github.com/firecrawl/skills",
+      "decisao": "Não criar nova entrada; corrigir alegação de backdoor/stealth do material de divulgação."
+    }
+  ],
+  "resumo": {
+    "skills_ou_pacotes": 22,
+    "ferramentas_servicos_modelos": 56,
+    "alternativas": 2,
+    "pendencias": 9,
+    "processos": 9,
+    "novidades_deste_lote": 1,
+    "novos_pacotes_skills": 1,
+    "novas_ferramentas_referencias": 0,
+    "novos_processos": 1,
+    "observacao": "Novo lote de 11 cards: 10 entradas novas, Firecrawl ignorado por duplicata; alegações promocionais corrigidas. v7 arquivada.",
+    "novas_referencias_v9": [
+      "Google Research Harness²",
+      "Get Design AI",
+      "posts.design",
+      "loadmo.re",
+      "recent.design",
+      "60fps.design",
+      "Supahero",
+      "Navbar Gallery",
+      "CTA Gallery",
+      "Agent Client Protocol (ACP)",
+      "llm-legislativo (BaruqueRodrigues)",
+      "ctresb/leis"
+    ],
+    "referencias_design_v9": 8,
+    "projetos_juridicos_v9": 2,
+    "recurso_design_pendente_v9": "inspora.design",
+    "novidade_v10": "Scenario 3D OS (6 departamentos, 80 skills anunciadas; contado como 1 pacote)"
+  },
+  "curadoria_metodologia": "Prioriza reuso nos projetos, evidência de fonte oficial, integração, custo, maturidade, segurança e redução de redundâncias; classificação é recomendação, não validação funcional.",
+  "curadoria_v7_resumo": {
+    "itens_avaliados": 60,
+    "classes": {
+      "NÚCLEO": 15,
+      "REMOVER_DO_CATALOGO_ATIVO": 8,
+      "POR_PROJETO": 24,
+      "ARQUIVAR": 13
+    },
+    "observacao": "Preserva a totalidade do catálogo anterior; retirar do ativo não significa apagar histórico."
+  },
+  "candidatos_de_imagens_ainda_nao_consolidados_v6": [
+    {
+      "nome": "Maxun",
+      "url_candidata": "https://github.com/getmaxun/maxun",
+      "status": "pendente-de-verificacao",
+      "motivo": "Candidato para comparar com Firecrawl/Scrapling; não cadastrado na v6."
+    },
+    {
+      "nome": "OpenChatCut",
+      "url_candidata": "https://github.com/0xs1ne/OpenChatCut",
+      "status": "pendente-de-verificacao",
+      "motivo": "Candidato de editor AI local-first para You8; não cadastrado na v6."
+    },
+    {
+      "nome": "3dsvg",
+      "url_candidata": null,
+      "status": "pendente-de-verificacao",
+      "motivo": "Experimento 3D/logotipo; conferir URL e licenciamento."
+    },
+    {
+      "nome": "Screenify Studio",
+      "url_candidata": null,
+      "status": "pendente-de-verificacao",
+      "motivo": "Possível redundância com OpenScreen; conferir produto."
+    },
+    {
+      "nome": "UluP Desktop",
+      "url_candidata": null,
+      "status": "pendente-de-verificacao",
+      "motivo": "Mapa de arquivos; confirmar produto e integrações antes de cadastrar."
+    },
+    {
+      "nome": "Ojin",
+      "url_candidata": null,
+      "status": "pendente-de-verificacao",
+      "motivo": "Avatar falante em tempo real; verificar origem, custo e limites."
+    },
+    {
+      "nome": "delphitools",
+      "url_candidata": null,
+      "status": "pendente-de-verificacao",
+      "motivo": "Ferramentas utilitárias de imagem; não prioritárias."
+    },
+    {
+      "nome": "Tencent modelo 3D",
+      "url_candidata": null,
+      "status": "pendente-de-verificacao",
+      "motivo": "Identificação exata do modelo/produto ainda necessária."
+    }
+  ],
+  "curadoria_v8_resumo": {
+    "itens_avaliados": 70,
+    "classes": {
+      "NÚCLEO": 16,
+      "POR_PROJETO": 28,
+      "ARQUIVAR": 17,
+      "REMOVER_DO_CATALOGO_ATIVO": 9
+    },
+    "lote_2026_11_01": {
+      "imagens": 11,
+      "nomes_unicos_extraidos": 11,
+      "novas_entradas": 10,
+      "duplicatas_ignoradas": 1,
+      "nova_skill_ou_framework_com_skills": 1,
+      "novas_referencias": 9
+    },
+    "nenhum_item_instalado": true,
+    "nota": "Números de classe incluem 5 processos. A classificação da v7 permanece no histórico original, v8 define a classificação efetiva para novos registros."
+  },
+  "perfil_agentes_codigo_hibrido": {
+    "arquivo": "PERFIL_AGENTES_CODIGO_HIBRIDO_FLINT.md",
+    "componentes_da_base": [
+      "llmfit",
+      "Atlas",
+      "JetBrains ThinkRail",
+      "Matt Pocock Skills",
+      "Recursive Flint",
+      "OpenMausBot"
+    ],
+    "componentes_adicionais_a_verificar": [
+      "Orca (stablyai/orca)",
+      "OpenCode",
+      "Ollama",
+      "Qwen2.5 Coder 3B",
+      "RAG de imagens a identificar"
+    ],
+    "status": "documentado;nao implementado"
+  },
+  "curadoria_v9_resumo": {
+    "base_anterior": "v8.1-curada+flint-hibrido",
+    "fontes_novas_confirmadas": 12,
+    "fontes_design_confirmadas": 8,
+    "site_design_pendente": "inspora.design",
+    "repos_legais_confirmados": 2,
+    "frameworks_agentes_confirmados": 1,
+    "protocolo_confirmado": 1,
+    "processos_novos": 3,
+    "status": "catálogo documental; sem instalar executar baixar bases completas ou alterar repositórios do usuário",
+    "arquivo": "NOVOS_ITENS_V9_2026-11-01.md"
+  },
+  "curadoria_v10_resumo": {
+    "novos_pacotes_skills": 1,
+    "novas_referencias": 0,
+    "novos_processos": 0,
+    "duplicatas_ignoradas": 0,
+    "origem": "https://github.com/scenario-labs/skills",
+    "prioridade": "alta para GITFY e You8",
+    "validacao": "documental; não instaladas ou testadas localmente"
+  },
+  "curadoria_v10_1_resumo": {
+    "novos_processos": 1,
+    "novas_skills_instaladas": 0,
+    "novas_referencias": 0,
+    "origem": "projeto VOKI / decisao arquitetural discutida com usuario",
+    "validacao": "somente documentacao; nao implementado ou testado"
+  },
+  "curadoria_v11_resumo": {
+    "novas_skills": 5,
+    "skills_total": 27,
+    "referencias_preservadas": 56,
+    "processos_preservados": 9,
+    "integracao": "PACOTE_5_SKILLS",
+    "testes": "estrutural + zip + instalador shell em sandbox; sem instalacao em PC do usuario"
+  }
+}

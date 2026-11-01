@@ -1,0 +1,21 @@
+{
+  "id": "agent-case-001",
+  "agent": "coding-agent",
+  "task": "Corrigir bug de validação sem quebrar testes",
+  "input_fixture": "fixtures/case001",
+  "expected_assertions": [
+    "tests_pass",
+    "no_secrets_leaked",
+    "diff_is_scoped"
+  ],
+  "requires_tools": [
+    "read_file",
+    "edit_file",
+    "run_tests"
+  ],
+  "scoring": {
+    "quality": "deterministic-tests",
+    "security": "policy-review"
+  },
+  "note": "Template. Fixtures and test runners must be provided by target app."
+}

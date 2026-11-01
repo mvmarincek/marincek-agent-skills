@@ -1,0 +1,1 @@
+Consulte `AGENTS.md` e `catalog/skills.json`. Skills estão em `areas/<area>/skills/<slug>/SKILL.md`; use apenas as relevantes. Para alterar catálogo, valide e documente evidências. Sem execução cloud/paga/produção não aprovada.

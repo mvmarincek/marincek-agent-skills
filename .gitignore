@@ -1,0 +1,25 @@
+# Third-party caches, model files and local snapshots
+.cache/
+upstream-cache/
+**/__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.sqlite
+*.sqlite3
+*.db
+logs/
+traces/
+screenshots/
+secrets/
+*.bak
+*.backup
+.DS_Store
+Thumbs.db
