@@ -4,6 +4,7 @@
 - `immersive-commerce-3d` v1.1.0: nova referência `references/glb-loading-react.md` — contrato de carregamento no React/R3F: `useGLTF` sob Suspense, chunk 3D lazy com `React.lazy`, `useGLTF.preload`, URLs versionadas para cache-busting, ErrorBoundary com fallback procedural (a compra nunca depende do asset), clone de material antes de mutar e regra de escala 1:1 (erro 100x se corrige na exportação, não no runtime).
 - Testes: `tests/test_v55_glb_pipeline.py` (versões de catálogo/frontmatter sincronizadas, referências presentes com conteúdo mínimo, SKILL.md apontando para as novas referências).
 - Catálogo: v5.5.0, 40 skills; READMEs de games e web-marketing sincronizados.
+- Docs (follow-up): novo `docs/TOOLS.md` — referência completa das 7 ferramentas de `scripts/` (funcionalidade, comandos, flags, pastas de destino por agente, exit codes, pipeline de CI e tabela do que as ferramentas não fazem); seção "Ferramentas da biblioteca" do README aponta para o doc e lista `publish-private.ps1`; README sincronizado com v5.5.
 - Publicado como Pull Request para revisão. Nenhum merge automático.
 
 ## v5.4.0 — 2026-11-06

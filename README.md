@@ -1,4 +1,4 @@
-# MVMarincek — Agent Skills Library v5.4
+# MVMarincek — Agent Skills Library v5.5
 
 **Fonte portátil de conhecimento operacional**: Codex, Claude Code, Verdent e OpenCode; catálogo e Skills por áreas de engenharia, IA, segurança, DevOps, produto, marketing, games 3D imersivos e manufatura.
 
@@ -52,12 +52,14 @@ python .\scripts\install.py --scope project --project-path C:\dev\projeto --targ
 Use `--replace` somente após revisar backups e alterações locais. Sem rede/credenciais no instalador.
 
 ## Ferramentas da biblioteca
-- `scripts/scaffold_skill.py`: cria rascunho sob área escolhida; precisa revisão.
-- `scripts/route_skills.py`: descoberta heurística offline, **não equivale a permissão/execução**.
-- `scripts/skill_quality.py`: validação estática de completude, **não comprova funcionalidade**.
-- `scripts/validate.py`: catálogos, nomes, paths, links locais, fontes.
-- `scripts/install.py`: cópia para pastas suportadas, sem instalar ferramentas/cloud.
-- `scripts/sync_upstream.py`: clona fontes externas seletivamente em cache local ignorado, sem incorporá-las/publicá-las automaticamente.
+Referência completa com comandos, flags, pastas de destino e limites em **`docs/TOOLS.md`**. Resumo:
+- `scripts/validate.py`: catálogos, nomes, paths, links locais, fontes (gate de CI).
+- `scripts/skill_quality.py`: validação estática de completude (8 checks), **não comprova funcionalidade**.
+- `scripts/install.py`: cópia para pastas dos agentes (`codex`, `claude`, `verdent`, `opencode`), `--dry-run`, `--skills`, `--replace` com backup; sem instalar ferramentas/cloud.
+- `scripts/route_skills.py`: descoberta heurística offline por tarefa, **não equivale a permissão/execução**.
+- `scripts/scaffold_skill.py`: cria rascunho de Skill nova sob área existente; exige autoria e revisão.
+- `scripts/sync_upstream.py`: clona fontes externas seletivamente em cache local ignorado, para auditoria de licença; sem incorporar/publicar.
+- `scripts/publish-private.ps1`: publicação única em repo privado com confirmação explícita (histórico; o fluxo atual é branch + PR + CI).
 
 ## Segurança e versionamento
 Repositório oficial: `https://github.com/mvmarincek/marincek-agent-skills` (público, branch `main`).
@@ -117,7 +119,7 @@ python .\scripts\install.py --scope global --targets codex claude verdent openco
 | `realworld-order-digital-twin` | enterprise-systems | Pedido pós-checkout, eventos de produção real e transmissão opcional autorizada |
 | `immersive-experience-quality` | games | Gates visual, interação e conversão, e2e, performance e fallback |
 
-Ver `docs/IMMERSIVE_COMMERCE_3D_V5.md` e `docs/CODEX_PROMPT_V5_3D.md`. Histórico completo de versões no `CHANGELOG.md`; a `main` remota está publicada na versão **5.4.0** (40 skills, CI verde).
+Ver `docs/IMMERSIVE_COMMERCE_3D_V5.md` e `docs/CODEX_PROMPT_V5_3D.md`. Histórico completo de versões no `CHANGELOG.md`; a `main` remota está publicada na versão **5.5.0** (40 skills, CI verde) — a v5.5.0 adiciona o pipeline Blender→GLB/PBR→WebGL às skills imersivas (`photoreal-3d-assets` v1.2.0, `immersive-commerce-3d` v1.1.0).
 
 ### Validar e instalar somente v5
 ```powershell
