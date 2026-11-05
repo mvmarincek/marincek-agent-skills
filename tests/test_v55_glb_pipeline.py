@@ -43,5 +43,19 @@ class GlbPipelineV55Tests(unittest.TestCase):
   s = (ROOT / 'areas/web-marketing/skills/immersive-commerce-3d/SKILL.md').read_text(encoding='utf-8')
   self.assertNotIn('useGLTT', s)
 
+ def test_tools_doc_covers_all_scripts(self):
+  doc = (ROOT / 'docs/TOOLS.md').read_text(encoding='utf-8')
+  scripts = sorted(
+   p.name for p in (ROOT / 'scripts').iterdir()
+   if p.is_file() and p.suffix in ('.py', '.ps1')
+  )
+  self.assertTrue(scripts, 'nenhum script encontrado')
+  for name in scripts:
+   self.assertIn(name, doc, f'docs/TOOLS.md nao menciona {name}')
+  for must in ('--dry-run', '--replace', 'suggested-not-authorized', 'codex', 'claude', 'verdent', 'opencode'):
+   self.assertIn(must, doc)
+  readme = (ROOT / 'README.md').read_text(encoding='utf-8')
+  self.assertIn('docs/TOOLS.md', readme)
+
 if __name__ == '__main__':
  unittest.main()
