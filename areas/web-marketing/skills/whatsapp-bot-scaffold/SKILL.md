@@ -3,7 +3,7 @@ name: whatsapp-bot-scaffold
 description: "Esqueleto de projeto para Bot de pedidos no WhatsApp no Brasil: webhook validado, máquina de estados, cobrança PIX e conformidade LGPD com Node.js + Express, pronto para customizar e publicar."
 license: MIT
 metadata:
-  version: "1.1.0"
+  version: "1.2.0"
   language: "pt-BR"
   area: "web-marketing"
 ---
@@ -46,6 +46,7 @@ Nunca finalizar apenas com código gerado — verificar que o serviço inicia. N
 
 ## Referências e artefatos
 - `assets/template/` — projeto Node.js + Express completo (webhook, conversa, pagamentos, WhatsApp, dados e utils).
+- `references/architecture.md` — decisões de arquitetura do template e pontos de extensão.
 - Skill irmã: `whatsapp-brazil-knowledge` — conformidade, Business API, PIX e fluxo do comerciante.
 
 ## Critério de aceite

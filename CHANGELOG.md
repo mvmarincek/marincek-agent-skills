@@ -1,3 +1,13 @@
+## v5.3.0 — 2026-11-06
+- 36 skills: v5.2 intacta + 2 skills novas: `mcp-server-factory` (ai-agents, contratos de ferramentas, transporte/segurança e testes/distribuição) e `ci-fix-loop` (devops-infrastructure, diagnóstico e correção de checks de CI via gh CLI).
+- `paint-draw-shapes` reescrita com profundidade (v1.1.0): protocolo USB HID do VOKI, confirmação visual, política de recuperação/undo e 3 referências novas.
+- `delivery-acceptance` estendida (v1.2.0) com referência `test-debug-fix.md` cobrindo o loop teste-diagnóstico-correção-regressão.
+- Gaps de limites/rollback corrigidos: `runtime-error-triage` (seção de Reversibilidade, v1.2.0), `whatsapp-brazil-knowledge` (Limite de conhecimento, v1.2.0), `photoreal-3d-assets` (Limites, v1.1.0), `whatsapp-bot-scaffold` (+ `references/architecture.md`, v1.2.0).
+- Testes: `tests/test_v53_excellence.py` dando cobertura estrutural dedicada às 10 skills sem teste (paint-draw-shapes, skill-evaluator, linear-tasks-prd, authorized-security-testing, defensive-cybersecurity, structured-agent-prompts, agent-persistent-memory, agent-learning-finetuning, voki-visual-geometry-cad, agent-reliability-governance) e às 2 novas.
+- `skill-evaluator` alinhada ao formato-padrão (v2.1.0): seção Critério de aceite adicionada.
+- Catálogo atualizado para 36 skills; READMEs de ai-agents e devops-infrastructure sincronizados.
+- Publicado como Pull Request empilhado para revisão. Nenhum merge automático.
+
 ## v5.2.0 — 2026-11-05
 - 34 skills: v5.1 intacta + 6 skills recreadas no formato-padrão da biblioteca a partir de versões instaladas apenas localmente (órfãs não versionadas): `delivery-acceptance`, `runtime-error-triage`, `database-blueprints`, `deploy-diagnosis`, `whatsapp-bot-scaffold`, `whatsapp-brazil-knowledge`.
 - SKILL.md reescritos com frontmatter completo (license, area), Quando ativar, Contrato de entrada, Pipeline obrigatório, Segurança e permissões e Critério de aceite; referências `knowledge/` corrigidas para `references/`; template do bot movido para `assets/template/`.
