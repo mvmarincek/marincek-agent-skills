@@ -1,3 +1,11 @@
+## v5.5.0 — 2026-11-06
+- 40 skills (nenhuma nova): evolução da cadeia imersiva para cobrir o pipeline **Blender → GLB/PBR → WebGL** de ponta a ponta.
+- `photoreal-3d-assets` v1.2.0: nova referência `references/blender-glb-export.md` — preparo de cena em metros (Unit Scale 1.0, transforms aplicados, pivôs consistentes), materiais Principled BSDF que exportam para glTF PBR, checklist das opções do exportador (`export_format='GLB'`, `export_yup`, `export_apply`, tangents, Draco apenas com decoder e ganho medido), validação no runtime (screenshot do Blender não é prova) e exportação headless para CI (`blender --background --python`).
+- `immersive-commerce-3d` v1.1.0: nova referência `references/glb-loading-react.md` — contrato de carregamento no React/R3F: `useGLTF` sob Suspense, chunk 3D lazy com `React.lazy`, `useGLTF.preload`, URLs versionadas para cache-busting, ErrorBoundary com fallback procedural (a compra nunca depende do asset), clone de material antes de mutar e regra de escala 1:1 (erro 100x se corrige na exportação, não no runtime).
+- Testes: `tests/test_v55_glb_pipeline.py` (versões de catálogo/frontmatter sincronizadas, referências presentes com conteúdo mínimo, SKILL.md apontando para as novas referências).
+- Catálogo: v5.5.0, 40 skills; READMEs de games e web-marketing sincronizados.
+- Publicado como Pull Request para revisão. Nenhum merge automático.
+
 ## v5.4.0 — 2026-11-06
 - 40 skills: v5.3 intacta + 4 skills **originais** (MIT, formato-padrão da casa) cobrindo capacidades que antes dependiam de skills de terceiros sem licença redistribuível: `code-review` (software-engineering), `diagnosing-bugs` (software-engineering), `gh-cli` (devops-infrastructure), `linear-workflows` (product-management).
 - Conteúdo escrito do zero; nenhum texto de repositórios de terceiros copiado. Cada skill delimita explicitamente o escopo vs. skills vizinhas (`continuous-code-sanitization`, `runtime-error-triage`, `ci-fix-loop`, `linear-tasks-prd`) via `depends_on` e seção Quando ativar.

@@ -27,7 +27,9 @@ class V54OriginalSkillsTests(unittest.TestCase):
         manifest = _manifest()
         self.assertGreaterEqual(manifest['count'], 40)
         self.assertEqual(manifest['count'], len(manifest['skills']))
-        self.assertTrue(manifest['version'].startswith('5.4'))
+        self.assertGreaterEqual(
+            tuple(int(n) for n in manifest['version'].split('.')), (5, 4)
+        )
 
     def test_four_skills_present_with_house_format(self):
         manifest = _manifest()
