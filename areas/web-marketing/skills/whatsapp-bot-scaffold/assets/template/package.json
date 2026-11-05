@@ -1,0 +1,23 @@
+{
+  "name": "whatsapp-bot-brazil",
+  "version": "1.0.0",
+  "description": "WhatsApp order bot for Brazilian lanchonetes with PIX payments",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "twilio": "^4.23.0",
+    "starkbank": "^2.9.0",
+    "dotenv": "^16.3.1",
+    "uuid": "^9.0.0"
+  },
+  "keywords": ["whatsapp", "bot", "brazil", "pix", "lanchonete"],
+  "license": "MIT"
+}

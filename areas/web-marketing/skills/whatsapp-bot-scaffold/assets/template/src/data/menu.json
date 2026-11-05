@@ -1,0 +1,112 @@
+{
+  "store": {
+    "name": "Lanchonete do Bot",
+    "description": "A melhor lanchonete do bairro!"
+  },
+  "categories": [
+    {
+      "name": "🍔 Lanches",
+      "items": [
+        {
+          "name": "X-Burger",
+          "description": "Hambúrguer, queijo, alface e tomate",
+          "price": 1890,
+          "available": true
+        },
+        {
+          "name": "X-Bacon",
+          "description": "Hambúrguer, queijo, bacon crocante",
+          "price": 2190,
+          "available": true
+        },
+        {
+          "name": "X-Tudo",
+          "description": "Hambúrguer, queijo, bacon, ovo, presunto, alface, tomate",
+          "price": 2690,
+          "available": true
+        },
+        {
+          "name": "Hot Dog Tradicional",
+          "description": "Salsicha, purê, vinagrete, batata palha",
+          "price": 1290,
+          "available": true
+        }
+      ]
+    },
+    {
+      "name": "🍟 Acompanhamentos",
+      "items": [
+        {
+          "name": "Batata Frita (P)",
+          "description": "Porção pequena",
+          "price": 890,
+          "available": true
+        },
+        {
+          "name": "Batata Frita (G)",
+          "description": "Porção grande",
+          "price": 1490,
+          "available": true
+        },
+        {
+          "name": "Onion Rings",
+          "description": "Anéis de cebola empanados",
+          "price": 1290,
+          "available": true
+        }
+      ]
+    },
+    {
+      "name": "🧃 Bebidas",
+      "items": [
+        {
+          "name": "Suco de Laranja",
+          "description": "Natural, 300ml",
+          "price": 790,
+          "available": true
+        },
+        {
+          "name": "Suco de Maracujá",
+          "description": "Natural, 300ml",
+          "price": 790,
+          "available": true
+        },
+        {
+          "name": "Refrigerante Lata",
+          "description": "Coca, Guaraná ou Fanta",
+          "price": 590,
+          "available": true
+        },
+        {
+          "name": "Água Mineral",
+          "description": "500ml",
+          "price": 390,
+          "available": true
+        }
+      ]
+    },
+    {
+      "name": "🍨 Sobremesas",
+      "items": [
+        {
+          "name": "Açaí 300ml",
+          "description": "Com granola e banana",
+          "price": 1590,
+          "available": true
+        },
+        {
+          "name": "Açaí 500ml",
+          "description": "Com granola, banana e leite condensado",
+          "price": 2190,
+          "available": true
+        },
+        {
+          "name": "Pudim",
+          "description": "Fatia de pudim de leite",
+          "price": 890,
+          "available": true
+        }
+      ]
+    }
+  ]
+}

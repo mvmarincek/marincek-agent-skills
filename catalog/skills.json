@@ -1,8 +1,8 @@
 {
   "library": "mvmarincek-agent-skills",
-  "version": "5.1.0",
-  "date": "2026-11-01",
-  "count": 28,
+  "version": "5.3.0",
+  "date": "2026-11-05",
+  "count": 36,
   "skills": [
     {
       "id": "agent-learning-finetuning",
@@ -347,7 +347,7 @@
       "domain": "voki-visual",
       "path": "areas/automation-hid/skills/paint-draw-shapes/SKILL.md",
       "status": "original-bundled",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "depends_on": [],
       "supported_agents": [
         "codex",
@@ -365,7 +365,7 @@
       "domain": "3d-asset-production",
       "path": "areas/games/skills/photoreal-3d-assets/SKILL.md",
       "status": "original-bundled",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "depends_on": [],
       "supported_agents": [
         "codex",
@@ -425,7 +425,7 @@
       "area": "ai-agents",
       "path": "areas/ai-agents/skills/skill-evaluator/SKILL.md",
       "status": "original-bundled",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "depends_on": [],
       "supported_agents": [
         "codex",
@@ -527,6 +527,152 @@
       "verified": "structure-only",
       "installed": false,
       "area": "automation-hid"
+    },
+    {
+      "id": "delivery-acceptance",
+      "title": "Delivery Acceptance — aceitacao de entrega com evidencia",
+      "domain": "software-engineering",
+      "path": "areas/software-engineering/skills/delivery-acceptance/SKILL.md",
+      "status": "recreated-from-installed",
+      "version": "1.2.0",
+      "depends_on": [],
+      "supported_agents": [
+        "codex",
+        "claude-code",
+        "verdent",
+        "opencode"
+      ],
+      "verified": "structure-only",
+      "installed": false,
+      "area": "software-engineering"
+    },
+    {
+      "id": "runtime-error-triage",
+      "title": "Runtime Error Triage — triagem de erros com correcao minima",
+      "domain": "software-engineering",
+      "path": "areas/software-engineering/skills/runtime-error-triage/SKILL.md",
+      "status": "recreated-from-installed",
+      "version": "1.2.0",
+      "depends_on": [],
+      "supported_agents": [
+        "codex",
+        "claude-code",
+        "verdent",
+        "opencode"
+      ],
+      "verified": "structure-only",
+      "installed": false,
+      "area": "software-engineering"
+    },
+    {
+      "id": "database-blueprints",
+      "title": "Database Blueprints — schema e migracao segura",
+      "domain": "software-engineering",
+      "path": "areas/software-engineering/skills/database-blueprints/SKILL.md",
+      "status": "recreated-from-installed",
+      "version": "1.1.0",
+      "depends_on": [],
+      "supported_agents": [
+        "codex",
+        "claude-code",
+        "verdent",
+        "opencode"
+      ],
+      "verified": "structure-only",
+      "installed": false,
+      "area": "software-engineering"
+    },
+    {
+      "id": "deploy-diagnosis",
+      "title": "Deploy Diagnosis — de localhost a publico estavel",
+      "domain": "devops-infrastructure",
+      "path": "areas/devops-infrastructure/skills/deploy-diagnosis/SKILL.md",
+      "status": "recreated-from-installed",
+      "version": "1.1.0",
+      "depends_on": [],
+      "supported_agents": [
+        "codex",
+        "claude-code",
+        "verdent",
+        "opencode"
+      ],
+      "verified": "structure-only",
+      "installed": false,
+      "area": "devops-infrastructure"
+    },
+    {
+      "id": "whatsapp-bot-scaffold",
+      "title": "WhatsApp Bot Scaffold — bot de pedidos com PIX e LGPD",
+      "domain": "visual-marketing",
+      "path": "areas/web-marketing/skills/whatsapp-bot-scaffold/SKILL.md",
+      "status": "recreated-from-installed",
+      "version": "1.2.0",
+      "depends_on": [
+        "whatsapp-brazil-knowledge"
+      ],
+      "supported_agents": [
+        "codex",
+        "claude-code",
+        "verdent",
+        "opencode"
+      ],
+      "verified": "structure-only",
+      "installed": false,
+      "area": "web-marketing"
+    },
+    {
+      "id": "whatsapp-brazil-knowledge",
+      "title": "WhatsApp Brazil Knowledge — conformidade, Business API e PIX",
+      "domain": "visual-marketing",
+      "path": "areas/web-marketing/skills/whatsapp-brazil-knowledge/SKILL.md",
+      "status": "recreated-from-installed",
+      "version": "1.2.0",
+      "depends_on": [],
+      "supported_agents": [
+        "codex",
+        "claude-code",
+        "verdent",
+        "opencode"
+      ],
+      "verified": "structure-only",
+      "installed": false,
+      "area": "web-marketing"
+    },
+    {
+      "id": "mcp-server-factory",
+      "title": "MCP Server Factory — servidores MCP com contratos validados e testes",
+      "domain": "agent-architecture",
+      "path": "areas/ai-agents/skills/mcp-server-factory/SKILL.md",
+      "status": "new",
+      "version": "1.0.0",
+      "depends_on": [],
+      "supported_agents": [
+        "codex",
+        "claude-code",
+        "verdent",
+        "opencode"
+      ],
+      "verified": "structure-only",
+      "installed": false,
+      "area": "ai-agents"
+    },
+    {
+      "id": "ci-fix-loop",
+      "title": "CI Fix Loop — diagnóstico e correção de checks de CI",
+      "domain": "devops-infrastructure",
+      "path": "areas/devops-infrastructure/skills/ci-fix-loop/SKILL.md",
+      "status": "new",
+      "version": "1.0.0",
+      "depends_on": [],
+      "supported_agents": [
+        "codex",
+        "claude-code",
+        "verdent",
+        "opencode"
+      ],
+      "verified": "structure-only",
+      "installed": false,
+      "area": "devops-infrastructure"
     }
   ]
 }

@@ -1,3 +1,21 @@
+## v5.3.0 — 2026-11-06
+- 36 skills: v5.2 intacta + 2 skills novas: `mcp-server-factory` (ai-agents, contratos de ferramentas, transporte/segurança e testes/distribuição) e `ci-fix-loop` (devops-infrastructure, diagnóstico e correção de checks de CI via gh CLI).
+- `paint-draw-shapes` reescrita com profundidade (v1.1.0): protocolo USB HID do VOKI, confirmação visual, política de recuperação/undo e 3 referências novas.
+- `delivery-acceptance` estendida (v1.2.0) com referência `test-debug-fix.md` cobrindo o loop teste-diagnóstico-correção-regressão.
+- Gaps de limites/rollback corrigidos: `runtime-error-triage` (seção de Reversibilidade, v1.2.0), `whatsapp-brazil-knowledge` (Limite de conhecimento, v1.2.0), `photoreal-3d-assets` (Limites, v1.1.0), `whatsapp-bot-scaffold` (+ `references/architecture.md`, v1.2.0).
+- Testes: `tests/test_v53_excellence.py` dando cobertura estrutural dedicada às 10 skills sem teste (paint-draw-shapes, skill-evaluator, linear-tasks-prd, authorized-security-testing, defensive-cybersecurity, structured-agent-prompts, agent-persistent-memory, agent-learning-finetuning, voki-visual-geometry-cad, agent-reliability-governance) e às 2 novas.
+- `skill-evaluator` alinhada ao formato-padrão (v2.1.0): seção Critério de aceite adicionada.
+- Catálogo atualizado para 36 skills; READMEs de ai-agents e devops-infrastructure sincronizados.
+- Publicado como Pull Request empilhado para revisão. Nenhum merge automático.
+
+## v5.2.0 — 2026-11-05
+- 34 skills: v5.1 intacta + 6 skills recreadas no formato-padrão da biblioteca a partir de versões instaladas apenas localmente (órfãs não versionadas): `delivery-acceptance`, `runtime-error-triage`, `database-blueprints`, `deploy-diagnosis`, `whatsapp-bot-scaffold`, `whatsapp-brazil-knowledge`.
+- SKILL.md reescritos com frontmatter completo (license, area), Quando ativar, Contrato de entrada, Pipeline obrigatório, Segurança e permissões e Critério de aceite; referências `knowledge/` corrigidas para `references/`; template do bot movido para `assets/template/`.
+- READMEs de área sincronizados com o catálogo (7 corrigidos: ai-agents, software-engineering, devops-infrastructure, web-marketing, engineering-management, machine-learning, enterprise-systems).
+- Skills de terceiros (code-review, gh-cli, linear, diagnosing-bugs) NÃO copiadas: sem licença redistribuível verificada; permanecem fora do repo conforme política de triagem.
+- Testes: `tests/test_v52_core_delivery.py` cobrindo presença, arquivos de referência, estrutura do template e ausência de credenciais.
+- Publicado como Pull Request empilhado para revisão. Nenhum merge automático.
+
 ## v5.1.0 — 2026-11-01
 - 28 skills: biblioteca v4 intacta com 22 + 5 skills v5 (games 3D comerciais) + 1 skill `made-to-order-manufacturing-twin` para automóveis/móveis/equipamentos de fabricação sob encomenda.
 - Generaliza jornada: configuração 3D, aprovação, checkout, operação comprovada, assembly milestones, expedição e entrega, com categorias de evidência.
