@@ -1,3 +1,13 @@
+## v5.4.0 — 2026-11-06
+- 40 skills: v5.3 intacta + 4 skills **originais** (MIT, formato-padrão da casa) cobrindo capacidades que antes dependiam de skills de terceiros sem licença redistribuível: `code-review` (software-engineering), `diagnosing-bugs` (software-engineering), `gh-cli` (devops-infrastructure), `linear-workflows` (product-management).
+- Conteúdo escrito do zero; nenhum texto de repositórios de terceiros copiado. Cada skill delimita explicitamente o escopo vs. skills vizinhas (`continuous-code-sanitization`, `runtime-error-triage`, `ci-fix-loop`, `linear-tasks-prd`) via `depends_on` e seção Quando ativar.
+- `gh-cli` documenta as armadilhas reais encontradas neste repo: múltiplas contas, conflito com Windows Credential Manager e o workaround de credencial pontual.
+- `linear-workflows` cobre o modelo de objetos (Team/Issue/Project/Cycle), triagem com vocabulário do workspace e cheatsheet GraphQL com regras de sigilo de token.
+- Testes: `tests/test_v54_original_skills.py` (presença, formato da casa, referências, boundaries de escopo, READMEs sincronizados, ausência de marcadores de conteúdo de terceiros, sem token literal).
+- Catálogo atualizado para 40 skills; READMEs de software-engineering, devops-infrastructure e product-management sincronizados.
+- Consolidação: PRs #1/#2/#3 merged (v5.1+v5.2+v5.3 em main via PR #4 de consolidação).
+- Publicado como Pull Request para revisão. Nenhum merge automático.
+
 ## v5.3.0 — 2026-11-06
 - 36 skills: v5.2 intacta + 2 skills novas: `mcp-server-factory` (ai-agents, contratos de ferramentas, transporte/segurança e testes/distribuição) e `ci-fix-loop` (devops-infrastructure, diagnóstico e correção de checks de CI via gh CLI).
 - `paint-draw-shapes` reescrita com profundidade (v1.1.0): protocolo USB HID do VOKI, confirmação visual, política de recuperação/undo e 3 referências novas.

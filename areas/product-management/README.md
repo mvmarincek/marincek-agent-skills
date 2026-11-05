@@ -5,3 +5,4 @@
 ## Skills instaláveis
 
 - [linear-tasks-prd](skills/linear-tasks-prd/SKILL.md): Tasks Linear, PRDs e relatórios técnicos MD/PDF.
+- [linear-workflows](skills/linear-workflows/SKILL.md): Operação do workspace Linear — issues, projects, cycles, triagem e GraphQL API.

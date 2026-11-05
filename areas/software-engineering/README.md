@@ -6,4 +6,6 @@
 - [continuous-code-sanitization](skills/continuous-code-sanitization/SKILL.md) — sanitização contínua, análise estática e quality gates.
 - [delivery-acceptance](skills/delivery-acceptance/SKILL.md) — aceitação de entrega com checklist, smoke test e evidência.
 - [runtime-error-triage](skills/runtime-error-triage/SKILL.md) — triagem de erros em runtime com correção mínima e reteste.
+- [diagnosing-bugs](skills/diagnosing-bugs/SKILL.md) — loop sistemático de diagnóstico de bugs com causa raiz e evidência.
+- [code-review](skills/code-review/SKILL.md) — revisão de mudanças nos eixos padrões e spec com severidade e veredito.
 - [database-blueprints](skills/database-blueprints/SKILL.md) — desenho de schema, migração segura e validação de persistência.

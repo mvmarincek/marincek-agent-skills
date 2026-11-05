@@ -1,8 +1,8 @@
 {
   "library": "mvmarincek-agent-skills",
-  "version": "5.3.0",
-  "date": "2026-11-05",
-  "count": 36,
+  "version": "5.4.0",
+  "date": "2026-11-06",
+  "count": 40,
   "skills": [
     {
       "id": "agent-learning-finetuning",
@@ -673,6 +673,86 @@
       "verified": "structure-only",
       "installed": false,
       "area": "devops-infrastructure"
+    },
+    {
+      "id": "code-review",
+      "title": "Code Review — padrões e spec com evidência",
+      "domain": "software-engineering",
+      "path": "areas/software-engineering/skills/code-review/SKILL.md",
+      "status": "stable",
+      "version": "1.0.0",
+      "depends_on": [
+        "continuous-code-sanitization"
+      ],
+      "supported_agents": [
+        "codex",
+        "claude-code",
+        "verdent",
+        "opencode"
+      ],
+      "verified": "structure-only",
+      "installed": false,
+      "area": "software-engineering"
+    },
+    {
+      "id": "diagnosing-bugs",
+      "title": "Diagnosing Bugs — loop de causa raiz com evidência",
+      "domain": "software-engineering",
+      "path": "areas/software-engineering/skills/diagnosing-bugs/SKILL.md",
+      "status": "stable",
+      "version": "1.0.0",
+      "depends_on": [
+        "runtime-error-triage"
+      ],
+      "supported_agents": [
+        "codex",
+        "claude-code",
+        "verdent",
+        "opencode"
+      ],
+      "verified": "structure-only",
+      "installed": false,
+      "area": "software-engineering"
+    },
+    {
+      "id": "gh-cli",
+      "title": "gh CLI — operação do GitHub pela linha de comando",
+      "domain": "devops-infrastructure",
+      "path": "areas/devops-infrastructure/skills/gh-cli/SKILL.md",
+      "status": "stable",
+      "version": "1.0.0",
+      "depends_on": [
+        "ci-fix-loop"
+      ],
+      "supported_agents": [
+        "codex",
+        "claude-code",
+        "verdent",
+        "opencode"
+      ],
+      "verified": "structure-only",
+      "installed": false,
+      "area": "devops-infrastructure"
+    },
+    {
+      "id": "linear-workflows",
+      "title": "Linear Workflows — issues, projects e cycles",
+      "domain": "product-management",
+      "path": "areas/product-management/skills/linear-workflows/SKILL.md",
+      "status": "stable",
+      "version": "1.0.0",
+      "depends_on": [
+        "linear-tasks-prd"
+      ],
+      "supported_agents": [
+        "codex",
+        "claude-code",
+        "verdent",
+        "opencode"
+      ],
+      "verified": "structure-only",
+      "installed": false,
+      "area": "product-management"
     }
   ]
 }
