@@ -7,6 +7,7 @@
 - [agent-learning-finetuning](skills/agent-learning-finetuning/SKILL.md): Arquitetura de aprendizado e fine-tuning.
 - [agent-persistent-memory](skills/agent-persistent-memory/SKILL.md): Memória persistente, RAG, contexto e métricas.
 - [agent-reliability-governance](skills/agent-reliability-governance/SKILL.md): Observabilidade, governança e avaliação.
+- [llm-model-selection-benchmark](skills/llm-model-selection-benchmark/SKILL.md): Seleção de modelos por benchmark, custo e aplicação real.
 - [structured-agent-prompts](skills/structured-agent-prompts/SKILL.md): Prompts de agentes, multiagentes e subagentes.
 - [skill-factory](skills/skill-factory/SKILL.md): Fábrica de Skills com curadoria e PR.
 - [skill-evaluator](skills/skill-evaluator/SKILL.md): Avaliação e benchmark de Skills.
