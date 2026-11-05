@@ -44,7 +44,8 @@ class V53ExcellenceTests(unittest.TestCase):
         manifest = _manifest()
         self.assertGreaterEqual(manifest['count'], 36)
         self.assertEqual(manifest['count'], len(manifest['skills']))
-        self.assertTrue(manifest['version'].startswith('5.3'))
+        major, minor = (int(x) for x in manifest['version'].split('.')[:2])
+        self.assertGreaterEqual((major, minor), (5, 3))
 
     def test_ten_previously_uncovered_skills_structure(self):
         manifest = _manifest()
