@@ -9,6 +9,6 @@
 - [whatsapp-brazil-knowledge](skills/whatsapp-brazil-knowledge/SKILL.md): Conformidade, Business API, PIX e fluxo do comerciante brasileiro.
 
 ## v5
-`immersive-commerce-3d` coordena cenas 3D jogáveis em landing pages existentes ou novas; `gamified-landing-page` responde pela conversão, UX, SEO e analytics.
+`immersive-commerce-3d` coordena cenas 3D jogáveis em landing pages existentes ou novas; `gamified-landing-page` responde pela conversão, UX, SEO e analytics. Assets GLB seguem o contrato de carregamento `references/glb-loading-react.md` (Suspense, lazy, fallback — o comércio nunca depende do asset 3D).
 
 - Jornada pós-compra de produtos configuráveis: `immersive-commerce-3d` + `realworld-order-digital-twin` + `made-to-order-manufacturing-twin`, quando há produção por marcos industriais verificados.

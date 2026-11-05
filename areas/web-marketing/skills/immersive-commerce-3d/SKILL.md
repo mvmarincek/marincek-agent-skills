@@ -3,7 +3,7 @@ name: immersive-commerce-3d
 description: "Criar ou incorporar experiências de game 3D fotorrealista e jogável em landing pages existentes ou novas, sem perder checkout, SEO, acessibilidade, analytics, nem integrar incorretamente estados reais."
 license: MIT
 metadata:
-  version: "1.0.0"
+  version: "1.1.0"
   language: "pt-BR"
   category: "web-marketing"
 ---
@@ -22,7 +22,7 @@ Use quando o pedido for landing page/site/vitrine/catálogo com game 3D realista
 2. Definir intenção: `marketing-demo` (simulado), `product-configurator` (escolha de itens), `checkout` (real), `live-operations` (eventos verificados de backend) ou `live-video` (imagem real autorizada). Deixar explícita a diferença entre esses estados e suas fontes.
 3. Entregar storyboards e mapa de câmera da **cena 3D principal**: posição real de objetos, ações, microfísica, estados, feedback e transições. Redigir eventos esperados antes de implementar shaders ou overlays.
 4. Acionar `photoreal-3d-assets` para PBR/GLB otimizado e real; `tactile-3d-interactions` para Raycaster/drag/pickup/drop/IK/tweens/estado; `immersive-experience-quality` para gates. Manter `gamified-landing-page` como camada de narrativa, CTA, SEO, desempenho e conversão.
-5. Em React usar Three.js + @react-three/fiber + drei, conforme versões compatíveis, Canvas client-side lazy e HTML semântico separado. Usar uma câmera definida (FOV e planos) e pixels reais do produto, não apenas painéis 2D. Adotar estados determinísticos de cena e comandos de negócio tipados.
+5. Em React usar Three.js + @react-three/fiber + drei, conforme versões compatíveis, Canvas client-side lazy e HTML semântico separado. Usar uma câmera definida (FOV e planos) e pixels reais do produto, não apenas painéis 2D. Adotar estados determinísticos de cena e comandos de negócio tipados. Assets GLB do pipeline `photoreal-3d-assets` seguem o contrato `references/glb-loading-react.md`: `useGLTF` sob Suspense, chunk 3D lazy, ErrorBoundary com fallback procedural — o comércio nunca depende do asset carregado.
 6. Conectar seleção de componentes → preço → carrinho → checkout existente; estado validado no backend, disponibilidade de ingredientes e preço autoritativos; não aceitar total calculado no cliente como pagamento confirmado. Manter a opção convencional sem WebGL para concluir a compra.
 7. Se o produto pedir acompanhar produção física depois do pagamento, **adicionar integração separada** `realworld-order-digital-twin`; para automóveis, equipamentos e fabricação sob encomenda, acionar também `made-to-order-manufacturing-twin`. Não atribuir eventos reais às animações do configurador. Usar estados emitidos pelo sistema operacional autenticado.
 8. Testar uma fatia vertical antes de construir a página inteira: cenário, item escolhível, mão pega e deposita, item acumula sobre produto, desfazer, alteração de resumo/preço, checkout/fallback. Somente avançar após passar os gates de qualidade.
@@ -42,7 +42,7 @@ O cliente personaliza **o próprio objeto 3D** (rodas, pintura, bancos, opcionai
 Reaproveitar componentes, CSS tokens, rotas, checkout, eventos e layout atuais. Criar rota/ilha imersiva por feature flag, degradar em hardware fraco e garantir que o usuário nunca perca uma compra se WebGL falhar. Evitar autoplay com áudio, timers manipulativos e elementos que escondam preço/termos.
 
 ## Contratos e referências
-Ler `references/experience-contract.md`, `references/implementation-playbook.md` e `assets/vertical-slice-acceptance.json`. Escrever roteiro de interações, ARQUITETURA.md, EVIDENCIAS.md e matriz de regressão. Não inventar testes realizados, links, recursos 3D ou integração disponível.
+Ler `references/experience-contract.md`, `references/implementation-playbook.md`, `references/glb-loading-react.md` e `assets/vertical-slice-acceptance.json`. Escrever roteiro de interações, ARQUITETURA.md, EVIDENCIAS.md e matriz de regressão. Não inventar testes realizados, links, recursos 3D ou integração disponível.
 
 ## Critérios de aceite (gate de entrega)
 - [ ] Landing nova ou existente preserva CTA, compra, SEO e mobile, com flags para a camada 3D.

@@ -86,7 +86,10 @@ class V53ExcellenceTests(unittest.TestCase):
         entries = {x['id']: x for x in _manifest()['skills']}
         for name, version in REVISED_VERSIONS.items():
             self.assertIn(name, entries, name)
-            self.assertEqual(entries[name]['version'], version, name)
+            # piso, nao trava: skills revisadas na v5.3 podem evoluir (ex.: photoreal-3d-assets v1.2.0)
+            got = tuple(int(n) for n in entries[name]['version'].split('.'))
+            floor = tuple(int(n) for n in version.split('.'))
+            self.assertGreaterEqual(got, floor, name)
 
     def test_delivery_acceptance_regression_loop_reference(self):
         p = ROOT / 'areas/software-engineering/skills/delivery-acceptance/references/test-debug-fix.md'
