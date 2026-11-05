@@ -3,7 +3,7 @@ name: runtime-error-triage
 description: "Diagnosticar erros em runtime com classificação, localização de causa raiz, correção mínima e reteste: console, API, banco, migration, Prisma, Supabase, CORS, upload, PDF, QR, WhatsApp e callbacks de pagamento."
 license: MIT
 metadata:
-  version: "1.1.0"
+  version: "1.2.0"
   language: "pt-BR"
   area: "software-engineering"
 ---
@@ -30,6 +30,9 @@ Mensagem de erro completa (texto, screenshot ou log), arquivo/linha/URL quando d
 
 ## Segurança e permissões
 Não declarar "zero erros" sem prova. Não ignorar o erro específico com resposta genérica. Não confundir erro de banco/permissão com problema de UI. Não usar comandos destrutivos (drop, reset, delete em massa) por padrão; exigir aprovação e backup antes de qualquer ação destrutiva.
+
+## Reversibilidade
+Toda correção que altera estado persistente — migration, deploy, dados, configuração — declara **como reverter** antes de ser aplicada: ponto de restauração, migration de volta ou procedimento manual documentado. Correção sem caminho de reversão em ambiente compartilhado é bloqueada até que o plano exista.
 
 ## Referências e artefatos
 - `references/error-taxonomy.md` — categorias e entrada de diagnóstico.

@@ -3,7 +3,7 @@ name: skill-evaluator
 description: "Verificar Skills e comportamento de agentes com testes estruturais, gatilhos, tool calls, cenários adversariais, regressões e métricas de qualidade/custo/latência."
 license: MIT
 metadata:
-  version: "2.0.0"
+  version: "2.1.0"
   language: "pt-BR"
   area: "ai-agents"
 ---
@@ -32,6 +32,12 @@ Python pytest, schema validation e snapshot tests local; Promptfoo / DeepEval / 
 
 ## Regras
 Testes ofensivos apenas em sandbox escopado; secrets omitidos; fairness/acessibilidade quando relevante; avalie agente+Skill+ferramentas e não só texto. Evidências registradas com dados minimizados; relatório final discrimina testes executados dos apenas sugeridos.
+
+## Critério de aceite
+- Cada Skill avaliada tem contrato de sucesso e veto definido antes da execução, com dataset versionado e ambiente registrado (hash de Skill, modelo, ferramenta e prompt).
+- Métricas mínimas reportadas: `pass_rate`, `false_trigger_rate`, `unsafe_action_rate`, `custo e latência`; testes críticos com gate sem violação.
+- Classificação final explícita (`experimental` / `validated` / `production_candidate` / `blocked`) com evidências; Skills estruturaismente válidas não são declaradas funcionalmente validadas sem execução em runtime autorizado.
+- Relatório discrimina o que foi executado do que foi apenas sugerido; nenhum dado sensível é exposto.
 
 Referências: `references/metrics-and-gates.md` e `assets/evaluation-case.json`.
 

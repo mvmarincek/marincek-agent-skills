@@ -3,7 +3,7 @@ name: photoreal-3d-assets
 description: "Projetar, produzir, revisar e otimizar modelos 3D fotorrealistas GLB de alimentos, mãos, utensílios, bancadas e lojas com materiais PBR, licenças e validação visual para WebGL/React Three Fiber."
 license: MIT
 metadata:
-  version: "1.0.0"
+  version: "1.1.0"
   language: "pt-BR"
   category: "games"
 ---
@@ -26,6 +26,12 @@ Projetos exigindo **geometria tridimensional real**, alimento com aparência rea
 
 ## Regras
 Não usar PNG como substituto de modelo 3D interativo nem criar cenário inteiro a partir de um único screenshot com animação aparente. `image-to-3D` requer revisão de malha/UV; modelos gerados geralmente precisam de limpeza, rig e otimização.
+
+## Limites
+- Asset gerado não é asset validado: a aprovação só vale após render no runtime final com iluminação de produção — screenshot do Blender não é prova.
+- Licença auditada é pré-requisito, não pendência: asset sem origem/licença clara no manifesto não entra em produção.
+- Budget de performance é medido no dispositivo-alvo, não estimado; asset que estoura o frame budget volta para otimização, não para "aceitar assim".
+- Testes estruturais do pipeline não validam qualidade visual; a comparação lado a lado com referência aprovada é inegociável.
 
 ## Critérios de aceite
 - [ ] Cada asset crítico é geometria real no runtime, visualizado de pelo menos 3 ângulos.

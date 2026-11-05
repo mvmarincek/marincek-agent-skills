@@ -3,7 +3,7 @@ name: whatsapp-brazil-knowledge
 description: "Conhecimento do ecossistema brasileiro de WhatsApp para gerar código com melhores práticas locais: conformidade Meta/LGPD/PIX/CADE, Business API, pagamentos PIX e fluxo de pequenos comerciantes."
 license: MIT
 metadata:
-  version: "1.1.0"
+  version: "1.2.0"
   language: "pt-BR"
   area: "web-marketing"
 ---
@@ -29,6 +29,9 @@ Tarefa de código ou arquitetura envolvendo WhatsApp no Brasil; estágio (pesqui
 
 ## Segurança e permissões
 Conformidade é obrigatória, não opcional: consentimento LGPD antes de armazenar dados, templates aprovados pela Meta antes do envio em massa, e atenção a riscos concorrenciais (CADE) em incentivos a pagamento. Não contornar limites de tier da Business API. Não armazenar dados sensíveis sem base legal. Dados baseados na pesquisa `brazil-portal-kb` (2026-05-16); verificar vigência antes de decisões críticas.
+
+## Limite de conhecimento
+Esta skill é referência operacional, **não parecer jurídico**: decisões críticas de conformidade (incentivos concorrenciais, dados sensíveis em escala, termos de uso) exigem verificação com advogado ou contador antes de entrar em produção. Regras da Meta e do Banco Central mudam; conteúdo com mais de 6 meses deve ser revalidado contra a fonte oficial antes de embasar código novo.
 
 ## Referências e artefatos
 - `references/compliance.md` — 4 camadas de conformidade: Meta → LGPD → PIX/NF-e → CADE.
