@@ -1,3 +1,18 @@
+## v5.1.0 — 2026-11-01
+- 28 skills: biblioteca v4 intacta com 22 + 5 skills v5 (games 3D comerciais) + 1 skill `made-to-order-manufacturing-twin` para automóveis/móveis/equipamentos de fabricação sob encomenda.
+- Generaliza jornada: configuração 3D, aprovação, checkout, operação comprovada, assembly milestones, expedição e entrega, com categorias de evidência.
+- Roteador reconhece manufatura automotiva e linha de produção; tests + docs de integração MES/ERP/PLM.
+- Publicado como Pull Request para revisão em `feat/immersive-3d-realtime-commerce-v5-1`. Nenhum deploy automático.
+
+# v5.0.0 — 2026-11-01
+
+- Cinco novas Agent Skills originais: `immersive-commerce-3d`, `photoreal-3d-assets`, `tactile-3d-interactions`, `realworld-order-digital-twin`, `immersive-experience-quality`.
+- Atualizadas `gamified-landing-page` e `smart-skill-router` para reconhecer jogo 3D realista como implementação interativa, não mero efeito de marketing.
+- Contrato de integração para sites existentes/novos e UX de checkout com feature flag.
+- Separação de simulação de preparo e status real de cozinha (backend/KDS/POS), stream opcional autorizado.
+- Novos casos de teste de roteamento, fixtures de aceitação, fontes externas somente como referência.
+- A publicação remota GitHub não foi executada nesta geração; arquivos preservam todo o conteúdo da v4 original.
+
 # v4.0.0 — 2026-11-01
 
 - Adicionadas 3 Skills: Company Brain, Second Brain e Code Intelligence.

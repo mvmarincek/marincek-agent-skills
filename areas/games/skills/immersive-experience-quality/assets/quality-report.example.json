@@ -1,0 +1,49 @@
+{
+  "version": "1.0",
+  "environment": "UNSPECIFIED",
+  "gates": [
+    {
+      "id": "G0",
+      "status": "NOT_TESTED",
+      "evidence": [],
+      "notes": ""
+    },
+    {
+      "id": "G1",
+      "status": "NOT_TESTED",
+      "evidence": [],
+      "notes": ""
+    },
+    {
+      "id": "G2",
+      "status": "NOT_TESTED",
+      "evidence": [],
+      "notes": ""
+    },
+    {
+      "id": "G3",
+      "status": "NOT_TESTED",
+      "evidence": [],
+      "notes": ""
+    },
+    {
+      "id": "G4",
+      "status": "NOT_TESTED",
+      "evidence": [],
+      "notes": ""
+    },
+    {
+      "id": "G5",
+      "status": "NOT_TESTED",
+      "evidence": [],
+      "notes": ""
+    },
+    {
+      "id": "G6",
+      "status": "NOT_TESTED",
+      "evidence": [],
+      "notes": ""
+    }
+  ],
+  "remark": "G4 is N/A only when no live integration is in scope; statuses are never inferred."
+}

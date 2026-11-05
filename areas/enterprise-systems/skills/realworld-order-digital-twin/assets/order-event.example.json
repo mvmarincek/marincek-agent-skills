@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "example_only": true,
+  "event_id": "sample-event-0001",
+  "order_id": "sample-order-0001",
+  "store_id": "sample-store-001",
+  "sequence": 3,
+  "event_type": "kitchen.cooking_started",
+  "occurred_at": "2026-11-01T19:20:00-03:00",
+  "received_at": "2026-11-01T19:20:01-03:00",
+  "source": "kds-simulator",
+  "actor_role": "kitchen_operator",
+  "proof": null,
+  "mode": "REAL_ORDER_TRACKING"
+}

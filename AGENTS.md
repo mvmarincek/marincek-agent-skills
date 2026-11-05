@@ -27,3 +27,13 @@ Quando o pedido corresponder a um dos seguintes domínios, verificar o catálogo
 - `llm-model-selection-benchmark`: escolher modelos por benchmark atual e aplicações reais, nunca popularidade.
 - `hybrid-it-squad-management`: organização TI, squads híbridos e custo por outcome, mantendo humanos responsáveis.
 Não inventar acessos, dados, resultados, modelos treinados nem sistemas provisionados.
+
+
+## V5 — Experiências 3D jogáveis e digital twin
+- Landing nova ou existente com gameplay 3D deve disparar `immersive-commerce-3d`, cooperando com `gamified-landing-page` para conversão e fallback.
+- Exigir `photoreal-3d-assets` (geometria GLB/PBR), `tactile-3d-interactions` (pegar/transportar/depositar), e `immersive-experience-quality` (provas do runtime) quando relevantes; não confundir imagens ilustrativas com game real.
+- `realworld-order-digital-twin` é integração separada somente para eventos reais confirmados, com checkout backend autoritativo; vídeo só com aprovação/privacidade.
+- Preservar rotas, branding, checkout e componentes existentes; implementar incrementalmente com feature flag e PR.
+
+## v5.1 — experiência de compra vinculada à produção física
+Para qualquer landing existente/nova com montagem 3D de produto, ativar `immersive-commerce-3d` e selecionar especialistas conforme interações. Se o cliente deseja acompanhar produção real por etapas, `realworld-order-digital-twin`; se fabricação sob encomenda com ERP/MES/PLM/VIN/serial, `made-to-order-manufacturing-twin`. Não transformar operação em timer/efeito inventado. **Animação ilustrativa não é filmagem**; evento verificado de uma ordem não garante que corresponda a uma unidade física. Diferenciar demo, previsão, confirmação por sistema e vínculo verificado por unidade. Manter a produção industrial isolada e somente integrar mediante aprovação.

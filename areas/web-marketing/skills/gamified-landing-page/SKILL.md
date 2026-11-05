@@ -3,7 +3,7 @@ name: gamified-landing-page
 description: "Projetar e implementar landing pages altamente gamificadas, modernas, imersivas e focadas em conversao; React/Next.js, Three.js, shaders, graficos interativos, motion, UX, copy, SEO, performance, analytics e testes A/B."
 license: MIT
 metadata:
-  version: "2.0.0"
+  version: "3.0.0"
   language: "pt-BR"
   category: "web-marketing"
 ---
@@ -84,3 +84,16 @@ React/Vite para simples; Next.js quando SSR, SEO e rotas exigirem. Deploy pode s
 
 ## Segurança, privacidade e aprovação
 Não instalar analytics sem consentimento e conformidade; solicitar aprovação antes de ativar trackers externos, publicar experimentos, criar contas pagas ou alterar políticas de cookies. Proteger visitantes contra rastreamento sensível e manipulação indevida.
+
+## Evolução v5 — quando a landing deve ser um game 3D realista
+
+Quando o usuário pedir **game 3D realista, cozinha de verdade, montar produto com mãos, apanhar ingredientes de recipientes, interações físicas, produto configurável em tempo real ou experiência jogável**, priorizar `immersive-commerce-3d` (especialista principal), que aciona `photoreal-3d-assets`, `tactile-3d-interactions` e `immersive-experience-quality` conforme necessidade. Aqui continuam os requisitos de funil, design, CTA, performance, marketing e SEO. Não converter solicitação 3D real em cards CSS, GIF, mockup, página plana, imagem estática ou vídeo pré-renderizado como entrega final.
+
+- **Sites existentes:** inventário, feature flag, design tokens, checkout e rotas preservados. Teste de não regressão obrigatória.
+- **Sites novos:** cena jogável como centro da jornada; criar fallback comercial HTML antes de depender só do WebGL.
+- **Mecânica:** exigir vertical slice com item retirado da fonte 3D, transportado por mão/utensílio e depositado sobre o produto, persistindo em cena, com preço/resumo alterados e undo.
+- **Produção real após pedido:** somente `realworld-order-digital-twin` integra eventos verificados da cozinha/KDS e/ou vídeo autorizado. Prévia simulada e eventos reais precisam ser explicitamente distintos.
+- **Entrega:** evidência de runtime e testes, não apenas screenshots, boards e texturas.
+
+## Evolução v5.1 — jornada comercial 3D continua após o checkout
+Se o usuário quiser **carro, PC, móvel ou outro produto montando-se visualmente à medida que é produzido no mundo físico**, encaminhar para `immersive-commerce-3d` + `made-to-order-manufacturing-twin` + `realworld-order-digital-twin`; a landing faz UX, SEO e conversão, enquanto gêmeo de experiência controla configuração, status e cenas 3D. Não prometer visualização direta da fábrica sem vínculo de evento/identidade e autorização do fabricante. Rotular animação ilustrativa, status confirmado e câmera real com distinção explícita.

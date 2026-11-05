@@ -1,0 +1,39 @@
+{
+  "assets": [
+    {
+      "id": "crepe_flat",
+      "file": "public/3d/crepe_flat.glb",
+      "source": "to-be-created",
+      "license": "TO_CONFIRM",
+      "scale_m": 0.3,
+      "pivot": "center",
+      "lod": [
+        "high",
+        "low"
+      ],
+      "animations": [],
+      "collision": "circular-surface",
+      "review_status": "pending"
+    },
+    {
+      "id": "hand_rig_right",
+      "file": "public/3d/hand_rig_right.glb",
+      "source": "to-be-created",
+      "license": "TO_CONFIRM",
+      "scale_m": 0.22,
+      "pivot": "wrist",
+      "lod": [
+        "high",
+        "low"
+      ],
+      "animations": [
+        "pick",
+        "carry",
+        "release"
+      ],
+      "collision": "grip-point",
+      "review_status": "pending"
+    }
+  ],
+  "comment": "Examples only. Files do not exist in this library."
+}

@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "scenario": "creperie_realistic_3d",
+  "mode": "demo",
+  "acceptance_tests": [
+    {
+      "id": "SLICE-01",
+      "action": "click ingredient bin",
+      "expected": "3D selection raycast, no DOM card stand-in"
+    },
+    {
+      "id": "SLICE-02",
+      "action": "pickup ingredient",
+      "expected": "animated hand/tool contacts item and carries visible geometry"
+    },
+    {
+      "id": "SLICE-03",
+      "action": "drop ingredient",
+      "expected": "new ingredient mesh persists on crepe at valid 3D position"
+    },
+    {
+      "id": "SLICE-04",
+      "action": "add second item",
+      "expected": "both item meshes remain visible and non-overlapping beyond allowed bounds"
+    },
+    {
+      "id": "SLICE-05",
+      "action": "undo",
+      "expected": "corresponding mesh and product state removed; price revalidated"
+    },
+    {
+      "id": "SLICE-06",
+      "action": "checkout",
+      "expected": "existing conversion path, backend-authoritative total"
+    },
+    {
+      "id": "SLICE-07",
+      "action": "no WebGL",
+      "expected": "accessible functional HTML catalog/cart fallback"
+    },
+    {
+      "id": "SLICE-08",
+      "action": "tracking without events",
+      "expected": "live stage remains unknown/awaiting confirmation, no invented progression"
+    }
+  ],
+  "evidence_required": [
+    "video_runtime",
+    "state_assertions",
+    "screenshots_before_after",
+    "web_vitals",
+    "licensing_report"
+  ]
+}

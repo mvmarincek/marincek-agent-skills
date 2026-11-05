@@ -1,0 +1,34 @@
+{
+  "input": [
+    {
+      "action": "pick",
+      "ingredient": "strawberry"
+    },
+    {
+      "action": "commit",
+      "location": "crepe:x0.2,z0.1"
+    },
+    {
+      "action": "pick",
+      "ingredient": "banana"
+    },
+    {
+      "action": "commit",
+      "location": "crepe:x-0.1,z0.2"
+    },
+    {
+      "action": "undo"
+    }
+  ],
+  "expected": {
+    "ingredients_visible": [
+      "strawberry"
+    ],
+    "ingredients_absent": [
+      "banana"
+    ],
+    "stage": "add_ingredient",
+    "price_recalculated": true
+  },
+  "note": "Executable fixture requires app-specific adapter."
+}

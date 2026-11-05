@@ -1,8 +1,8 @@
 {
   "library": "mvmarincek-agent-skills",
-  "version": "4.0.0",
+  "version": "5.1.0",
   "date": "2026-11-01",
-  "count": 22,
+  "count": 28,
   "skills": [
     {
       "id": "agent-learning-finetuning",
@@ -177,7 +177,7 @@
       "domain": "visual-marketing",
       "path": "areas/web-marketing/skills/gamified-landing-page/SKILL.md",
       "status": "original-bundled",
-      "version": "2.0.0",
+      "version": "3.0.0",
       "depends_on": [],
       "supported_agents": [
         "codex",
@@ -206,6 +206,47 @@
       "verified": "structure-only",
       "installed": false,
       "area": "engineering-management"
+    },
+    {
+      "id": "immersive-commerce-3d",
+      "title": "Experiências comerciais 3D jogáveis em landing pages novas e existentes",
+      "domain": "immersive-web-commerce",
+      "path": "areas/web-marketing/skills/immersive-commerce-3d/SKILL.md",
+      "status": "original-bundled",
+      "version": "1.0.0",
+      "depends_on": [
+        "gamified-landing-page",
+        "photoreal-3d-assets",
+        "tactile-3d-interactions",
+        "immersive-experience-quality"
+      ],
+      "supported_agents": [
+        "codex",
+        "claude-code",
+        "verdent",
+        "opencode"
+      ],
+      "verified": "structure-only",
+      "installed": false,
+      "area": "web-marketing"
+    },
+    {
+      "id": "immersive-experience-quality",
+      "title": "QA visual, funcional, acessibilidade e desempenho para 3D web",
+      "domain": "3d-quality-assurance",
+      "path": "areas/games/skills/immersive-experience-quality/SKILL.md",
+      "status": "original-bundled",
+      "version": "1.0.0",
+      "depends_on": [],
+      "supported_agents": [
+        "codex",
+        "claude-code",
+        "verdent",
+        "opencode"
+      ],
+      "verified": "structure-only",
+      "installed": false,
+      "area": "games"
     },
     {
       "id": "infrastructure-devops-architect",
@@ -262,6 +303,27 @@
       "area": "ai-agents"
     },
     {
+      "id": "made-to-order-manufacturing-twin",
+      "title": "Gêmeo digital da fabricação sob encomenda",
+      "domain": "manufacturing-digital-thread",
+      "path": "areas/enterprise-systems/skills/made-to-order-manufacturing-twin/SKILL.md",
+      "status": "original-bundled",
+      "version": "1.0.0",
+      "depends_on": [
+        "realworld-order-digital-twin",
+        "immersive-experience-quality"
+      ],
+      "supported_agents": [
+        "codex",
+        "claude-code",
+        "verdent",
+        "opencode"
+      ],
+      "verified": "structure-only",
+      "installed": false,
+      "area": "enterprise-systems"
+    },
+    {
       "id": "ml-lifecycle-validation",
       "title": "ML Engineering & Validation — ciclo completo",
       "domain": "machine-learning",
@@ -296,6 +358,44 @@
       "verified": "structure-only",
       "installed": false,
       "area": "automation-hid"
+    },
+    {
+      "id": "photoreal-3d-assets",
+      "title": "Pipeline de assets fotorrealistas, GLB e materiais PBR",
+      "domain": "3d-asset-production",
+      "path": "areas/games/skills/photoreal-3d-assets/SKILL.md",
+      "status": "original-bundled",
+      "version": "1.0.0",
+      "depends_on": [],
+      "supported_agents": [
+        "codex",
+        "claude-code",
+        "verdent",
+        "opencode"
+      ],
+      "verified": "structure-only",
+      "installed": false,
+      "area": "games"
+    },
+    {
+      "id": "realworld-order-digital-twin",
+      "title": "Integração entre experiência 3D e estados reais de produção",
+      "domain": "realtime-business-integration",
+      "path": "areas/enterprise-systems/skills/realworld-order-digital-twin/SKILL.md",
+      "status": "original-bundled",
+      "version": "1.0.0",
+      "depends_on": [
+        "immersive-commerce-3d"
+      ],
+      "supported_agents": [
+        "codex",
+        "claude-code",
+        "verdent",
+        "opencode"
+      ],
+      "verified": "structure-only",
+      "installed": false,
+      "area": "enterprise-systems"
     },
     {
       "id": "second-brain-architecture",
@@ -361,7 +461,7 @@
       "area": "ai-agents",
       "path": "areas/ai-agents/skills/smart-skill-router/SKILL.md",
       "status": "original-bundled",
-      "version": "2.0.0",
+      "version": "3.0.0",
       "depends_on": [],
       "supported_agents": [
         "codex",
@@ -389,6 +489,26 @@
       "verified": "structure-only",
       "installed": false,
       "area": "ai-agents"
+    },
+    {
+      "id": "tactile-3d-interactions",
+      "title": "Interação 3D com mãos, ingredientes e montagem persistente",
+      "domain": "3d-game-interaction",
+      "path": "areas/games/skills/tactile-3d-interactions/SKILL.md",
+      "status": "original-bundled",
+      "version": "1.0.0",
+      "depends_on": [
+        "photoreal-3d-assets"
+      ],
+      "supported_agents": [
+        "codex",
+        "claude-code",
+        "verdent",
+        "opencode"
+      ],
+      "verified": "structure-only",
+      "installed": false,
+      "area": "games"
     },
     {
       "id": "voki-visual-geometry-cad",
