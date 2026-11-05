@@ -1,13 +1,15 @@
-# MVMarincek — Agent Skills Library v5.1
+# MVMarincek — Agent Skills Library v5.4
 
 **Fonte portátil de conhecimento operacional**: Codex, Claude Code, Verdent e OpenCode; catálogo e Skills por áreas de engenharia, IA, segurança, DevOps, produto, marketing, games 3D imersivos e manufatura.
 
 ## Status verificado
-- 28 Skills completas catalogadas: 22 preservadas da v4 + 6 novas Skills para games 3D de compra, operação real e fabricação sob encomenda (incluindo veículos).
+- **40 Skills completas catalogadas**: 22 preservadas da v4 + 6 de imersão 3D (v5.1) + 6 de entrega essencial recriadas (v5.2) + 2 de excelência (v5.3) + 4 originais de colaboração (v5.4, MIT) — review de código, diagnóstico de bugs, gh CLI e Linear.
+- Skills de terceiros **não** são copiadas nem redistribuídas; capacidades equivalentes foram recriadas como conteúdo original sob MIT.
 - `gamified-landing-page` atualizada com cinema/3D, psicologia da atenção, instrumentação de cliques, seções, vídeos, gráficos e eventos de conversão.
-- Novas áreas ativas: enterprise-systems, machine-learning, software-engineering, engineering-management. A área `games` passa a ter 3 Skills; outras áreas futuras continuam planejadas.
+- Áreas ativas: ai-agents, automation-hid, cybersecurity, devops-infrastructure, enterprise-knowledge, enterprise-systems, games, machine-learning, personal-knowledge, product-management, software-engineering, web-marketing, engineering-management.
 - `catalog/external-sources.json` registra fontes; **não copiamos nem publicamos automaticamente repositórios de terceiros**.
 - Inclui ferramentas offline para Scaffold, roteamento, validação e instalação, sem executar infraestrutura cloud.
+- Pipeline CI próprio: `validate.py` + `skill_quality.py` + unittest em cada PR (`.github/workflows/validate.yml`).
 
 ## Estrutura
 ```
@@ -115,7 +117,7 @@ python .\scripts\install.py --scope global --targets codex claude verdent openco
 | `realworld-order-digital-twin` | enterprise-systems | Pedido pós-checkout, eventos de produção real e transmissão opcional autorizada |
 | `immersive-experience-quality` | games | Gates visual, interação e conversão, e2e, performance e fallback |
 
-Ver `docs/IMMERSIVE_COMMERCE_3D_V5.md` e `docs/CODEX_PROMPT_V5_3D.md`. Os documentos de versões anteriores ainda citam o estado de publicação daquele momento; a `main` remota foi verificada na versão **4.0**. A v5.1 requer publicação.
+Ver `docs/IMMERSIVE_COMMERCE_3D_V5.md` e `docs/CODEX_PROMPT_V5_3D.md`. Histórico completo de versões no `CHANGELOG.md`; a `main` remota está publicada na versão **5.4.0** (40 skills, CI verde).
 
 ### Validar e instalar somente v5
 ```powershell

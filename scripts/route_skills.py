@@ -16,7 +16,8 @@ def rank(task,area=None,top=5):
  real_3d=bool(q & {'3d','tridimensional','game','jogavel','fotorrealista','realista','blender','glb','webgl'})
  hands=bool(q & {'ingrediente','ingredientes','mao','pegar','pegando','colocar','colocando','transportar','interacao','interagir','recheio','manipular'})
  asset_work=bool(q & {'glb','pbr','asset','assets','modelo','texturas','blender','fotorealismo','fotorrealista'})
- factory_twin=bool(q & {'carro','automovel','veiculo','automotivo','fabrica','fabricacao','montadora','linha','montagem','manufatura','mes','erp','vin','plm','industria','production','manufacturing','assembly'}) and bool(q & {'3d','real','tempo','status','producao','montagem','fabricacao','fabrica','pedido','cliente','game','linha','sob','encomenda','digital','twin'})
+ factory_strong=bool(q & {'carro','automovel','veiculo','automotivo','fabrica','fabricacao','montadora','manufatura','mes','erp','vin','plm','serial','industria','production','manufacturing','producao','encomenda','ordem'})
+ factory_twin=factory_strong and bool(q & {'3d','real','tempo','status','montagem','fabricacao','fabrica','pedido','cliente','game','linha','sob','digital','twin','configurado','configuracao','montando','producao'})
  live_ops=bool(q & {'cozinha','chef','preparado','preparo','despachado','despachar','pedido','kds','pos','operacao','ao vivo','tempo real'.replace(' ','_')}) and bool(q & {'real','vivo','pedido','cozinha','chef','kds','pos','despachar','status','andamento'})
  for e in data:
   if area and e.get('area')!=area:continue
