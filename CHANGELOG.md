@@ -1,3 +1,11 @@
+## v5.2.0 — 2026-11-05
+- 34 skills: v5.1 intacta + 6 skills recreadas no formato-padrão da biblioteca a partir de versões instaladas apenas localmente (órfãs não versionadas): `delivery-acceptance`, `runtime-error-triage`, `database-blueprints`, `deploy-diagnosis`, `whatsapp-bot-scaffold`, `whatsapp-brazil-knowledge`.
+- SKILL.md reescritos com frontmatter completo (license, area), Quando ativar, Contrato de entrada, Pipeline obrigatório, Segurança e permissões e Critério de aceite; referências `knowledge/` corrigidas para `references/`; template do bot movido para `assets/template/`.
+- READMEs de área sincronizados com o catálogo (7 corrigidos: ai-agents, software-engineering, devops-infrastructure, web-marketing, engineering-management, machine-learning, enterprise-systems).
+- Skills de terceiros (code-review, gh-cli, linear, diagnosing-bugs) NÃO copiadas: sem licença redistribuível verificada; permanecem fora do repo conforme política de triagem.
+- Testes: `tests/test_v52_core_delivery.py` cobrindo presença, arquivos de referência, estrutura do template e ausência de credenciais.
+- Publicado como Pull Request empilhado para revisão. Nenhum merge automático.
+
 ## v5.1.0 — 2026-11-01
 - 28 skills: biblioteca v4 intacta com 22 + 5 skills v5 (games 3D comerciais) + 1 skill `made-to-order-manufacturing-twin` para automóveis/móveis/equipamentos de fabricação sob encomenda.
 - Generaliza jornada: configuração 3D, aprovação, checkout, operação comprovada, assembly milestones, expedição e entrega, com categorias de evidência.
