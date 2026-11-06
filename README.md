@@ -1,9 +1,9 @@
-# MVMarincek — Agent Skills Library v5.5
+# MVMarincek — Agent Skills Library v5.6
 
 **Fonte portátil de conhecimento operacional**: Codex, Claude Code, Verdent e OpenCode; catálogo e Skills por áreas de engenharia, IA, segurança, DevOps, produto, marketing, games 3D imersivos e manufatura.
 
 ## Status verificado
-- **40 Skills completas catalogadas**: 22 preservadas da v4 + 6 de imersão 3D (v5.1) + 6 de entrega essencial recriadas (v5.2) + 2 de excelência (v5.3) + 4 originais de colaboração (v5.4, MIT) — review de código, diagnóstico de bugs, gh CLI e Linear.
+- **42 Skills completas catalogadas**: 22 preservadas da v4 + 6 de imersão 3D (v5.1) + 6 de entrega essencial recriadas (v5.2) + 2 de excelência (v5.3) + 4 originais de colaboração (v5.4, MIT) — review de código, diagnóstico de bugs, gh CLI e Linear — + 2 de arquitetura de agentes (v5.6): guardrails e retomada de tarefas interrompidas.
 - Skills de terceiros **não** são copiadas nem redistribuídas; capacidades equivalentes foram recriadas como conteúdo original sob MIT.
 - `gamified-landing-page` atualizada com cinema/3D, psicologia da atenção, instrumentação de cliques, seções, vídeos, gráficos e eventos de conversão.
 - Áreas ativas: ai-agents, automation-hid, cybersecurity, devops-infrastructure, enterprise-knowledge, enterprise-systems, games, machine-learning, personal-knowledge, product-management, software-engineering, web-marketing, engineering-management.
@@ -119,7 +119,7 @@ python .\scripts\install.py --scope global --targets codex claude verdent openco
 | `realworld-order-digital-twin` | enterprise-systems | Pedido pós-checkout, eventos de produção real e transmissão opcional autorizada |
 | `immersive-experience-quality` | games | Gates visual, interação e conversão, e2e, performance e fallback |
 
-Ver `docs/IMMERSIVE_COMMERCE_3D_V5.md` e `docs/CODEX_PROMPT_V5_3D.md`. Histórico completo de versões no `CHANGELOG.md`; a `main` remota está publicada na versão **5.5.0** (40 skills, CI verde) — a v5.5.0 adiciona o pipeline Blender→GLB/PBR→WebGL às skills imersivas (`photoreal-3d-assets` v1.2.0, `immersive-commerce-3d` v1.1.0).
+Ver `docs/IMMERSIVE_COMMERCE_3D_V5.md` e `docs/CODEX_PROMPT_V5_3D.md`. Histórico completo de versões no `CHANGELOG.md`; a `main` remota está publicada na versão **5.6.0** (42 skills, CI verde) — a v5.5.0 adicionou o pipeline Blender→GLB/PBR→WebGL às skills imersivas e a v5.6.0 as skills `agent-guardrails-design` e `agent-task-recovery`.
 
 ### Validar e instalar somente v5
 ```powershell
