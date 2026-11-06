@@ -1,3 +1,11 @@
+## v5.6.0 — 2026-11-06
+- **42 skills** (+2 novas originais, área `ai-agents`):
+- **`agent-guardrails-design` v1.0.0**: projeto e teste de guardrails para agentes — 6 camadas de controle (borda de ferramenta, aprovação humana com suspensão real, escopo, orçamento, entrada, saída), matriz de risco por ação (tiers R/W1/W2/W3/S), protocolo de aprovação (o que exibir, timeout com abort, registro), comportamento obrigatório ao bloquear, red-team por guardrail e loop de aperto por incidente. Referências: `references/guardrail-catalog.md` e template `assets/guardrails-template.md`. Complementar a `agent-reliability-governance` (arquitetura ampla) sem sobreposição.
+- **`agent-task-recovery` v1.0.0**: retomada de tarefas interrompidas (fim de contexto, crash, timeout, handoff) até a finalização — checkpoint durante o trabalho (`HANDOFF.md` mínimo viável), protocolo de retomada verificar→reconciliar→continuar→reportar com classificação verificado/pendente/inconcluso/fantasma, verificação por tipo de trabalho, anti-padrões, recovery drill e implementação em runtime (`references/recovery-runtime.md`). Complementar a `agent-persistent-memory` (armazenamento) sem sobreposição.
+- Catálogo: v5.6.0, 42 skills; README de `ai-agents` atualizado.
+- Testes: `tests/test_v56_guardrails_recovery.py`.
+- Publicado como Pull Request para revisão. Nenhum merge automático.
+
 ## v5.5.0 — 2026-11-06
 - 40 skills (nenhuma nova): evolução da cadeia imersiva para cobrir o pipeline **Blender → GLB/PBR → WebGL** de ponta a ponta.
 - `photoreal-3d-assets` v1.2.0: nova referência `references/blender-glb-export.md` — preparo de cena em metros (Unit Scale 1.0, transforms aplicados, pivôs consistentes), materiais Principled BSDF que exportam para glTF PBR, checklist das opções do exportador (`export_format='GLB'`, `export_yup`, `export_apply`, tangents, Draco apenas com decoder e ganho medido), validação no runtime (screenshot do Blender não é prova) e exportação headless para CI (`blender --background --python`).

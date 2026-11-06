@@ -10,8 +10,11 @@ def frontmatter_version(skill_md: Path) -> str:
 class GlbPipelineV55Tests(unittest.TestCase):
  def test_catalog_versions_synced_with_frontmatter(self):
   m = json.loads((ROOT / 'catalog/skills.json').read_text(encoding='utf-8'))
-  self.assertEqual(m['version'], '5.5.0')
-  self.assertEqual(m['count'], 40)
+  # piso, nao trava: catalogo evolui (5.5 -> 5.6 -> ...); count idem
+  self.assertGreaterEqual(
+   tuple(int(n) for n in m['version'].split('.')), (5, 5)
+  )
+  self.assertGreaterEqual(m['count'], 40)
   records = {x['id']: x for x in m['skills']}
   expected = {'photoreal-3d-assets': '1.2.0', 'immersive-commerce-3d': '1.1.0'}
   for sid, ver in expected.items():

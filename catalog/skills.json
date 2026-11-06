@@ -1,8 +1,8 @@
 {
   "library": "mvmarincek-agent-skills",
-  "version": "5.5.0",
+  "version": "5.6.0",
   "date": "2026-11-06",
-  "count": 40,
+  "count": 42,
   "skills": [
     {
       "id": "agent-learning-finetuning",
@@ -753,6 +753,42 @@
       "verified": "structure-only",
       "installed": false,
       "area": "product-management"
+    },
+    {
+      "id": "agent-guardrails-design",
+      "title": "Guardrails de agentes: camadas, aprovação e aperto gradual",
+      "domain": "ai-agents",
+      "area": "ai-agents",
+      "path": "areas/ai-agents/skills/agent-guardrails-design/SKILL.md",
+      "status": "stable",
+      "version": "1.0.0",
+      "depends_on": [],
+      "supported_agents": [
+        "codex",
+        "claude-code",
+        "verdent",
+        "opencode"
+      ],
+      "verified": "structure-only",
+      "installed": false
+    },
+    {
+      "id": "agent-task-recovery",
+      "title": "Retomada de tarefas interrompidas: checkpoint, verificação e conclusão",
+      "domain": "ai-agents",
+      "area": "ai-agents",
+      "path": "areas/ai-agents/skills/agent-task-recovery/SKILL.md",
+      "status": "stable",
+      "version": "1.0.0",
+      "depends_on": [],
+      "supported_agents": [
+        "codex",
+        "claude-code",
+        "verdent",
+        "opencode"
+      ],
+      "verified": "structure-only",
+      "installed": false
     }
   ]
 }
