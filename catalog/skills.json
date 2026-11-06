@@ -1,8 +1,8 @@
 {
   "library": "mvmarincek-agent-skills",
-  "version": "5.8.0",
+  "version": "5.9.0",
   "date": "2026-11-06",
-  "count": 43,
+  "count": 44,
   "skills": [
     {
       "id": "agent-learning-finetuning",
@@ -10,7 +10,7 @@
       "domain": "agent-architecture",
       "path": "areas/ai-agents/skills/agent-learning-finetuning/SKILL.md",
       "status": "original-bundled",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "depends_on": [],
       "supported_agents": [
         "codex",
@@ -28,7 +28,7 @@
       "domain": "agent-memory",
       "path": "areas/ai-agents/skills/agent-persistent-memory/SKILL.md",
       "status": "original-bundled",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "depends_on": [],
       "supported_agents": [
         "codex",
@@ -82,7 +82,7 @@
       "domain": "software-engineering",
       "path": "areas/software-engineering/skills/code-intelligence-engineering/SKILL.md",
       "status": "original-bundled",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "depends_on": [
         "continuous-code-sanitization"
       ],
@@ -102,7 +102,7 @@
       "domain": "enterprise-knowledge",
       "path": "areas/enterprise-knowledge/skills/company-brain-architecture/SKILL.md",
       "status": "original-bundled",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "depends_on": [
         "agent-persistent-memory",
         "agent-reliability-governance"
@@ -290,7 +290,7 @@
       "domain": "ai-agents",
       "path": "areas/ai-agents/skills/llm-model-selection-benchmark/SKILL.md",
       "status": "original-bundled",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "depends_on": [],
       "supported_agents": [
         "codex",
@@ -329,7 +329,7 @@
       "domain": "machine-learning",
       "path": "areas/machine-learning/skills/ml-lifecycle-validation/SKILL.md",
       "status": "original-bundled",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "depends_on": [],
       "supported_agents": [
         "codex",
@@ -403,7 +403,7 @@
       "domain": "personal-knowledge",
       "path": "areas/personal-knowledge/skills/second-brain-architecture/SKILL.md",
       "status": "original-bundled",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "depends_on": [
         "agent-persistent-memory",
         "agent-reliability-governance"
@@ -795,6 +795,24 @@
       "title": "Uso otimizado do marm-memory (MCP local-first)",
       "domain": "agent-operations",
       "path": "areas/ai-agents/skills/marm-memory-usage/SKILL.md",
+      "status": "original-bundled",
+      "version": "1.0.0",
+      "depends_on": [],
+      "supported_agents": [
+        "codex",
+        "claude-code",
+        "verdent",
+        "opencode"
+      ],
+      "verified": "structure-only",
+      "installed": false,
+      "area": "ai-agents"
+    },
+    {
+      "id": "rag-architecture",
+      "title": "Arquitetura RAG por evolução incremental com evidência",
+      "domain": "agent-architecture",
+      "path": "areas/ai-agents/skills/rag-architecture/SKILL.md",
       "status": "original-bundled",
       "version": "1.0.0",
       "depends_on": [],

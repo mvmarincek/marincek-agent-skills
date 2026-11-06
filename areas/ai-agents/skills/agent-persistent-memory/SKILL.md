@@ -3,7 +3,7 @@ name: agent-persistent-memory
 description: "Desenhar e implementar memoria persistente para agentes, historico de conversa, RAG, base de conhecimento cumulativa, vetores, perfis, episodios, metricas duraveis; SQLite, PostgreSQL/pgvector, nuvem AWS/GCP/Azure."
 license: MIT
 metadata:
-  version: "1.0.0"
+  version: "1.0.1"
   language: "pt-BR"
   category: "agent-architecture"
 ---
@@ -11,7 +11,7 @@ metadata:
 # Arquitetura de memória persistente, RAG e conhecimento acumulado
 
 ## Quando usar
-Em agentes que precisam continuar sessões, recordar preferências autorizadas, usar documentos/conversas, atualizar conhecimento, compartilhar memória entre subagentes, registrar Skills aprendidas ou conservar métricas de longo prazo. Para governança/traces leia também `agent-reliability-governance`.
+Em agentes que precisam continuar sessões, recordar preferências autorizadas, usar documentos/conversas, atualizar conhecimento, compartilhar memória entre subagentes, registrar Skills aprendidas ou conservar métricas de longo prazo. Para governança/traces leia também `agent-reliability-governance`; para arquitetura RAG de documentos externos (chunking, embeddings, reranking, avaliação) use `rag-architecture`.
 
 ## Conceitos que nunca devem ser confundidos
 - **Persistência** = sobreviver ao reinício; **banco** = um meio de armazenamento. Toda memória de banco é persistente se configurada, mas uma memória persistente também pode estar em arquivos.

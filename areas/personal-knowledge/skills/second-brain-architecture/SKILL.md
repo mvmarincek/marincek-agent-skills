@@ -3,7 +3,7 @@ name: second-brain-architecture
 description: "Construir Second Brain pessoal ou memória de agentes: notas e conversas, memória episódica/semântica/procedural, SQLite/FTS5, RAG, contexto, sincronização, privacidade, backups e validação."
 license: MIT
 metadata:
-  version: "1.0.0"
+  version: "1.0.1"
   language: "pt-BR"
   category: "personal-knowledge"
 ---
@@ -12,7 +12,7 @@ metadata:
 # Second Brain — sistema de memória pessoal e de agente, local-first
 
 ## Quando ativar
-Solicitações de **second brain, cérebro pessoal, organização de ideias, notas e conversas, memória contínua do agente, diário de decisões, organização de referências, context engineering, produtividade, PARA/CODE/Zettelkasten, pesquisa pessoal e recuperação do que já foi aprendido**. Para empresa/multiusuário com ACL corporativa consulte `company-brain-architecture`; para indexar símbolos de código `code-intelligence-engineering`.
+Solicitações de **second brain, cérebro pessoal, organização de ideias, notas e conversas, memória contínua do agente, diário de decisões, organização de referências, context engineering, produtividade, PARA/CODE/Zettelkasten, pesquisa pessoal e recuperação do que já foi aprendido**. Para empresa/multiusuário com ACL corporativa consulte `company-brain-architecture`; para indexar símbolos de código `code-intelligence-engineering`; para pipeline RAG genérico de documentos externos `rag-architecture`.
 
 ## Objetivo
 Criar uma extensão de memória sob controle do titular: captura → organização → contextualização → revisão → recuperação → ação. Deve servir humanos e seus agentes, mas evitar coletar indiscriminadamente dados privados e transformar qualquer frase antiga em regra permanente.

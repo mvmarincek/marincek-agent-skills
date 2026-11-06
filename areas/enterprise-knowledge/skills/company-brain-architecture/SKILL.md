@@ -3,7 +3,7 @@ name: company-brain-architecture
 description: "Projetar e implementar Company Brain corporativo: fontes GitHub/Linear/Drive/Teams, RAG empresarial, ACL, conhecimento institucional, decisões, integrações, governança e avaliações em local/AWS/GCP/Azure."
 license: MIT
 metadata:
-  version: "1.0.0"
+  version: "1.0.1"
   language: "pt-BR"
   category: "enterprise-knowledge"
 ---
@@ -12,7 +12,7 @@ metadata:
 # Company Brain — cérebro corporativo verificável e governado
 
 ## Objetivo e critérios de acionamento
-Ative quando a tarefa pedir **company brain, cérebro empresarial, memória institucional, conhecimento de equipes, busca empresarial, agentes que conhecem a companhia, RAG corporativo ou organização de decisões e processos**. Não use para uma simples pasta de arquivos sem recuperação ou para um segundo cérebro pessoal: use `second-brain-architecture`. Para indexação semântica de *código-fonte*, consulte `code-intelligence-engineering`.
+Ative quando a tarefa pedir **company brain, cérebro empresarial, memória institucional, conhecimento de equipes, busca empresarial, agentes que conhecem a companhia, RAG corporativo ou organização de decisões e processos**. Não use para uma simples pasta de arquivos sem recuperação ou para um segundo cérebro pessoal: use `second-brain-architecture`. Para indexação semântica de *código-fonte*, consulte `code-intelligence-engineering`; para desenho genérico de pipeline RAG (chunking, embeddings, rerankers, avaliação), comece por `rag-architecture`.
 
 ## Resultado esperado
 Entregar uma arquitetura ou implementação incremental que permita a usuários e agentes autorizados responder: **o que sabemos, quem decidiu, de onde veio, quando era válido, quem pode acessar e qual ação é possível executar**. Toda resposta importante precisa de fonte e data; não inventar decisões internas não indexadas.
