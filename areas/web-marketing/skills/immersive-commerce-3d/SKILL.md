@@ -3,7 +3,7 @@ name: immersive-commerce-3d
 description: "Criar ou incorporar experiências de game 3D fotorrealista e jogável em landing pages existentes ou novas, sem perder checkout, SEO, acessibilidade, analytics, nem integrar incorretamente estados reais."
 license: MIT
 metadata:
-  version: "1.1.0"
+  version: "1.2.0"
   language: "pt-BR"
   category: "web-marketing"
 ---
@@ -21,11 +21,14 @@ Use quando o pedido for landing page/site/vitrine/catálogo com game 3D realista
 1. Descobrir repo/stack/brand/componentes existentes, fluxos de conversão, pagamentos, analytics, autenticação, política de privacidade, APIs, SEO, versão React/Next. **Não substituir landing existente, não remover checkout, não interromper analytics**. Fazer inventário/ADR de adição incremental, route guard e feature flag.
 2. Definir intenção: `marketing-demo` (simulado), `product-configurator` (escolha de itens), `checkout` (real), `live-operations` (eventos verificados de backend) ou `live-video` (imagem real autorizada). Deixar explícita a diferença entre esses estados e suas fontes.
 3. Entregar storyboards e mapa de câmera da **cena 3D principal**: posição real de objetos, ações, microfísica, estados, feedback e transições. Redigir eventos esperados antes de implementar shaders ou overlays.
-4. Acionar `photoreal-3d-assets` para PBR/GLB otimizado e real; `tactile-3d-interactions` para Raycaster/drag/pickup/drop/IK/tweens/estado; `immersive-experience-quality` para gates. Manter `gamified-landing-page` como camada de narrativa, CTA, SEO, desempenho e conversão.
-5. Em React usar Three.js + @react-three/fiber + drei, conforme versões compatíveis, Canvas client-side lazy e HTML semântico separado. Usar uma câmera definida (FOV e planos) e pixels reais do produto, não apenas painéis 2D. Adotar estados determinísticos de cena e comandos de negócio tipados. Assets GLB do pipeline `photoreal-3d-assets` seguem o contrato `references/glb-loading-react.md`: `useGLTF` sob Suspense, chunk 3D lazy, ErrorBoundary com fallback procedural — o comércio nunca depende do asset carregado.
+4. Acionar `photoreal-3d-assets` antes de tratar a cena como visual final: direção de arte aprovada → asset hero/vertical slice → malha GLB e PBR → inspeção de runtime. Para malha interativa, verificar gerador 3D disponível e permissão/custo; geradores de vídeo como Kling/Wan/Higgsfield/Runway podem produzir footage de apoio autorizado, não GLB ou interação. Acionar `tactile-3d-interactions` para Raycaster/drag/pickup/drop/IK/tweens/estado e `immersive-experience-quality` para gates. Manter `gamified-landing-page` como camada de narrativa, CTA, SEO, desempenho e conversão.
+5. Em React usar Three.js + @react-three/fiber + drei, conforme versões compatíveis, Canvas client-side lazy e HTML semântico separado. Usar uma câmera definida (FOV e planos) e pixels reais do produto, não apenas painéis 2D. Adotar estados determinísticos de cena e comandos de negócio tipados. Assets GLB do pipeline `photoreal-3d-assets` seguem `references/glb-loading-react.md`: `useGLTF` sob Suspense, chunk 3D lazy, ErrorBoundary com fallback procedural para manter a compra funcionando. Esse fallback só vale durante loading/erro; se estiver visível no candidato de release, bloquear o G2 e não chamar a cena de pronta.
 6. Conectar seleção de componentes → preço → carrinho → checkout existente; estado validado no backend, disponibilidade de ingredientes e preço autoritativos; não aceitar total calculado no cliente como pagamento confirmado. Manter a opção convencional sem WebGL para concluir a compra.
 7. Se o produto pedir acompanhar produção física depois do pagamento, **adicionar integração separada** `realworld-order-digital-twin`; para automóveis, equipamentos e fabricação sob encomenda, acionar também `made-to-order-manufacturing-twin`. Não atribuir eventos reais às animações do configurador. Usar estados emitidos pelo sistema operacional autenticado.
 8. Testar uma fatia vertical antes de construir a página inteira: cenário, item escolhível, mão pega e deposita, item acumula sobre produto, desfazer, alteração de resumo/preço, checkout/fallback. Somente avançar após passar os gates de qualidade.
+
+## Gate de liberação visual
+Qualidade visual é um gate independente de mecânica, conversão e performance. A cena só pode ser chamada de pronta quando tiver GLBs/materiais finais (ou estilo aprovado equivalente), comparação de runtime desktop/mobile contra referência aprovada e G2 `PASS` assinado por humano conforme `immersive-experience-quality`. Placeholders procedurais, GLB ausente, screenshot de Blender, imagem/vídeo gerado ou CI/build verde não aprovam visual. Se geração/modelagem não estiver disponível ou autorizada, entregar somente demo rotulada como tal, com feature flag desligada para produção e status `NOT_READY`; não substituir silenciosamente por vídeo. Nenhum processo promete perfeição universal: a evidência e a aprovação são específicas ao briefing e à versão testada.
 
 ## Arquitetura recomendada
 - `ExperienceShell`: roteamento/acessibilidade e fallback/SEO/CTA; `Scene3D`: Canvas, camera, lights, assets e picking; `InteractionController`: intenção → comando; `ProductState`: composição serializável independente da renderização; `CommerceAdapter`: catálogo/preços/carrinho/autenticação; `LiveOperationsAdapter`: apenas se contratado.
@@ -49,7 +52,7 @@ Ler `references/experience-contract.md`, `references/implementation-playbook.md`
 - [ ] **Os objetos são geometria 3D renderizada em runtime e interativos**, não imagem/vídeo fingindo interação.
 - [ ] A mão efetivamente pega e coloca item; objetos selecionados surgem sobre o produto e persistem, sem teletransporte visual.
 - [ ] Mudanças de estado, preço e carrinho têm testes; operação real não depende de dados de jogo.
-- [ ] Visual comparado com referência aprovada, testes de viewport/camera e fallback sem WebGL; informar resultados medidos.
+- [ ] Visual aprovado em runtime desktop/mobile contra referência; G2 `PASS` com scorecard humano. GLB ausente ou placeholder visível significa `NOT_READY` para produção.
 - [ ] Permissões, licenças de assets e credenciais/privacidade verificadas antes de produção.
 
 ## Entregáveis

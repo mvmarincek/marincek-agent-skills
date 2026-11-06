@@ -1,6 +1,6 @@
 {
   "library": "mvmarincek-agent-skills",
-  "version": "5.6.0",
+  "version": "5.7.0",
   "date": "2026-11-06",
   "count": 42,
   "skills": [
@@ -213,7 +213,7 @@
       "domain": "immersive-web-commerce",
       "path": "areas/web-marketing/skills/immersive-commerce-3d/SKILL.md",
       "status": "original-bundled",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "depends_on": [
         "gamified-landing-page",
         "photoreal-3d-assets",
@@ -236,7 +236,7 @@
       "domain": "3d-quality-assurance",
       "path": "areas/games/skills/immersive-experience-quality/SKILL.md",
       "status": "original-bundled",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "depends_on": [],
       "supported_agents": [
         "codex",
@@ -365,7 +365,7 @@
       "domain": "3d-asset-production",
       "path": "areas/games/skills/photoreal-3d-assets/SKILL.md",
       "status": "original-bundled",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "depends_on": [],
       "supported_agents": [
         "codex",

@@ -1,3 +1,10 @@
+## v5.7.0 — 2026-11-06
+- Mantidas as 42 skills; revisão de qualidade nas três skills da cadeia 3D comercial.
+- `photoreal-3d-assets` v1.3.0: rotas de produção por tipo de asset; diferencia geradores 3D de modelos de vídeo (Kling/Wan/Higgsfield/Runway), exige licença/custo/permissão e bloqueia placeholders como visual final.
+- `immersive-experience-quality` v1.1.0: G2 hard gate com scorecard humano contra direção de arte aprovada, capturas de runtime desktop/mobile, limite mínimo e bloqueio explícito para placeholders, evidência ausente ou visual não inspecionado.
+- `immersive-commerce-3d` v1.2.0: condiciona declaração de prontidão a assets finais e G2 assinado; fallback mantém checkout, mas não aprova o release visual.
+- README de games/web-marketing e testes dedicados sincronizados. CI estrutural não é alegado como prova de realismo; a demo Crêpe Lab ainda requer assets GLB finais para passar G2.
+
 ## v5.6.0 — 2026-11-06
 - **42 skills** (+2 novas originais, área `ai-agents`):
 - **`agent-guardrails-design` v1.0.0**: projeto e teste de guardrails para agentes — 6 camadas de controle (borda de ferramenta, aprovação humana com suspensão real, escopo, orçamento, entrada, saída), matriz de risco por ação (tiers R/W1/W2/W3/S), protocolo de aprovação (o que exibir, timeout com abort, registro), comportamento obrigatório ao bloquear, red-team por guardrail e loop de aperto por incidente. Referências: `references/guardrail-catalog.md` e template `assets/guardrails-template.md`. Complementar a `agent-reliability-governance` (arquitetura ampla) sem sobreposição.

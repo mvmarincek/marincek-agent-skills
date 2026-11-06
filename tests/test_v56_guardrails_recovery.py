@@ -10,7 +10,7 @@ def frontmatter_field(skill_md: Path, field: str) -> str:
 class GuardrailsRecoveryV56Tests(unittest.TestCase):
  def test_catalog_has_both_new_skills(self):
   m = json.loads((ROOT / 'catalog/skills.json').read_text(encoding='utf-8'))
-  self.assertEqual(m['version'], '5.6.0')
+  self.assertGreaterEqual(tuple(int(n) for n in m['version'].split('.')), (5, 6, 0))
   self.assertEqual(m['count'], 42)
   self.assertEqual(len(m['skills']), 42)
   records = {x['id']: x for x in m['skills']}

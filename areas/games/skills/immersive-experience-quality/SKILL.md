@@ -3,7 +3,7 @@ name: immersive-experience-quality
 description: "Criar quality gates automatizados para game 3D em landing pages: provas de interação, screenshots comparativos, regressão visual, performance em WebGL, teclado, mobile, checkout, fallback e eventos reais."
 license: MIT
 metadata:
-  version: "1.0.0"
+  version: "1.1.0"
   language: "pt-BR"
   category: "games"
 ---
@@ -29,13 +29,22 @@ Qualquer experiência de jogo 3D no browser, landing page com cena realista, con
 Para automóveis e produtos fabricados sob encomenda, exigir asserts: seleção 3D igual à configuração aprovada no backend, preço/compatibilidade validados, identidade física ausente antes de atribuição oficial, marcos MES/ERP isolados dos eventos do game, congelamento em quality hold, mudança de revisão sem atualização indevida da peça virtual, latência/freshness explícitas e ausência de claims de filmagem real sem prova. Testar `ESTIMATED`, `SYSTEM_CONFIRMED`, `UNIT_VERIFIED` e indisponibilidade de stream.
 
 ## Gates inegociáveis
-**G0 Inventário:** baseline medido e backup das rotas. **G1 Mecânica:** vídeo capturado de runtime exibindo manipulação física real de um ingrediente. **G2 Visual:** assets aprovados em close e na cena. **G3 Conversão:** fluxo de pedido/checkout validado e fallback. **G4 Operação:** se houver live, estados verificados por backend, sem progressão falsa. Reprovar o gate se só houver PNG/mockup ou HTML decorativo.
+**G0 Inventário:** baseline medido e backup das rotas. **G1 Mecânica:** vídeo capturado de runtime exibindo manipulação física real de um ingrediente. **G2 Visual:** assets aprovados em close e na cena. **G3 Conversão:** fluxo de pedido/checkout validado e fallback. **G4 Operação:** se houver live, estados verificados por backend, sem progressão falsa.
+
+G2 reprova se a tela de release ainda usa placeholder procedural/primitive, imagem ou vídeo no lugar de objeto interativo, GLB ausente, material estourado/plástico, visual que não corresponde à direção aprovada, ou evidência incompleta. Fallback durante loading/erro protege o fluxo comercial, porém conta como `FAIL` se estiver ativo no screenshot candidato de release. Não transformar funcionamento, FPS ou CI verde em aprovação estética.
+
+Para G2, registrar capturas do **runtime real** em desktop e mobile, nos mesmos enquadramentos da referência aprovada; inspecionar hero/close-up, vista de uso e rotação relevante. Scorecard humano (0–5 cada): silhueta/formas, materiais/PBR, luz/exposição/cor, composição/escala e coerência de estilo/detalhe. Aprovar somente com média ≥4.5/5, nenhuma dimensão <4/5, nenhum defeito bloqueante e assinatura explícita de revisor humano contra a referência. Para estilos não fotorrealistas, pontuar fidelidade à direção de arte aprovada, não realismo literal. Sem referência, imagens, runtime ou revisor: `NOT_TESTED`, nunca `PASS`. Screenshots sintéticos/gerados não são evidência do runtime.
+
+Reprovar o gate se só houver PNG/mockup ou HTML decorativo, sem fluxo interativo, ou se um dos G0–G4 requeridos estiver `FAIL`/`NOT_TESTED`.
 
 ## Exemplo de verificação
 `click(bin_morango) → await state == 'reaching' → await state == 'carrying' → await state == 'committed' → assert scene.mesh(instanceId).parent == crepeGroup → assert quantity == 1`; repetir com banana, observar que ambos permanecem; desfazer banana e confirmar preço. Prova precisa de pelo menos uma gravação do runtime.
 
 ## Relatório e segurança
 Usar `references/quality-gates.md` e `assets/quality-report.example.json`. Resultados não testados devem ser **NOT_TESTED**, nunca PASS. Testes devem rodar em sandbox com dados sintéticos; mudanças e deploy de produção exigem aprovação.
+
+## Evolução contínua
+Falha de regressão visual gera captura reprodutível, causa-raiz, correção na fonte e teste de prevenção; não basta retocar uma screenshot. Revisar o scorecard e as ferramentas de captura a cada trimestre e após mudanças de renderer/modelo de asset, atualizando versão e fixtures quando o método mudar. Relatar indisponibilidade de ferramenta como limitação, sem trocar silenciosamente por mock ou vídeo.
 
 ## Critérios de aceite e entregáveis
 Relatório de gates PASS/FAIL/NOT_TESTED com evidências, URLs/paths de gravações quando existirem, métricas medidas, bugs priorizados, rollback plan, CVEs/licenças/PII. Nenhuma declaração 'game realista pronto' sem G1, G2 e G3.

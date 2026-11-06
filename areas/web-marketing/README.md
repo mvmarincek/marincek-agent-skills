@@ -9,6 +9,6 @@
 - [whatsapp-brazil-knowledge](skills/whatsapp-brazil-knowledge/SKILL.md): Conformidade, Business API, PIX e fluxo do comerciante brasileiro.
 
 ## v5
-`immersive-commerce-3d` coordena cenas 3D jogáveis em landing pages existentes ou novas; `gamified-landing-page` responde pela conversão, UX, SEO e analytics. Assets GLB seguem o contrato de carregamento `references/glb-loading-react.md` (Suspense, lazy, fallback — o comércio nunca depende do asset 3D).
+`immersive-commerce-3d` coordena cenas 3D jogáveis em landing pages existentes ou novas; `gamified-landing-page` responde pela conversão, UX, SEO e analytics. Assets GLB seguem o contrato de carregamento `references/glb-loading-react.md` (Suspense, lazy, fallback — o comércio nunca depende do asset 3D). O fallback protege o fluxo de compra, mas não passa o gate visual: placeholders ativos no candidato de release marcam a experiência como `NOT_READY`. `photoreal-3d-assets` e `immersive-experience-quality` definem produção e aprovação visual.
 
 - Jornada pós-compra de produtos configuráveis: `immersive-commerce-3d` + `realworld-order-digital-twin` + `made-to-order-manufacturing-twin`, quando há produção por marcos industriais verificados.
