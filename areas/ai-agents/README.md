@@ -5,8 +5,10 @@
 ## Skills instaláveis
 
 - [agent-learning-finetuning](skills/agent-learning-finetuning/SKILL.md): Arquitetura de aprendizado e fine-tuning.
+- [agent-guardrails-design](skills/agent-guardrails-design/SKILL.md): Guardrails por camadas (borda, aprovação, escopo, orçamento, entrada/saída), matriz de risco e red-team.
 - [agent-persistent-memory](skills/agent-persistent-memory/SKILL.md): Memória persistente, RAG, contexto e métricas.
 - [agent-reliability-governance](skills/agent-reliability-governance/SKILL.md): Observabilidade, governança e avaliação.
+- [agent-task-recovery](skills/agent-task-recovery/SKILL.md): Retomada de tarefas interrompidas: checkpoint, verificação por evidência e conclusão.
 - [llm-model-selection-benchmark](skills/llm-model-selection-benchmark/SKILL.md): Seleção de modelos por benchmark, custo e aplicação real.
 - [mcp-server-factory](skills/mcp-server-factory/SKILL.md): Servidores MCP com contratos validados, segurança e testes.
 - [structured-agent-prompts](skills/structured-agent-prompts/SKILL.md): Prompts de agentes, multiagentes e subagentes.
