@@ -1,4 +1,4 @@
-# MVMarincek — Agent Skills Library v5.6
+# MVMarincek — Agent Skills Library v5.7
 
 **Fonte portátil de conhecimento operacional**: Codex, Claude Code, Verdent e OpenCode; catálogo e Skills por áreas de engenharia, IA, segurança, DevOps, produto, marketing, games 3D imersivos e manufatura.
 
@@ -119,7 +119,7 @@ python .\scripts\install.py --scope global --targets codex claude verdent openco
 | `realworld-order-digital-twin` | enterprise-systems | Pedido pós-checkout, eventos de produção real e transmissão opcional autorizada |
 | `immersive-experience-quality` | games | Gates visual, interação e conversão, e2e, performance e fallback |
 
-Ver `docs/IMMERSIVE_COMMERCE_3D_V5.md` e `docs/CODEX_PROMPT_V5_3D.md`. Histórico completo de versões no `CHANGELOG.md`; a `main` remota está publicada na versão **5.6.0** (42 skills, CI verde) — a v5.5.0 adicionou o pipeline Blender→GLB/PBR→WebGL às skills imersivas e a v5.6.0 as skills `agent-guardrails-design` e `agent-task-recovery`.
+Ver `docs/IMMERSIVE_COMMERCE_3D_V5.md` e `docs/CODEX_PROMPT_V5_3D.md`. Histórico completo de versões no `CHANGELOG.md`; a v5.7.0 endurece os gates visuais das experiências 3D (42 skills); a v5.5 adicionou o pipeline Blender→GLB/PBR→WebGL e a v5.6 trouxe guardrails e recuperação de tarefas.
 
 ### Validar e instalar somente v5
 ```powershell

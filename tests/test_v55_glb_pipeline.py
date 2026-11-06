@@ -16,11 +16,11 @@ class GlbPipelineV55Tests(unittest.TestCase):
   )
   self.assertGreaterEqual(m['count'], 40)
   records = {x['id']: x for x in m['skills']}
-  expected = {'photoreal-3d-assets': '1.2.0', 'immersive-commerce-3d': '1.1.0'}
-  for sid, ver in expected.items():
+  expected_minimum = {'photoreal-3d-assets': '1.2.0', 'immersive-commerce-3d': '1.1.0'}
+  for sid, ver in expected_minimum.items():
    f = ROOT / records[sid]['path']
-   self.assertEqual(records[sid]['version'], ver, sid)
-   self.assertEqual(frontmatter_version(f), ver, sid)
+   self.assertGreaterEqual(tuple(int(n) for n in records[sid]['version'].split('.')), tuple(int(n) for n in ver.split('.')), sid)
+   self.assertEqual(frontmatter_version(f), records[sid]['version'], sid)
 
  def test_blender_glb_export_reference(self):
   r = ROOT / 'areas/games/skills/photoreal-3d-assets/references/blender-glb-export.md'
