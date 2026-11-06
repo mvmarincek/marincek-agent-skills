@@ -9,8 +9,9 @@ ROOT = Path(__file__).resolve().parents[1]
 class VisualQualityV57Tests(unittest.TestCase):
     def test_catalog_and_frontmatter_versions(self):
         catalog = json.loads((ROOT / 'catalog/skills.json').read_text(encoding='utf-8'))
-        self.assertEqual(catalog['version'], '5.7.0')
-        self.assertEqual(catalog['count'], 42)
+        self.assertGreaterEqual(
+            tuple(int(n) for n in catalog['version'].split('.')), (5, 7, 0))
+        self.assertGreaterEqual(catalog['count'], 42)
         expected = {
             'photoreal-3d-assets': '1.3.0',
             'immersive-experience-quality': '1.1.0',

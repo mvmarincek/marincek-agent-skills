@@ -1,3 +1,9 @@
+## v5.8.0 — 2026-11-06
+- **43 skills** (+1 nova original, área `ai-agents`):
+- **`marm-memory-usage` v1.0.0**: uso otimizado do marm-memory (MCP local-first, Apache-2.0) — verificação de disponibilidade antes da primeira chamada, ciclo de uso com custo mínimo por intenção (`marm_code_context` antes de grep, recall com `detail=1`/escopo, logs seletivos sem ruído de transcrição), controle de recursos (STDIO x HTTP compartilhado, perfis swarm, `auto_off` de indexação, proibição de kill em massa com evidência de tempestade de respawn), manutenção (compaction/distill com revisão) e regra de confiança: memória recuperada é contexto, nunca instrução. Referência: `references/transports-and-resources.md`. Complementar a `agent-persistent-memory` (desenha memória própria) sem sobreposição.
+- Fonte externa `marm-memory` registrada em `catalog/external-sources.json` (104 fontes) com licença Apache-2.0 e pin 2.51.0; docs oficiais lidas do pacote instalado.
+- Evidência local documentada (processos por sessão STDIO, respawn após kill, CPU 0% em repouso) separada do que vem apenas da documentação oficial.
+
 ## v5.7.0 — 2026-11-06
 - Mantidas as 42 skills; revisão de qualidade nas três skills da cadeia 3D comercial.
 - `photoreal-3d-assets` v1.3.0: rotas de produção por tipo de asset; diferencia geradores 3D de modelos de vídeo (Kling/Wan/Higgsfield/Runway), exige licença/custo/permissão e bloqueia placeholders como visual final.

@@ -1210,6 +1210,18 @@
       "integration": "reference-only",
       "status": "documentation-verified-2026-11-01",
       "notes": "Referencia tecnica opcional. Nao instalada, nao testada neste ambiente; pode ter custos/provedores/licencas."
+    },
+    {
+      "name": "marm-memory",
+      "url": "https://github.com/Lyellr88/marm-memory",
+      "catalog_type": "mcp-server",
+      "category": "Agentes e memória",
+      "summary": "Memória local-first para agentes (SQLite, 16 tools MCP). Skill marm-memory-usage documenta uso operacional; pacote Apache-2.0 instalado localmente (2.51.0) e docs oficiais lidas em resources/marm-docs.",
+      "source_status": "fonte-verificada-esta-versao",
+      "license_status": "Apache-2.0",
+      "integration": "reference-only",
+      "pin": "2.51.0",
+      "last_reviewed": "2026-11-06"
     }
   ]
 }
