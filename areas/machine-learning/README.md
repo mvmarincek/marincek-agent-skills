@@ -4,4 +4,4 @@
 
 ## Skills instaláveis
 
-- [ml-lifecycle-validation](skills/ml-lifecycle-validation/SKILL.md): Ciclo de vida ML com datasets, leakage checks, experimentos e critérios de promoção.
+- [ml-lifecycle-validation](skills/ml-lifecycle-validation/SKILL.md): Ciclo de vida ML com datasets, leakage checks, experimentos, métricas por modalidade (incl. visão e embeddings) e critérios de promoção.

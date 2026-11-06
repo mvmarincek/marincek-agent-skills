@@ -3,7 +3,7 @@ name: llm-model-selection-benchmark
 description: "Selecionar modelos de IA por agente e por aplicação com comparação atualizada de qualidade, tool calling, custo, contexto, latência, segurança e hardware local ou cloud."
 license: MIT
 metadata:
-  version: "1.0.0"
+  version: "1.0.1"
   language: "pt-BR"
   area: "ai-agents"
 ---
@@ -39,7 +39,7 @@ Ao planejar sistema com um ou vários agentes, escolher modelos para coding, exe
 - **Classificador/roteador simples**: regras, modelos pequenos e Laya/Jev quando validação local provar vantagem.
 - **Agente coder**: medir implementações reais, edição de arquivos, uso de ferramentas, testes, repositório grande, recuperação de erro.
 - **Agente visual**: avaliar OCR, grounding, reconhecimento de UI, resolução, PII redaction e latência.
-- **Agente RAG**: embeddings e reranker escolhidos separadamente do gerador; medir recall@k, faithfulness, citations, abstention.
+- **Agente RAG**: embeddings e reranker escolhidos separadamente do gerador; medir recall@k, faithfulness, citations, abstention; para arquitetura de retrieval ver `rag-architecture`.
 - **Decisão crítica**: política determinística + autorização e validação; LLM não é substituto de policy enforcement.
 - **Agente multi-etapas**: estimar custo total de chamadas, context replay, retries e delegação; simular carga real.
 

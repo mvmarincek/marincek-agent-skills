@@ -3,7 +3,7 @@ name: agent-learning-finetuning
 description: "Selecionar, planejar e validar tecnicas de melhoria de agentes: prompting, RAG, memoria, Skills, DSPy, preference optimization, SFT, LoRA/QLoRA, DPO, RFT e distillation; local, generico, AWS, GCP, Azure."
 license: MIT
 metadata:
-  version: "1.0.0"
+  version: "1.1.0"
   language: "pt-BR"
   category: "agent-architecture"
 ---
@@ -14,7 +14,7 @@ metadata:
 Quando o agente comete erros recorrentes, precisa aprender habilidades, especializar domínio/estilo, adaptar tool use, reduzir custo, ou o projeto pede fine-tuning. Comece medindo o problema antes de recomendar treino. Diferencie **melhorar o agente** de **treinar pesos do LLM**.
 
 ## Árvore de decisão prioritária
-1. **Faltam fatos atuais, documentos ou conhecimento?** Usar RAG/SQL/APIs e citações.
+1. **Faltam fatos atuais, documentos ou conhecimento?** Usar RAG/SQL/APIs e citações (ver `rag-architecture`).
 2. **Faltam preferências, histórico, episódios ou continuidade?** Memória persistente, event store e mecanismos de recuperação.
 3. **Falta procedimento repetível ou uso correto de ferramentas?** Skill e contratos de MCP, exemplos e validação externa.
 4. **Falha por formulação, coordenação, roteamento ou exemplos?** Prompt engineering + avaliações, DSPy ou Harness² (se compatível, experimental).
@@ -26,15 +26,16 @@ Quando o agente comete erros recorrentes, precisa aprender habilidades, especial
 
 ## Etapas obrigatórias antes de treinar
 1. Inventário de tarefa: quem usa, impacto, dataset, privacidade, idioma, saída, limitações e custo atual.
-2. Baseline congelada: versões do modelo, prompts, Skills, RAG, ferramentas, seeds se aplicável, latência e sucesso em tarefas reais.
-3. Taxonomia de erros: factual, tool misuse, formato, reasoning, stale data, hallucination, segurança, handoff, latência e custo.
-4. Hipóteses: listar 2–3 intervenções mais baratas e seus efeitos esperados.
-5. Dataset: procedência, licenciamento, consentimento, dedupe, limpeza PII, balanceamento, split por entidade/tempo e teste cego; prevenir data leakage.
-6. Escolher abordagem com `references/method-selection.md`, estimar tokens/VRAM/storage, licença e custos completos.
-7. Executar **piloto pequeno** de baixo risco com baseline e controle. Sem treino automático contínuo direto em produção.
-8. Avaliar: holdout, tarefas end-to-end com ferramentas, robustez, esquecimento catastrófico, regressões, segurança, custo/tarefa e performance por idioma/grupo relevante sem inferir atributos sensíveis.
-9. Decisão go/no-go; criar model card, dataset card, versionamento, rollback e monitoramento drift.
-10. Promover somente após aprovação e testes com usuários/dados compatíveis com política.
+2. **Escolher o modelo base por benchmark na tarefa real** com `llm-model-selection-benchmark` antes de qualquer tuning; para ML não-LLM, seguir `ml-lifecycle-validation`.
+3. Baseline congelada: versões do modelo, prompts, Skills, RAG, ferramentas, seeds se aplicável, latência e sucesso em tarefas reais.
+4. Taxonomia de erros: factual, tool misuse, formato, reasoning, stale data, hallucination, segurança, handoff, latência e custo.
+5. Hipóteses: listar 2–3 intervenções mais baratas e seus efeitos esperados.
+6. Dataset: procedência, licenciamento, consentimento, dedupe, limpeza PII, balanceamento, split por entidade/tempo e teste cego; prevenir data leakage.
+7. Escolher abordagem com `references/method-selection.md`, estimar tokens/VRAM/storage, licença e custos completos.
+8. Executar **piloto pequeno** de baixo risco com baseline e controle. Sem treino automático contínuo direto em produção.
+9. Avaliar: holdout, tarefas end-to-end com ferramentas, robustez, esquecimento catastrófico, regressões, segurança, custo/tarefa e performance por idioma/grupo relevante sem inferir atributos sensíveis.
+10. Decisão go/no-go; criar model card, dataset card, versionamento, rollback e monitoramento drift.
+11. Promover somente após aprovação e testes com usuários/dados compatíveis com política.
 
 ## Comparação de métodos
 - **Prompt/Skill**: modifica instruções/fluxo; barato, reversível, ideal para procedimentos.

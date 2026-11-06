@@ -3,7 +3,7 @@ name: code-intelligence-engineering
 description: "Implementar inteligência de código e Code RAG: mapa de repositório, Tree-sitter, LSP/SCIP, símbolos, dependências, impacto de mudanças, índice por commit, busca híbrida e avaliação."
 license: MIT
 metadata:
-  version: "1.0.0"
+  version: "1.0.1"
   language: "pt-BR"
   category: "software-engineering"
 ---
@@ -12,7 +12,7 @@ metadata:
 # Code Intelligence — compreensão estrutural de repositórios e evolução do código
 
 ## Quando usar
-Acione para **code intelligence, inteligência de código, mapa de repositório, análise de dependências, compreensão de arquitetura, navegação de símbolos, impacto de mudança, knowledge graph de código, code RAG, documentação viva, onboarding de devs, análise de PR, arquitetura entre serviços ou agentes com contexto confiável de código**. Não substitui SAST/DAST ou code review; combine com `continuous-code-sanitization` e `defensive-cybersecurity`.
+Acione para **code intelligence, inteligência de código, mapa de repositório, análise de dependências, compreensão de arquitetura, navegação de símbolos, impacto de mudança, knowledge graph de código, code RAG, documentação viva, onboarding de devs, análise de PR, arquitetura entre serviços ou agentes com contexto confiável de código**. Não substitui SAST/DAST ou code review; combine com `continuous-code-sanitization` e `defensive-cybersecurity`. Para RAG de documentos não-código, use `rag-architecture`.
 
 ## Definição de sucesso
 O agente deve encontrar **a implementação real**, suas dependências e referências, documentar o impacto da alteração com provas (`path:line` + commit), sugerir testes e atualizar apenas índices afetados pela mudança. Não deve responder baseado apenas em resumos genéricos de código.

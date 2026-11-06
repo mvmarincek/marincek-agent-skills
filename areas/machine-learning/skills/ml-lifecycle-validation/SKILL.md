@@ -3,7 +3,7 @@ name: ml-lifecycle-validation
 description: "Treinar, avaliar, testar, monitorar e versionar ML clássico, deep learning, séries temporais, visão, NLP e modelos generativos com MLOps local e cloud."
 license: MIT
 metadata:
-  version: "1.0.0"
+  version: "1.1.0"
   language: "pt-BR"
   area: "machine-learning"
 ---
@@ -37,7 +37,9 @@ Definir decisão do negócio e horizonte, população, fonte e licença dos dado
 - Forecast: backtesting walk-forward, MAE/MASE/sMAPE, previsão probabilística com cobertura de intervalo; proibir shuffle de futuro.
 - Classificação/anomalias: precision@k, recall@alert-budget, false-alarm cost, latência de detecção; avaliação por regime.
 - Ranking/recomendação: NDCG@k/MAP@k/Recall@k, cobertura/diversidade, e métricas online se houver exposição controlada.
-- Visão/NLP/áudio: mAP/IoU, WER/CER, semantic metrics e revisão humana por tarefa.
+- Visão: mAP/IoU por classe e por escala (objetos pequenos), agreement entre anotadores (kappa) antes de culpar o modelo, **augmentação aplicada somente após o split** (augmentar antes cria near-duplicates e vaza treino no teste), análise de erros por confusão de classes visualmente próxima.
+- Visão/NLP/áudio: WER/CER, semantic metrics e revisão humana por tarefa.
+- Embeddings/retrieval: recall@k, MRR, nDCG medidos no domínio (ver `rag-architecture`).
 - LLM/agent: execução real, tool-call success, grounding, alucinação, segurança, latência e custo por tarefa; usar `references/evaluation-playbooks.md`.
 
 ## Ferramental (opcional e justificado)

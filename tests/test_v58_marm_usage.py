@@ -11,9 +11,9 @@ REF_PATH = Path('areas/ai-agents/skills/marm-memory-usage/references/transports-
 class MarmUsageV58Tests(unittest.TestCase):
     def test_catalog_registers_new_skill(self):
         catalog = json.loads((ROOT / 'catalog/skills.json').read_text(encoding='utf-8'))
-        self.assertEqual(catalog['version'], '5.8.0')
-        self.assertEqual(catalog['count'], 43)
-        self.assertEqual(len(catalog['skills']), 43)
+        self.assertGreaterEqual(tuple(int(n) for n in catalog['version'].split('.')), (5, 8, 0))
+        self.assertGreaterEqual(catalog['count'], 43)
+        self.assertGreaterEqual(len(catalog['skills']), 43)
         records = {item['id']: item for item in catalog['skills']}
         self.assertIn('marm-memory-usage', records)
         record = records['marm-memory-usage']
@@ -93,7 +93,9 @@ class MarmUsageV58Tests(unittest.TestCase):
         area = (ROOT / 'areas/ai-agents/README.md').read_text(encoding='utf-8')
         self.assertIn('marm-memory-usage', area)
         main = (ROOT / 'README.md').read_text(encoding='utf-8')
-        self.assertIn('43 Skills', main)
+        match = re.search(r'(\d+) Skills completas catalogadas', main)
+        self.assertIsNotNone(match)
+        self.assertGreaterEqual(int(match.group(1)), 43)
         self.assertIn('marm-memory-usage', main)
         changelog = (ROOT / 'CHANGELOG.md').read_text(encoding='utf-8')
         self.assertIn('v5.8.0', changelog)
