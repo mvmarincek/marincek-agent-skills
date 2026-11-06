@@ -1,8 +1,8 @@
 {
   "library": "mvmarincek-agent-skills",
-  "version": "5.7.0",
+  "version": "5.8.0",
   "date": "2026-11-06",
-  "count": 42,
+  "count": 43,
   "skills": [
     {
       "id": "agent-learning-finetuning",
@@ -789,6 +789,24 @@
       ],
       "verified": "structure-only",
       "installed": false
+    },
+    {
+      "id": "marm-memory-usage",
+      "title": "Uso otimizado do marm-memory (MCP local-first)",
+      "domain": "agent-operations",
+      "path": "areas/ai-agents/skills/marm-memory-usage/SKILL.md",
+      "status": "original-bundled",
+      "version": "1.0.0",
+      "depends_on": [],
+      "supported_agents": [
+        "codex",
+        "claude-code",
+        "verdent",
+        "opencode"
+      ],
+      "verified": "structure-only",
+      "installed": false,
+      "area": "ai-agents"
     }
   ]
 }

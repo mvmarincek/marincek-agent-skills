@@ -1,9 +1,9 @@
-# MVMarincek — Agent Skills Library v5.7
+# MVMarincek — Agent Skills Library v5.8
 
 **Fonte portátil de conhecimento operacional**: Codex, Claude Code, Verdent e OpenCode; catálogo e Skills por áreas de engenharia, IA, segurança, DevOps, produto, marketing, games 3D imersivos e manufatura.
 
 ## Status verificado
-- **42 Skills completas catalogadas**: 22 preservadas da v4 + 6 de imersão 3D (v5.1) + 6 de entrega essencial recriadas (v5.2) + 2 de excelência (v5.3) + 4 originais de colaboração (v5.4, MIT) — review de código, diagnóstico de bugs, gh CLI e Linear — + 2 de arquitetura de agentes (v5.6): guardrails e retomada de tarefas interrompidas.
+- **43 Skills completas catalogadas**: 22 preservadas da v4 + 6 de imersão 3D (v5.1) + 6 de entrega essencial recriadas (v5.2) + 2 de excelência (v5.3) + 4 originais de colaboração (v5.4, MIT) — review de código, diagnóstico de bugs, gh CLI e Linear — + 2 de arquitetura de agentes (v5.6): guardrails e retomada de tarefas interrompidas + 1 de operação otimizada do marm-memory (v5.8).
 - Skills de terceiros **não** são copiadas nem redistribuídas; capacidades equivalentes foram recriadas como conteúdo original sob MIT.
 - `gamified-landing-page` atualizada com cinema/3D, psicologia da atenção, instrumentação de cliques, seções, vídeos, gráficos e eventos de conversão.
 - Áreas ativas: ai-agents, automation-hid, cybersecurity, devops-infrastructure, enterprise-knowledge, enterprise-systems, games, machine-learning, personal-knowledge, product-management, software-engineering, web-marketing, engineering-management.
@@ -119,7 +119,7 @@ python .\scripts\install.py --scope global --targets codex claude verdent openco
 | `realworld-order-digital-twin` | enterprise-systems | Pedido pós-checkout, eventos de produção real e transmissão opcional autorizada |
 | `immersive-experience-quality` | games | Gates visual, interação e conversão, e2e, performance e fallback |
 
-Ver `docs/IMMERSIVE_COMMERCE_3D_V5.md` e `docs/CODEX_PROMPT_V5_3D.md`. Histórico completo de versões no `CHANGELOG.md`; a v5.7.0 endurece os gates visuais das experiências 3D (42 skills); a v5.5 adicionou o pipeline Blender→GLB/PBR→WebGL e a v5.6 trouxe guardrails e recuperação de tarefas.
+Ver `docs/IMMERSIVE_COMMERCE_3D_V5.md` e `docs/CODEX_PROMPT_V5_3D.md`. Histórico completo de versões no `CHANGELOG.md`; a v5.8.0 adiciona a skill `marm-memory-usage` (43 skills); a v5.7.0 endureceu os gates visuais das experiências 3D; a v5.5 adicionou o pipeline Blender→GLB/PBR→WebGL e a v5.6 trouxe guardrails e recuperação de tarefas.
 
 ### Validar e instalar somente v5
 ```powershell
